@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Thu Sep 19 17:22:16 2024
+Invocation: foremost -i op.dd -o ./ff 
+Output directory: /home/kali/Desktop/dfw/ff
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: op.dd
+Start: Thu Sep 19 17:22:16 2024
+Length: 1024 MB (1073741824 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Thu Sep 19 17:22:56 2024
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Thu Sep 19 17:22:56 2024
