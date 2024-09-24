@@ -33,7 +33,7 @@ def FM(args.input_dir, args.output_dir, ImgFile, args.file_type, newDir):
 
 """Note : In the above function, the foremost argumment will automatically create a directory named - newDir"""
 	
-	result = subprocess.run(["sudo","foremost","-i", f{args.input_dir}/{ImgFile}", "-o", f"{args.output_dir}/{newDir}", "-T", f"{file_type}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	result = subprocess.run(["sudo","foremost","-i", f"{args.input_dir}/{ImgFile}", "-o", f"{args.output_dir}/{newDir}", "-T", f"{file_type}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 for i in range(1,len(file_name)+1):
 	Foremost(args.input_dir, args.output_dir, file, args.file_type, f"recovery{i}")
