@@ -1,0 +1,13 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.1.1
+# Feature-Recorder: telephone
+# Filename: terry-work-usb-2009-12-11.E01
+# Feature-File-Version: 1.1
+5670401	177-188-1984	chives/techbull/177-188-1984.pdf\012http://www.
+5723695	118/150/1746	/filestorage/78/118/150/1746/1159/1268/Augus
+5804233	177-188-1984	chives/techbull/177-188-1984.pdf\012http://www.
+6167043	177-188-1984	chives/techbull/177-188-1984.pdf\012http://www.
+6565107	600/370-7924	usgs-manual/370-600/370-7924.html\012http://www
+7297074	177-188-1984	chives/techbull/177-188-1984.pdf\012http://www.
+7450500	177-188-1984	chives/techbull/177-188-1984.pdf\012http://ddr.
+9489984	177-188-1984	chives/techbull/177-188-1984.pdf\012http://chan

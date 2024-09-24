@@ -1,0 +1,34 @@
+[Version]
+Signature=$CHICAGO$
+
+[Custom_Precopy]
+CopyFiles=DriverFiles
+
+[DestinationDirs]
+DriverFiles=2
+
+[SourceDisksNames]
+; diskid = description[, [tagfile] [, <unused>, subdir]]
+1=Root,,0
+2=Proset2,,,proset
+3=NMS,,,nms
+4=Win95,,,win95
+
+[SourceDisksFiles]
+; filename_on_source = diskID[, [subdir][, size]]
+
+; files needed for basic driver installation
+E1000D.CAT = 1
+NET8254D.INF = 1
+NET8254D.DIN = 1
+8255xDel.exe = 1
+E1000W9X.SYS = 1
+
+
+[DriverFiles]
+E1000D.CAT,,,4
+8255xDel.exe,,,4
+net8254D.inf,,,4
+net8254D.din,,,4
+e1000W9X.sys,,,4
+

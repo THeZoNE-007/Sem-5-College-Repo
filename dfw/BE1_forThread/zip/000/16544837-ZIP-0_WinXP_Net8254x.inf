@@ -1,0 +1,1514 @@
+;*******************************************************************************
+;*                                                                            **
+;*                     I N T E L   P R O P R I E T A R Y                      **
+;*                                                                            **
+;*   COPYRIGHT (c) 1999-2001 BY INTEL CORPORATION. ALL RIGHTS RESERVED.  NO   **
+;*   PART  OF  THIS  PROGRAM OR PUBLICATION MAY BE REPRODUCED, TRANSMITTED,   **
+;*   TRANSCRIBED, STORED IN A RETRIEVAL  SYSTEM,  OR  TRANSLATED  INTO  ANY   **
+;*   LANGUAGE OR COMPUTER LANGUAGE IN ANY FORM OR BY ANY MEANS, ELECTRONIC,   **
+;*   MECHANICAL, MAGNETIC, OPTICAL, CHEMICAL, MANUAL, OR OTHERWISE, WITHOUT   **
+;*   THE PRIOR WRITTEN PERMISSION OF :                                        **
+;*                                                                            **
+;*                             INTEL CORPORATION                              **
+;*                                                                            **
+;*                          2200 MISSION COLLEGE BLVD                         **
+;*                                                                            **
+;*                     SANTA CLARA, CALIFORNIA 95052-8119                     **
+;*                                                                            **
+;*******************************************************************************
+;
+;*******************************************************************************
+; NET8254x.INF
+; $Revision: 7 $
+;
+; Intel(R) PRO/1000 Gigabit Adapters
+;
+;   Version 6.1.01.6104 (Major . Minor . Build . EngineeringNumber)
+;     Major and Minor refer to the project
+;     Build is incremented whenever a new feature is added to the INF
+;     Engineering number is set to the base driver version
+;
+[version]
+Signature   = "$Windows NT$"
+Class       = Net
+ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %Intel%
+CatalogFile = e1000.cat
+DriverVer   = 11/12/2002,6.2.21.19
+
+[Manufacturer]
+%Intel%     = Intel, NTx86, NTIA64
+
+[ControlFlags]
+ExcludeFromSelect = \
+    PCI\VEN_8086&DEV_1008&SUBSYS_21078086,\
+    PCI\VEN_8086&DEV_1004&SUBSYS_20048086
+
+[Intel]
+; DisplayName                   Section                 DeviceID
+; -----------                   -------                 --------
+%E1000.DeviceDesc%              = E1000Intel_w2k.ndi,   PCI\VEN_8086&DEV_1000&SUBSYS_10008086 ; Intel(R) PRO/1000 Gigabit Server Adapter
+%E1000GENERIC.DeviceDesc%       = E1000_w2k.ndi,        PCI\VEN_8086&DEV_1000                 ; Intel(R) 82542
+
+%E1001.DeviceDesc%              = E1001Fiber_w2k.ndi,   PCI\VEN_8086&DEV_1001&SUBSYS_10038086 ; F Adapter
+%E1004.DeviceDesc%              = E1004Copper_w2k.ndi,  PCI\VEN_8086&DEV_1004&SUBSYS_10048086 ; T Adapter
+%E1004.DeviceDesc%              = E1004Copper_w2k.ndi,  PCI\VEN_8086&DEV_1004&SUBSYS_20048086 ; T Adapter
+
+%E1001GENERICFiber.DeviceDesc%  = E1001_w2k.ndi,        PCI\VEN_8086&DEV_1001&REV_02 ; 82543 F Adapter
+%E1004GENERICCopper.DeviceDesc% = E1004_w2k.ndi,        PCI\VEN_8086&DEV_1004&REV_02 ; 82543 T Adapter
+
+%E1008.DeviceDesc%              = E1008Copper_w2k.ndi,  PCI\VEN_8086&DEV_1008&SUBSYS_11078086 ; XT Adapter
+%E1008.DeviceDesc%              = E1008Copper_w2k.ndi,  PCI\VEN_8086&DEV_1008&SUBSYS_21078086 ; XT Adapter
+%E1008d.DeviceDesc%             = E1008Copper_w2k.ndi,  PCI\VEN_8086&DEV_1008&SUBSYS_21108086 ; XT Adapter
+%E1008GENERICCopper.DeviceDesc% = E1008_w2k.ndi,        PCI\VEN_8086&DEV_1008 ; 82544 XT Adapter
+
+%E1009.DeviceDesc%              = E1009Fiber_w2k.ndi,   PCI\VEN_8086&DEV_1009&SUBSYS_11098086 ; XF Adapter
+%E1009.DeviceDesc%              = E1009Fiber_w2k.ndi,   PCI\VEN_8086&DEV_1009&SUBSYS_21098086 ; XF Adapter
+%E1009GENERICFiber.DeviceDesc%  = E1009_w2k.ndi,        PCI\VEN_8086&DEV_1009 ; 82544 XF Adapter
+
+%E100D.DeviceDesc%              = E1008Copper_w2k.ndi,  PCI\VEN_8086&DEV_100D&SUBSYS_110D8086 ; Intel (R) 82544GC based network connection
+%E100DGENERICCopper.DeviceDesc% = E1008_w2k.ndi,        PCI\VEN_8086&DEV_100D ; Intel (R) 82544GC based network connection
+
+%E100C.DeviceDesc%              = E100CCopper_w2k.ndi,  PCI\VEN_8086&DEV_100C&SUBSYS_11128086 ; T Desktop Adapter
+%E100C.DeviceDesc%              = E100CCopper_w2k.ndi,  PCI\VEN_8086&DEV_100C&SUBSYS_21128086 ; T Desktop Adapter
+%E100CGENERICCopper.DeviceDesc% = E100C_w2k.ndi,        PCI\VEN_8086&DEV_100C ; 82544 T Desktop Adapter
+
+%E100EGENERICCopper.DeviceDesc% = E100E_w2k.ndi,       PCI\VEN_8086&DEV_100E ; 82544 XT Adapter
+
+%E1015GENERIC.DeviceDesc%       = E100E_w2k.ndi,       PCI\VEN_8086&DEV_1015 ; 82540EM Mobile
+
+%E100FGENERIC.DeviceDesc%       = E100F_w2k.ndi,        PCI\VEN_8086&DEV_100F
+
+
+
+[Intel.NTx86]
+; DisplayName                   Section            DeviceID
+; -----------                   -------            --------
+%E1000.DeviceDesc%              = E1000Intel.ndi,  PCI\VEN_8086&DEV_1000&SUBSYS_10008086 ; Intel(R) PRO/1000 Gigabit Server Adapter
+%E1000GENERIC.DeviceDesc%       = E1000.ndi,       PCI\VEN_8086&DEV_1000                 ; Intel(R) 82542
+
+%E1001.DeviceDesc%              = E1001Fiber.ndi,  PCI\VEN_8086&DEV_1001&SUBSYS_10038086 ; F Adapter
+%E1004.DeviceDesc%              = E1004Copper.ndi, PCI\VEN_8086&DEV_1004&SUBSYS_10048086 ; T Adapter
+%E1004.DeviceDesc%              = E1004Copper.ndi, PCI\VEN_8086&DEV_1004&SUBSYS_20048086 ; T Adapter
+
+
+%E1001GENERICFiber.DeviceDesc%  = E1001.ndi,       PCI\VEN_8086&DEV_1001&REV_02 ; 82543 F Adapter
+%E1004GENERICCopper.DeviceDesc% = E1004.ndi,       PCI\VEN_8086&DEV_1004&REV_02 ; 82543 T Adapter
+
+%E1008.DeviceDesc%              = E1008Copper.ndi, PCI\VEN_8086&DEV_1008&SUBSYS_11078086 ; XT Adapter
+%E1008.DeviceDesc%              = E1008Copper.ndi, PCI\VEN_8086&DEV_1008&SUBSYS_21078086 ; XT Adapter
+%E1008d.DeviceDesc%             = E1008Copper.ndi, PCI\VEN_8086&DEV_1008&SUBSYS_21108086 ; XT Adapter
+%E1008GENERICCopper.DeviceDesc% = E1008.ndi,       PCI\VEN_8086&DEV_1008 ; 82544 XT Adapter
+
+%E1009.DeviceDesc%              = E1009Fiber.ndi,  PCI\VEN_8086&DEV_1009&SUBSYS_11098086 ; XF Adapter
+%E1009.DeviceDesc%              = E1009Fiber.ndi,  PCI\VEN_8086&DEV_1009&SUBSYS_21098086 ; XF Adapter
+%E1009GENERICFiber.DeviceDesc%  = E1009.ndi,       PCI\VEN_8086&DEV_1009 ; 82544 EI Adapter
+
+%E100D.DeviceDesc%              = E1008Copper.ndi, PCI\VEN_8086&DEV_100D&SUBSYS_110D8086 ; Intel (R) 82544GC based network connection
+%E100DGENERICCopper.DeviceDesc% = E1008.ndi,       PCI\VEN_8086&DEV_100D ; Intel (R) 82544GC based network connection
+
+%E100C.DeviceDesc%              = E100CCopper.ndi, PCI\VEN_8086&DEV_100C&SUBSYS_11128086 ; T Desktop Adapter
+%E100C.DeviceDesc%              = E100CCopper.ndi, PCI\VEN_8086&DEV_100C&SUBSYS_21128086 ; T Desktop Adapter
+%E100CGENERICCopper.DeviceDesc% = E100C.ndi,       PCI\VEN_8086&DEV_100C ; 82544 T Desktop Adapter
+
+%E100EGENERICCopper.DeviceDesc% = E100E.ndi,       PCI\VEN_8086&DEV_100E
+
+%E1015GENERIC.DeviceDesc%       = E100E.ndi,       PCI\VEN_8086&DEV_1015 ; 82540EM Mobile
+
+%E100FGENERIC.DeviceDesc%       = E100F.ndi,        PCI\VEN_8086&DEV_100F
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 Gigabit Server Adapter (Generic)
+;
+[E1000.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, UninstallW2.reg, CoInMW.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1000.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1000.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 Gigabit Server Adapter
+;
+[E1000Intel.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Advanced.reg, UninstallW2.reg, CoInSMW.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1000Intel.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1000Intel.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 F Server Adapter (Generic)
+;
+[E1001.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, UninstallW2.reg, CoInM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1001.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1001.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 F Server Adapter
+;
+[E1001Fiber.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1001Fiber.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1001Fiber.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Server Adapter (Generic)
+;
+[E1004.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1004.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1004.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Server Adapter
+;
+[E1004Copper.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1004Copper.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1004Copper.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XT Server Adapter (Generic)
+;
+[E1008.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = NDIS_5_1.reg, tso.reg, 82544EI.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1008.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1008.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XT Server Adapter
+;
+[E1008Copper.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = NDIS_5_1.reg, tso.reg, 82544EI.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1008Copper.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1008Copper.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XF Server Adapter (Generic)
+;
+[E1009.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg, 82544EI.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1009.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1009.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XF Server Adapter
+;
+[E1009Fiber.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, tso.reg, 82544EI.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E1009Fiber.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E1009Fiber.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Desktop Adapter (Generic)
+;
+[E100C.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100C.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100C.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Desktop Adapter
+;
+[E100CCopper.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100CCopper.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100CCopper.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 MT Desktop Adapter (Generic)
+;
+[E100E.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100E.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100E.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 MT Desktop Adapter
+;
+[E100ECopper.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100ECopper.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100ECopper.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO/1000 MT Server Adapter (Generic)
+;
+[E100F.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100F.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100F.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO/1000 MT Server Adapter
+;
+[E100FCopper.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = NDIS_5_1.reg, 82544EI.reg, tso.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = winxp.CopyFiles, UninstallProg.CopyFiles
+
+[E100FCopper.ndi.NTx86.Services]
+AddService = E1000, 2, winxp.Service, winxp.EventLog
+
+[E100FCopper.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+
+
+;========================== w2k ================================================
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 Gigabit Server Adapter (Generic)
+;
+[E1000_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, UninstallW2.reg, CoInMW.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1000_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1000_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 Gigabit Server Adapter
+;
+[E1000Intel_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Advanced.reg, UninstallW2.reg, CoInSMW.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1000Intel_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1000Intel_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 F Server Adapter (Generic)
+;
+[E1001_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, UninstallW2.reg, CoInM.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1001_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1001_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 F Server Adapter
+;
+[E1001Fiber_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1001Fiber_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1001Fiber_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Server Adapter (Generic)
+;
+[E1004_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1004_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1004_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Server Adapter
+;
+[E1004Copper_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1004Copper_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1004Copper_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XT Server Adapter (Generic)
+;
+[E1008_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1008_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1008_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XT Server Adapter
+;
+[E1008Copper_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1008Copper_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1008Copper_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XF Server Adapter (Generic)
+;
+[E1009_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1009_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1009_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 XF Server Adapter
+;
+[E1009Fiber_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E1009Fiber_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E1009Fiber_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Desktop Adapter (Generic)
+;
+[E100C_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100C_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100C_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 T Desktop Adapter
+;
+[E100CCopper_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg, WakeOn.reg
+AddReg          = 82544EI.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100CCopper_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100CCopper_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 MT Desktop Adapter (Generic)
+;
+[E100E_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100E_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100E_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO\1000 MT Desktop Adapter
+;
+[E100ECopper_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg
+AddReg          = 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100ECopper_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100ECopper_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO/1000 MT Server Adapter (Generic)
+;
+[E100F_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg, 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100F_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100F_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-------------------------------------------------------------------------------
+; Intel PRO/1000 MT Server Adapter
+;
+[E100FCopper_w2k.ndi.NTx86]
+Characteristics = 0x84 ; NCF_HAS_UI | NCF_PHYSICAL
+BusType         = 5    ; PCI
+DelReg          = Advanced.DelReg, AdvancedTab.DelReg
+AddReg          = Kodiak.reg, Kodiak2.reg, Copper.reg, Advanced.reg, UninstallW2.reg, CoInSM.reg, DriverInfoAddReg
+AddReg          = 82544EI.reg, 82540EM.reg, EnablePME.reg, WakeOn.reg
+CopyFiles       = win2k.CopyFiles, UninstallProg.CopyFiles
+
+[E100FCopper_w2k.ndi.NTx86.Services]
+AddService = E1000, 2, win2k.Service, win2k.EventLog
+
+[E100FCopper_w2k.ndi.NTx86.CoInstallers]
+AddReg=CoInstaller_AddReg
+CopyFiles=CoInstaller_CopyFiles
+
+;-----------------------------------------------------------------------------
+; Registry Settings (decimal) 
+;
+
+
+;----------------------------------------------------------------------------
+; Driver History information.
+;----------------------------------------------------------------------------
+[DriverInfoAddReg]
+; This section is added to all INFs to add registry entries for Driver Info.
+HKLM,Software\InstalledOptions\%DriverOEM%\%DriverFamily%\%DriverMfgr%\%DriverProduct%,Description,,%DriverDescription%
+HKLM,Software\InstalledOptions\%DriverOEM%\%DriverFamily%\%DriverMfgr%\%DriverProduct%,CurrentVer,,%DriverOEMVersion%
+HKLM,Software\InstalledOptions\%DriverOEM%\%DriverFamily%\%DriverMfgr%\%DriverProduct%,Ver_%DriverOEMVersion%,,%DriverVersionID%
+HKLM,Software\InstalledOptions\%DriverOEM%\%DriverFamily%\%DriverMfgr%\%DriverProduct%, BaseDriverFileName,,%BaseDriverFileName%
+HKLM,Software\InstalledOptions\%DriverOEM%\%DriverFamily%\%DriverMfgr%\%DriverProduct%, BaseDriverFileVersion,,%BaseDriverFileVersion%
+
+
+;-----------------------------------------------------------------------------
+
+
+[Kodiak.reg]
+
+HKR, Ndi\Interfaces,                           UpperRange,         0, "ndis5"
+HKR, Ndi\Interfaces,                           LowerRange,         0, "ethernet"
+HKR, Ndi,                                      Service,            0, "E1000"
+
+; FlowControl
+HKR, Ndi\Params\FlowControl,                   ParamDesc,          0, %FlowControl%
+HKR, PROSetNdi\NdiExt\Params\FlowControl,      MiniHelp,           0, %FlowControlMiniHelp%
+HKR, Ndi\Params\FlowControl,                   default,            0, "3"
+HKR, Ndi\Params\FlowControl\Enum,              "0",                0, %FlowControl_None%
+HKR, Ndi\Params\FlowControl\Enum,              "1",                0, %FlowControl_RxOnly%
+HKR, Ndi\Params\FlowControl\Enum,              "2",                0, %FlowControl_TxOnly%
+HKR, Ndi\Params\FlowControl\Enum,              "3",                0, %FlowControl_Full%
+HKR, Ndi\Params\FlowControl\Enum,              "255",              0, %FlowControl_Hardware%
+HKR, Ndi\Params\FlowControl,                   type,               0, "enum"
+
+; NumTxDescriptors
+HKR,,                                          NumTxDescriptors,   0, "256"
+
+; NumRxDescriptors
+HKR,,                                          NumRxDescriptors,   0, "160"
+
+; NumCoalesceBuffers
+HKR,,                                          NumCoalesceBuffers,   0, "128"
+
+; ChecksumTxTcp
+HKR,,                                          ChecksumTxTcp,      0, "1"
+
+; ChecksumRxTcp
+HKR,,                                          ChecksumRxTcp,      0, "0"
+
+; Network Address
+HKR,,                                          NetworkAddress,     0, ""
+
+; Hardwired defaults
+HKR,,                                          DmaFairness,        0, "0"
+HKR,,                                          FirstTime,          0, "1"
+HKR,,                                          PciScanMethod,      0, "3"
+HKR,,                                          TxIntDelay,         0, "28"
+HKR,,                                          MulticastFilterType,0, "0"
+HKR,,                                          MWIEnable,          0, "0"
+HKR,,                                          CustomMessages,     0, "1"
+HKR,,                                          VlanFiltering,      0, "1"
+HKR,,                                          QtagSwControlled,   0, "1"
+
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 1008, 0, "82544 EI"
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 1009, 0, "82544 EI"
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 100C, 0, "82544 GC"
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 100D, 0, "82544 GC" 
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 100E, 0, "82540 EM" 
+HKLM,Software\Intel\Prounstl\SupportedDevices\8086, 100F, 0, "82545 EM" 
+
+[NDIS_5_1.reg]
+HKR,,                                          ChecksumRxTcp,      0, "1"
+
+[tso.reg]
+HKR,,                                          TcpSegmentation,    0, "1"
+
+[82544EI.reg]
+; NumRxDescriptors
+HKR,,                                          NumRxDescriptors,   0, "256"
+
+[82540EM.reg]
+;  Interrupt Throttle Rate
+HKR,,                                          ITR,                0, "950"
+
+
+[Kodiak2.reg]
+
+; CheckSumTxIp
+HKR,,                                          CheckSumTxIp,       0, "1"
+
+; Hardwired defaults
+HKR,,                                          QtagSwControlled,   0, "0"
+
+[Copper.reg]
+
+HKR, Ndi\params\SpeedDuplex,       ParamDesc,  0, %SpeedDuplex%
+HKR, Ndi\params\SpeedDuplex,       default,    0, "0"
+HKR, Ndi\params\SpeedDuplex,       type,       0, "enum"
+HKR, Ndi\params\SpeedDuplex\enum,  "0",        0, %AutoDetect%
+HKR, Ndi\params\SpeedDuplex\enum,  "1",        0, %10Mb-Half-Duplex%
+HKR, Ndi\params\SpeedDuplex\enum,  "2",        0, %10Mb-Full-Duplex%
+HKR, Ndi\params\SpeedDuplex\enum,  "3",        0, %100Mb-Half-Duplex%
+HKR, Ndi\params\SpeedDuplex\enum,  "4",        0, %100Mb-Full-Duplex%
+HKR, PROSetNdi\NdiExt\params\SpeedDuplex, MiniHelp, 0, %AutoNegMiniHelp%
+HKR, PROSetNdi\NdiExt\Params\SpeedDuplex, ExposeLevel,        0, "3"
+
+
+
+; AutoNegAdvertised
+HKR, PROSetNdi\Params\AutoNegAdvertised,       ParamDesc,          0, %AutoNegAdvertised%
+HKR, PROSetNdi\Params\AutoNegAdvertised,       MiniHelp,           0, %AutoNegAdvertisedMiniHelp%
+HKR, PROSetNdi\Params\AutoNegAdvertised,       default,            0, "47"
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "1",                0, %Advertise_10_Half%
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "2",                0, %Advertise_10_Full%
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "4",                0, %Advertise_100_Half%
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "8",                0, %Advertise_100_Full%
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "32",               0, %Advertise_1000_Full%
+HKR, PROSetNdi\Params\AutoNegAdvertised\Enum,  "47",               0, %AutoNegAdvSpdDefault%
+HKR, PROSetNdi\Params\AutoNegAdvertised,       type,               0, "bitfield"
+HKR, PROSetNdi\Params\AutoNegAdvertised,       ExposeLevel,        0, "3"
+
+HKR,,     	                           AutoNegAdvertised,  2, "47"
+
+;----------------------------------------------------------------------------
+; Packet specifics
+; 
+[Advanced.reg]
+; 802.1p/802.1Q Tagging
+HKR,,                                      TaggingMode,	       2, "0"
+
+; 
+HKR,,                                          MaxFrameSize,       2, "1514"
+
+[WakeOn.reg]
+; WakeOn
+HKR, Ndi\Params\WakeOn,       ParamDesc,          0, "Wake on Settings"
+HKR, Ndi\Params\WakeOn,       default,            0, "82"
+HKR, Ndi\Params\WakeOn\Enum,  "2",                0, "Wake on Magic Packet"
+HKR, Ndi\Params\WakeOn\Enum,  "80",               0, "Wake on directed packet"
+HKR, Ndi\Params\WakeOn\Enum,  "82",               0, "Wake on ALL"
+HKR, Ndi\Params\WakeOn\Enum,  "246",              0, "OS Controlled"
+HKR, Ndi\Params\WakeOn\Enum,  "0",                0, "Disabled"
+HKR, Ndi\Params\WakeOn,       type,               0, "enum"
+HKR, Ndi\Params\WakeOn,       ExposeLevel,        0, "2"
+
+HKR,Ndi\Params\WakeOn,        MiniHelp,   0, 	"Determines how to Wake up the system (Link Change, Magic Packet, Pattern Matching, etc.)."
+HKR,,     	                           WakeOn,  0, "82"
+[EnablePME.reg]
+HKR,,                                         EnablePME,           0, "2"
+
+;-----------------------------------------------------------------------------
+; Uninstallation
+[UninstallW2.reg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\PROSet,DisplayName, 0, "Intel(R) PRO Ethernet Adapter and Software"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\PROSet,UninstallString, 0, "Prounstl.exe"
+
+[win2k.CopyFiles]
+e1000nt5.sys,,,2
+
+[winxp.CopyFiles]
+e1000325.sys,,,2
+
+[UninstallProg.CopyFiles]
+Prounstl.exe,,,2
+net8254x.din,,,2
+
+[win2k.Service]
+DisplayName     = %E1000.Service.DispName%
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER%
+StartType       = 3 ;%SERVICE_DEMAND_START%
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\e1000nt5.sys
+LoadOrderGroup  = NDIS
+
+[winxp.Service]
+DisplayName     = %E1000.Service.DispName%
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER%
+StartType       = 3 ;%SERVICE_DEMAND_START%
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\e1000325.sys
+LoadOrderGroup  = NDIS
+;-----------------------------------------------------------------------------
+; Common base for all drivers for Eventlog and TextModeFlags
+;
+
+[win2k.EventLog]
+AddReg = win2k.AddEventLog.reg
+
+[winxp.EventLog]
+AddReg = winxp.AddEventLog.reg
+
+[win2k.AddEventLog.reg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll;%%SystemRoot%%\System32\drivers\e1000nt5.sys"
+HKR, , TypesSupported,   0x00010001, 7
+
+[winxp.AddEventLog.reg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll;%%SystemRoot%%\System32\drivers\e1000325.sys"
+HKR, , TypesSupported,   0x00010001, 7
+
+
+;-------------- Coinstaller installation
+
+[CoInstaller_CopyFiles]
+IntelNic.dll
+
+[CoInstaller_AddReg]
+HKR,,                                          CoInstallers32,     0x00010000,"IntelNic.dll,NicCoInstallerEntry"
+
+;   Support Inf, MWI, Wiseman
+[CoInSMW.reg]	
+HKR,,                                          CoInstallFlag,      0x00010001, 0x80000007
+
+;   Support Inf, MWI
+[CoInSM.reg]	
+HKR,,                                          CoInstallFlag,      0x00010001, 0x80000005
+
+;   MWI, Wiseman
+[CoInMW.reg]	
+HKR,,                                          CoInstallFlag,      0x00010001, 0x80000006
+
+;   MWI
+[CoInM.reg]	
+HKR,,                                          CoInstallFlag,      0x00010001, 0x80000004
+
+
+
+;-----------------------------------------------------------------------------
+; DestinationDirs
+;
+[DestinationDirs]
+DefaultDestDir          = 11
+win2k.CopyFiles         = 12
+winxp.CopyFiles         = 12
+UninstallProg.CopyFiles = 11
+CoInstaller_CopyFiles   = 11
+
+[SourceDisksNames]
+1 = %DISKNAME%,,,
+
+[SourceDisksFiles]
+net8254x.din = 1
+e1000nt5.sys = 1
+e1000325.sys = 1
+intelnic.dll = 1
+prounstl.exe = 1
+
+;----------------------------------------------------------------------------
+; Legacy
+[Advanced.DelReg]
+HKR,Ndi\Params\PacketTagging
+HKR,,PacketTagging
+HKR, Ndi\Params\AutoNeg
+HKR, PROSetNdi\NdiExt\Params\AutoNeg
+HKR,,AutoNeg
+HKR, Ndi\Params\ForcedSpeedDuplex
+HKR, PROSetNdi\NdiExt\Params\ForcedSpeedDuplex
+HKR,,ForcedSpeedDuplex
+HKR,,TransmitMode
+HKR, Ndi\Params\ReportTxEarly
+HKR, PROSetNdi\NdiExt\Params\ReportTxEarly
+HKR,,ReportTxEarly
+
+
+[AdvancedTab.DelReg]
+HKR, Ndi\Params\NumTxDescriptors
+HKR, Ndi\Params\NumRxDescriptors
+HKR, Ndi\Params\NumCoalesceBuffers
+HKR, Ndi\Params\ReportTxEarly
+HKR, Ndi\Params\ChecksumTxTcp
+HKR, Ndi\Params\ChecksumRxTcp
+HKR, Ndi\Params\NetworkAddress
+HKR, Ndi\Params\TcpSegmentation
+HKR, Ndi\Params\CheckSumTxIp
+HKR, Ndi\Params\AdaptiveIFS
+HKR, Ndi\Params\EnablePME
+HKR, PROSetNdi\NdiExt\params\NumTxDescriptors
+HKR, PROSetNdi\NdiExt\params\NumRxDescriptors
+HKR, PROSetNdi\NdiExt\params\NumCoalesceBuffers
+HKR, PROSetNdi\NdiExt\Params\ChecksumTxTcp
+HKR, PROSetNdi\NdiExt\Params\ChecksumRxTcp
+HKR, PROSetNdi\NdiExt\Params\CheckSumTxIp
+HKR, PROSetNdi\Params\TaggingMode
+HKR, PROSetNdi\Params\MaxFrameSize
+;-----------------------------------------------------------------------------
+; Localizable Strings
+;
+[Strings]
+Intel                    = "Intel"
+
+Advertise_10_Half        = "Advertise 10 Half"
+Advertise_10_Full        = "Advertise 10 Full"
+Advertise_100_Half       = "Advertise 100 Half"
+Advertise_100_Full       = "Advertise 100 Full"
+Advertise_1000_Full      = "Advertise 1000 Full"
+AutoNegAdvSpdDefault     = "Advertise Speed Default"
+AutoNegAdvertised	     = "Negotiable Speeds and Duplexes"
+
+AutoDetect               = "Auto Detect"
+SpeedDuplex              = "Link Speed & Duplex"
+10Mb-Half-Duplex         = "10Mbps/Half Duplex"
+10Mb-Full-Duplex         = "10Mbps/Full Duplex"
+100Mb-Half-Duplex        = "100Mbps/Half Duplex"
+100Mb-Full-Duplex        = "100Mbps/Full Duplex"
+
+CheckSumTxIp             = "Offload Transmit IP Checksum"
+ChecksumTxTcp            = "Offload Transmit TCP Checksum"
+ChecksumRxTcp            = "Offload Receive TCP Checksum"
+TcpSegmentation          = "Offload TCP Segmentation"
+
+FlowControl              = "Flow Control"
+FlowControl_None         = "Off"
+FlowControl_RxOnly       = "Respond"
+FlowControl_TxOnly       = "Generate"
+FlowControl_Full         = "Both On"
+FlowControl_Hardware     = "Hardware Default"
+
+NumTxDescriptors         = "Transmit Descriptors"
+NumRxDescriptors         = "Receive Descriptors"
+NumCoalesceBuffers       = "Coalesce Buffers"
+ReportTxEarly            = "Fast Transmit Completion"
+TaggingMode              = "QoS Packet Tagging"
+
+On                       = "On"
+Off                      = "Off"
+Disabled                 = "Disabled"
+Bytes4088                = "4088 Bytes"
+Bytes16128               = "16128 Bytes"
+Bytes9014                = "9014 Bytes (Alteon)"
+
+LAA                      = "Locally Administered Address"
+JumboFrames              = "Jumbo Frames"
+
+; Minihelp
+FlowControlMiniHelp        = "IEEE 802.3x flow control. Helps to prevent packets from being dropped and can improve overall network performance."
+AutoNegMiniHelp            = "The adapter can either negotiate with its link partner or force the speed and duplex. The link partner must match the setting chosen!"
+AutoNegAdvertisedMiniHelp  = "This can be used to restrict the speeds and duplexes advertised to a link partner during autonegotiation."
+CheckSumTxTcpMiniHelp      = "Allows the adapter to compute the TCP checksum of outgoing packets.  This improves TCP transmit performance. Should be OFF when this server is supporting DOS-based clients."
+CheckSumRxTcpMiniHelp_w2k  = "Allows the adapter to verify the TCP checksum of incoming packets."
+CheckSumRxTcpMiniHelp_wxp  = "Allows the adapter to verify the TCP checksum of incoming packets.  This improves TCP receive performance."
+CheckSumTxIpMiniHelp       = "Allows the adapter to compute the IP checksum of outgoing packets.  This improves IP transmit performance."
+TcpSegmentationMiniHelp    = "Allows the adapter to offload the task of segmenting TCP messages and improves CPU utilization."
+NumCoalesceBuffersMiniHelp = "Number of buffers available for transmit acceleration."
+NumRxDescriptorsMiniHelp   = "The number of receive buffers and descriptors that the driver allocates for received packets."
+NumTxDescriptorsMiniHelp   = "The number of hardware resources in memory used to send packets."
+JumboFramesMiniHelp        = "Enables sending larger Ethernet packets on Gigabit networks. See Help for more information."
+ReportTxEarlyMiniHelp      = "This will free the transmit resources as soon as the DMA is complete."
+TaggingModeMiniHelp        = "Send and receive IEEE Tagged frames (802.3ac/802.1p/802.1Q)."
+LAAMiniHelp                = "Allows you to change the adapter's MAC address."
+
+E1000.DeviceDesc           = "Intel(R) PRO/1000 Gigabit Server Adapter"
+E1001.DeviceDesc           = "Intel(R) PRO/1000 F Server Adapter"
+E1004.DeviceDesc           = "Intel(R) PRO/1000 T Server Adapter"
+E1008.DeviceDesc           = "Intel(R) PRO/1000 XT Server Adapter"
+E1008d.DeviceDesc          = "Intel(R) PRO/1000 XT Desktop Adapter"
+E1009.DeviceDesc           = "Intel(R) PRO/1000 XF Server Adapter"
+E100C.DeviceDesc           = "Intel(R) PRO/1000 T Desktop Adapter"
+E100D.DeviceDesc           = "Intel(R) 82544GC based network connection"
+E100E.DeviceDesc           = "Intel(R) PRO/1000 MT Desktop Adapter"
+E1000GENERIC.DeviceDesc    = "Intel 82542-based Gigabit Adapter"
+E1001GENERICFiber.DeviceDesc  = "Intel 82543GC-based F Gigabit Adapter"
+E1004GENERICCopper.DeviceDesc = "Intel 82543GC-based T Gigabit Adapter"
+E1008GENERICCopper.DeviceDesc = "Intel 82544EI-based XT Gigabit Adapter"
+E1009GENERICFiber.DeviceDesc  = "Intel 82544EI-based XF Gigabit Adapter"
+E100CGENERICCopper.DeviceDesc = "Intel 82544EI-based T Desktop Gigabit Adapter"
+E100DGENERICCopper.DeviceDesc = "Intel(R) 82544GC Based Network Connection"
+E100EGENERICCopper.DeviceDesc = "Intel(R) PRO/1000 MT Network Connection"
+
+E1015GENERIC.DeviceDesc       = "Intel(R) PRO/1000 MT Mobile Connection"
+
+E100FGENERIC.DeviceDesc  = "Intel(R) PRO/1000 MTW Network Connection"
+
+E1000.Service.DispName     = "Intel(R) PRO/1000 Adapter Driver"
+
+; Source disk name
+DISKNAME="Intel(R) PRO/1000 Driver Disk"
+
+; DriverHistory Information
+; These items will be set by IHV...
+DriverMfgr="Intel"                                  ; IHV name
+DriverVersionID="6.2"                                ; The IHV driver version
+ BaseDriverFileName="E1000NT5.SYS(W2K) E1000325.SYS(WXP)"          ; Key file for version
+ BaseDriverFileVersion="6.2.21.19"                         ; version of key file
+; These items will be set by IHV and updated by OEM
+DriverOEM="DELL"                                   ; name of the OEM
+DriverFamily="NIC"                                    ; device family (NIC, Storage, Video...)
+DriverProduct="Intel(R) PRO Family Adapters"                               ; Specific Name of device (chipset, for example)
+DriverDescription="Intel PRO-1000 Adapter driver for Windows XP"   ; Description of device (product name, OS or system supported)
+DriverOEMVersion="A00"                                ; OEM-specified version
+
+
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
+
+
+

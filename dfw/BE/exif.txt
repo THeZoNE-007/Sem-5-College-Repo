@@ -1,0 +1,6 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.1.1
+# Feature-Recorder: exif
+# Filename: terry-work-usb-2009-12-11.E01
+# Feature-File-Version: 1.1
+4669952	2c8a52955f62d29c150e8b4bb6e1f3be83f5b4cd	<exif><ifd0.tiff.XResolution>150/1</ifd0.tiff.XResolution><ifd0.tiff.YResolution>150/1</ifd0.tiff.YResolution><ifd0.tiff.ResolutionUnit>2</ifd0.tiff.ResolutionUnit><ifd0.exif.PixelXDimension>1650</ifd0.exif.PixelXDimension><ifd0.exif.PixelYDimension>1275</ifd0.exif.PixelYDimension></exif>

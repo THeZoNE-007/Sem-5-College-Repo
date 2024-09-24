@@ -1,0 +1,169 @@
+
+Windows* 2000 Push Install Instructions
+=======================================
+
+Contents:
+I.	Introduction
+II.   	Setting up an install directory on the file server
+III.  	Deployment Methods
+IV.     Microsoft documentation for unattended installations of Windows
+        2000.
+
+I. Introduction
+
+	A "Push", or unattended installation of Windows 2000 provides a
+    means for network adminstrators to easily install Windows 2000 on
+    similarly equipped systems.  The network administrator can create a
+    bootable diskette that will automatically log into a central server
+    and install the operating system from an image of the Windows 2000
+    installation directory stored on that server.
+    This document provides instructions for a basic unattended installation
+    of Windows 2000 that includes the installation of drivers for the
+    Intel(R) PRO/1000 family of network adapters.  
+
+    The elements necessary for the Windows 2000 unattend installation are:
+
+    -  A Windows 2000 Server with a shared image of the \I386 directory
+       from the Windows 2000 installation CD.
+
+    -  An unattended installation configuration file that provides Windows
+       2000 setup with information it needs to complete the installation.
+       The name of this file is UNATTEND.TXT
+
+    -  A DOS boot diskette that contains Microsoft Network Client software
+       for connecting to the Windows 2000 server and AutoExec commands
+       to automatically start the Windows 2000 installation.
+
+
+
+
+
+II. Setting up an Install Directory on the File Server
+	
+    The server must be setup with a distribution folder that holds the required 
+    Windows 2000 files and which clients can reach when connecting via TCP/IP or
+    IPX.
+    For illustration purposes, the examples in this readme use the network share 
+    D:\PUSH2K.  To create this share, create a directory on the server, 
+    (EX: D:\PUSH2K) and create an I386 directory beneath it.  
+	Next, use the "My Computer" applet in Windows 2000 to locate the D:\PUSH2K 
+    folder. Right-click on the folder and select "Sharing".  Select "Share 
+    this folder", Give it a share name (EX: PUSH2K).  This share name will be 
+    used to connect to this directory from the remote target systems.  By 
+    default, the permissions for this share will be for "Everyone" to have 
+    "Full Control".   Adjust permissions as necessary and click OK.  
+
+    To prepare the distribution folder:
+
+       	1. Copy the \I386 folder from the Windows 2000 CD to D:\PUSH2K.
+	       Use Windows Explorer or XCOPY in order to maintain the same 
+           directory structure as on the CD.  When the copy is complete, the
+           Windows 2000 installation files should be in the D:\PUSH2K\I386
+           directory.
+ 	
+        2. Copy Unattend.txt from the Intel media (found in the same directory
+           as these instructions) into the shared directory D:\PUSH2K\I386. 
+
+        3. Edit the Unattend.txt file with Notepad or another text-editor
+           to include your customizations.  At a minimum you should change
+           the items in the [UserData] section of the file.
+
+        4. Create the driver install directory structure and copy the driver 
+           files to it.
+
+           Make folders beneath the new \i386 as follows:
+
+             \$OEM$\$$\Help
+             \$OEM$\$$\System32
+             \$OEM$\$1\Drivers\Net\E1000
+		 
+           Copy the driver files from the Drivers disk CD to the 
+           $OEM$\$1\Drivers\Net\E1000 directory.  Use XCOPY /S or Windows 
+           Explorer to maintain the directory structure.  When finished the 
+           $OEM$\$1\Drivers\Net\E1000 directory should contain the NET8254x.INF
+           file, the E1000NT5.SYS driver file and other files necessary for installing 
+           the driver.
+
+
+III. Deployment Methods
+	
+    1. Make sure that you have a copy of a network bootable MS-DOS floppy that 
+       will connect to the Z:\PUSH2K directory and use it to boot the 
+       destination system (the one you want to push install to) and connect 
+       to this shared network directory.
+
+    2. Run the command: (assumes prompt at \\Server\PUSH2K\i386):  
+         winnt /u:Z:\I386\unattend.txt /s:Z:\I386 /t:c     
+              (where Z: equals mapped drive)
+
+    Important Note:
+        In the above procedure, setup runs the installation in unattended 
+        mode and also detects the plug and play network adapters.  All driver 
+        files are copied from the shared directory to the target system 
+        directories and installation of the OS and Network Adapters continues 
+        without user intervention.
+
+
+IV.  Microsoft documentation for unattended installations of Windows
+     2000.
+
+     For a complete description of the parameters supported in Unattend.txt
+     see the UNATTEND.DOC document in the DEPLOY.CAB cabinet file on the 
+     Windows 2000 CD.  To obtain the document, use Internet Explorer 5.0 or
+     greater to open DEPLOY.CAB in the \SUPPORT\TOOLS directory on the CD.
+
+
+     For deployment suggestions using a Windows 2000 RIS server and PXE boot see the 
+     Boot Agent User's Guide.
+
+     To configure and install the driver set on the RIS Server see the knowledge base 
+     article Q246184 on Microsoft's support site at:
+     http://support.microsoft.com/support/kb/articles/Q246/1/84.ASP?LN=EN-US&SD=gn&FR=0
+
+     General information on how to preinstall an OEM driver set for Windows 2000 can be 
+     found in knowledge base article Q254078
+     http://support.microsoft.com/support/kb/articles/q254/0/78.asp?LN=EN-US&SD=gn&FR=0
+
+
+
+A sample Unattend.txt file for Windows* 2000 Professional:
+
+[Unattended]
+    UnattendMode=FullUnattended
+    OemSkipEula=Yes
+    OemPreinstall=Yes
+    OemPnPDriversPath=\drivers\net\E1000
+    TargetPath=\WINNT
+    DriverSigningPolicy=Ignore
+    Filesystem=LeaveAlone
+    OverwriteOemFilesOnUpgrade=No
+
+[GuiUnattended]
+    AdminPassword=*
+    AutoLogon=Yes
+    AutoLogonCount=1
+    OEMSkipRegional=1
+    TimeZone=4
+    OemSkipWelcome=1
+
+
+
+; At a minimum you should update the [UserData] section.
+
+[UserData]
+    FullName=Name
+    OrgName=Organization
+    ComputerName=ComputerName
+    ProductID=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
+
+[Identification]
+    JoinWorkGroup = Workgroup
+;  *Use the following for a domain installation
+;    JoinDomain=MYDOMAIN
+;    CreateComputerAccountInDomain=Yes
+;    DomainAdmin=Installer
+;    DomainAdminPassword=install
+
+[Networking]
+    InstallDefaultComponents=Yes
+

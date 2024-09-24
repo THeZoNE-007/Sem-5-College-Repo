@@ -1,0 +1,7 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.1.1
+# Feature-Recorder: email
+# Filename: terry-work-usb-2009-12-11.E01
+# Histogram-File-Version: 1.1
+n=2	@gnu.org	(utf16=2)
+n=1	@xceedsoft.com	(utf16=1)

@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0' xmlns:debug='http://afflib.org/bulk_extractor/debug'>
+  <metadata 
+  xmlns='http://afflib.org/bulk_extractor/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>BULK_EXTRACTOR</program>
+    <version>2.1.1</version>
+    <build_environment>
+      <compiler>13.2.0 (13.2.0)</compiler>
+      <CPPFLAGS>-DUTC_OFFSET=+0000 -D_FORTIFY_SOURCE=2 -I/usr/local/include -Wdate-time </CPPFLAGS>
+      <CFLAGS>-O2 -O3 -Werror=format-security -Werror=implicit-function-declaration -Wformat -fPIC -fcf-protection -ffile-prefix-map=/build/bulk-extractor-p4YMjd/bulk-extractor-2.1.1=. -fstack-clash-protection -fstack-protector-strong -g </CFLAGS>
+      <CXXFLAGS>-MD -O2 -O3 -Wall -Wcast-align -Wdisabled-optimization -Weffc++ -Werror=format-security -Wfloat-equal -Wformat -Wmissing-noreturn -Wmultichar -Woverloaded-virtual -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-promo -Wwrite-strings -fPIC -fcf-protection -ffile-prefix-map=/build/bulk-extractor-p4YMjd/bulk-extractor-2.1.1=. -fstack-clash-protection -fstack-protector-strong -g </CXXFLAGS>
+      <LDFLAGS>-Wl,-z,relro -Wl,-z,now -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lewf -lstdc++ -lexpat -lz -ldl -lsqlite3 -lcrypto -lgcrypt -lgpg-error -lexpat </LIBS>
+      <compilation_date>2024-06-12T13:11:12</compilation_date>
+      <library name="boost" version="108300"/>
+      <library name="libewf" version="20140814"/>
+      <library name="sqlite" version="3.46.0" source_id="2024-05-23 13:25:27 96c92aba00c8375bc32fafcdf12429c58bd8aabfcadab6683e35bbb9cdebalt1"/>
+    </build_environment>
+    <execution_environment>
+      <cpuid>
+        <identification>GenuineIntel</identification>
+        <family>0</family>
+        <model>1</model>
+        <stepping>6</stepping>
+        <efamily>0</efamily>
+        <emodel>0</emodel>
+        <brand>71</brand>
+        <clflush_size>808</clflush_size>
+        <nproc>110</nproc>
+        <apicid>117</apicid>
+        <L1_cache_size>262144</L1_cache_size>
+      </cpuid>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.8.11-amd64</os_release>
+      <os_version>#1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30)</os_version>
+      <host>kali</host>
+      <arch>x86_64</arch>
+      <command_line>bulk_extractor -o BE_file_type -E email terry-work-usb-2009-12-11.E01</command_line>
+      <uid>0</uid>
+      <username>root</username>
+      <start_time>2024-09-24T09:21:14Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+    <threads>4</threads>
+    <pagesize>16777216</pagesize>
+    <marginsize>4194304</marginsize>
+    <scanners>
+      <scanner>email</scanner>
+    </scanners>
+  </configuration>
+  <provided_filename>terry-work-usb-2009-12-11.E01</provided_filename>
+  <timestamp name='phase1 start' delta='0.012047' total='0.012047'/>
+  <runtime xmlns:debug="http://www.github.com/simsong/bulk_extractor/issues">
+    <debug:work_start threadid='140003172681408' pos0='0' pagesize='16777216' bufsize='20971520' t='1727169675004'/>
+    <debug:work_stop threadid='140003172681408' pos0='0' rc='2'/>
+    <debug:work_start threadid='140003193652928' pos0='16777216' pagesize='16777216' bufsize='20971520' t='1727169675159'/>
+    <debug:work_stop threadid='140003193652928' pos0='16777216' rc='2'/>
+    <debug:work_start threadid='140003172681408' pos0='33554432' pagesize='16777216' bufsize='20971520' t='1727169675369'/>
+    <debug:work_stop threadid='140003172681408' pos0='33554432' rc='2'/>
+    <debug:work_start threadid='140003204138688' pos0='50331648' pagesize='16777216' bufsize='20971520' t='1727169675569'/>
+    <debug:work_stop threadid='140003204138688' pos0='50331648' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='33554432' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='67108864' pagesize='16777216' bufsize='20971520' t='1727169676921'/>
+    <debug:work_stop threadid='140003193652928' pos0='16777216' rc='1'/>
+    <debug:work_stop threadid='140003172681408' pos0='67108864' rc='2'/>
+    <debug:work_start threadid='140003172681408' pos0='83886080' pagesize='16777216' bufsize='20971520' t='1727169677133'/>
+    <debug:work_stop threadid='140003172681408' pos0='83886080' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='50331648' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='100663296' pagesize='16777216' bufsize='20971520' t='1727169677317'/>
+    <debug:work_stop threadid='140003204138688' pos0='100663296' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='100663296' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='117440512' pagesize='16777216' bufsize='20971520' t='1727169677502'/>
+    <debug:work_stop threadid='140003172681408' pos0='83886080' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='134217728' pagesize='16777216' bufsize='20971520' t='1727169677672'/>
+    <debug:work_stop threadid='140003204138688' pos0='117440512' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='117440512' rc='1'/>
+    <debug:work_stop threadid='140003172681408' pos0='134217728' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='134217728' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='150994944' pagesize='16777216' bufsize='20971520' t='1727169677860'/>
+    <debug:work_stop threadid='140003204138688' pos0='150994944' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='150994944' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='167772160' pagesize='16777216' bufsize='20971520' t='1727169677996'/>
+    <debug:work_stop threadid='140003204138688' pos0='167772160' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='167772160' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='184549376' pagesize='16777216' bufsize='20971520' t='1727169678108'/>
+    <debug:work_stop threadid='140003204138688' pos0='184549376' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='184549376' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='201326592' pagesize='16777216' bufsize='20971520' t='1727169678239'/>
+    <debug:work_stop threadid='140003204138688' pos0='201326592' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='201326592' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='218103808' pagesize='16777216' bufsize='20971520' t='1727169678414'/>
+    <debug:work_stop threadid='140003204138688' pos0='218103808' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='218103808' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='234881024' pagesize='16777216' bufsize='20971520' t='1727169678513'/>
+    <debug:work_stop threadid='140003204138688' pos0='234881024' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='234881024' rc='1'/>
+    <debug:work_stop threadid='140003193652928' pos0='67108864' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='251658240' pagesize='16777216' bufsize='20971520' t='1727169678611'/>
+    <debug:work_stop threadid='140003204138688' pos0='251658240' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='251658240' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='268435456' pagesize='16777216' bufsize='20971520' t='1727169678705'/>
+    <debug:work_stop threadid='140003193652928' pos0='268435456' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='268435456' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='285212672' pagesize='16777216' bufsize='20971520' t='1727169678836'/>
+    <debug:work_stop threadid='140003172681408' pos0='285212672' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='285212672' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='301989888' pagesize='16777216' bufsize='20971520' t='1727169679017'/>
+    <debug:work_stop threadid='140003204138688' pos0='301989888' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='301989888' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='318767104' pagesize='16777216' bufsize='20971520' t='1727169679118'/>
+    <debug:work_stop threadid='140003193652928' pos0='318767104' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='318767104' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='335544320' pagesize='16777216' bufsize='20971520' t='1727169679277'/>
+    <debug:work_stop threadid='140003172681408' pos0='335544320' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='335544320' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='352321536' pagesize='16777216' bufsize='20971520' t='1727169679417'/>
+    <debug:work_stop threadid='140003204138688' pos0='352321536' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='352321536' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='369098752' pagesize='16777216' bufsize='20971520' t='1727169679554'/>
+    <debug:work_stop threadid='140003193652928' pos0='369098752' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='369098752' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='385875968' pagesize='16777216' bufsize='20971520' t='1727169679644'/>
+    <debug:work_stop threadid='140003172681408' pos0='385875968' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='385875968' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='402653184' pagesize='16777216' bufsize='20971520' t='1727169679764'/>
+    <debug:work_stop threadid='140003204138688' pos0='402653184' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='402653184' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='419430400' pagesize='16777216' bufsize='20971520' t='1727169679899'/>
+    <debug:work_stop threadid='140003193652928' pos0='419430400' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='419430400' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='436207616' pagesize='16777216' bufsize='20971520' t='1727169680015'/>
+    <debug:work_stop threadid='140003172681408' pos0='436207616' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='436207616' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='452984832' pagesize='16777216' bufsize='20971520' t='1727169680143'/>
+    <debug:work_stop threadid='140003204138688' pos0='452984832' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='452984832' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='469762048' pagesize='16777216' bufsize='20971520' t='1727169680246'/>
+    <debug:work_stop threadid='140003193652928' pos0='469762048' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='469762048' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='486539264' pagesize='16777216' bufsize='20971520' t='1727169680343'/>
+    <debug:work_stop threadid='140003172681408' pos0='486539264' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='486539264' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='503316480' pagesize='16777216' bufsize='20971520' t='1727169680491'/>
+    <debug:work_stop threadid='140003193652928' pos0='503316480' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='503316480' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='520093696' pagesize='16777216' bufsize='20971520' t='1727169680630'/>
+    <debug:work_stop threadid='140003204138688' pos0='520093696' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='520093696' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='536870912' pagesize='16777216' bufsize='20971520' t='1727169680726'/>
+    <debug:work_stop threadid='140003172681408' pos0='536870912' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='536870912' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='553648128' pagesize='16777216' bufsize='20971520' t='1727169680821'/>
+    <debug:work_stop threadid='140003193652928' pos0='553648128' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='553648128' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='570425344' pagesize='16777216' bufsize='20971520' t='1727169680938'/>
+    <debug:work_stop threadid='140003172681408' pos0='570425344' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='570425344' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='587202560' pagesize='16777216' bufsize='20971520' t='1727169681070'/>
+    <debug:work_stop threadid='140003204138688' pos0='587202560' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='587202560' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='603979776' pagesize='16777216' bufsize='20971520' t='1727169681220'/>
+    <debug:work_stop threadid='140003193652928' pos0='603979776' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='603979776' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='620756992' pagesize='16777216' bufsize='20971520' t='1727169681330'/>
+    <debug:work_stop threadid='140003172681408' pos0='620756992' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='620756992' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='637534208' pagesize='16777216' bufsize='20971520' t='1727169681461'/>
+    <debug:work_stop threadid='140003204138688' pos0='637534208' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='637534208' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='654311424' pagesize='16777216' bufsize='20971520' t='1727169681575'/>
+    <debug:work_stop threadid='140003193652928' pos0='654311424' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='654311424' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='671088640' pagesize='16777216' bufsize='20971520' t='1727169681666'/>
+    <debug:work_stop threadid='140003172681408' pos0='671088640' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='671088640' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='687865856' pagesize='16777216' bufsize='20971520' t='1727169681763'/>
+    <debug:work_stop threadid='140003204138688' pos0='687865856' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='687865856' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='704643072' pagesize='16777216' bufsize='20971520' t='1727169681884'/>
+    <debug:work_stop threadid='140003193652928' pos0='704643072' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='704643072' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='721420288' pagesize='16777216' bufsize='20971520' t='1727169682016'/>
+    <debug:work_stop threadid='140003172681408' pos0='721420288' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='721420288' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='738197504' pagesize='16777216' bufsize='20971520' t='1727169682142'/>
+    <debug:work_stop threadid='140003204138688' pos0='738197504' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='738197504' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='754974720' pagesize='16777216' bufsize='20971520' t='1727169682239'/>
+    <debug:work_stop threadid='140003193652928' pos0='754974720' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='754974720' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='771751936' pagesize='16777216' bufsize='20971520' t='1727169682337'/>
+    <debug:work_stop threadid='140003172681408' pos0='771751936' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='771751936' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='788529152' pagesize='16777216' bufsize='20971520' t='1727169682428'/>
+    <debug:work_stop threadid='140003204138688' pos0='788529152' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='788529152' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='805306368' pagesize='16777216' bufsize='20971520' t='1727169682566'/>
+    <debug:work_stop threadid='140003172681408' pos0='805306368' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='805306368' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='822083584' pagesize='16777216' bufsize='20971520' t='1727169682711'/>
+    <debug:work_stop threadid='140003193652928' pos0='822083584' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='822083584' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='838860800' pagesize='16777216' bufsize='20971520' t='1727169682802'/>
+    <debug:work_stop threadid='140003204138688' pos0='838860800' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='838860800' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='855638016' pagesize='16777216' bufsize='20971520' t='1727169682897'/>
+    <debug:work_stop threadid='140003193652928' pos0='855638016' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='855638016' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='872415232' pagesize='16777216' bufsize='20971520' t='1727169682989'/>
+    <debug:work_stop threadid='140003172681408' pos0='872415232' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='872415232' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='889192448' pagesize='16777216' bufsize='20971520' t='1727169683088'/>
+    <debug:work_stop threadid='140003204138688' pos0='889192448' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='889192448' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='905969664' pagesize='16777216' bufsize='20971520' t='1727169683185'/>
+    <debug:work_stop threadid='140003193652928' pos0='905969664' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='905969664' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='922746880' pagesize='16777216' bufsize='20971520' t='1727169683367'/>
+    <debug:work_stop threadid='140003204138688' pos0='922746880' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='922746880' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='939524096' pagesize='16777216' bufsize='20971520' t='1727169683460'/>
+    <debug:work_stop threadid='140003172681408' pos0='939524096' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='939524096' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='956301312' pagesize='16777216' bufsize='20971520' t='1727169683556'/>
+    <debug:work_stop threadid='140003204138688' pos0='956301312' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='956301312' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='973078528' pagesize='16777216' bufsize='20971520' t='1727169683662'/>
+    <debug:work_stop threadid='140003193652928' pos0='973078528' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='973078528' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='989855744' pagesize='16777216' bufsize='20971520' t='1727169683754'/>
+    <debug:work_stop threadid='140003204138688' pos0='989855744' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='989855744' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1006632960' pagesize='16777216' bufsize='20971520' t='1727169683846'/>
+    <debug:work_stop threadid='140003172681408' pos0='1006632960' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1006632960' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1023410176' pagesize='16777216' bufsize='20971520' t='1727169683994'/>
+    <debug:work_stop threadid='140003193652928' pos0='1023410176' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1023410176' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1040187392' pagesize='16777216' bufsize='20971520' t='1727169684124'/>
+    <debug:work_start threadid='140003193652928' pos0='1056964608' pagesize='16777216' bufsize='20971520' t='1727169684275'/>
+    <debug:work_stop threadid='140003172681408' pos0='1040187392' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1040187392' rc='1'/>
+    <debug:work_stop threadid='140003172681408' pos0='1056964608' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1056964608' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1073741824' pagesize='16777216' bufsize='20971520' t='1727169684381'/>
+    <debug:work_stop threadid='140003172681408' pos0='1073741824' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1073741824' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1090519040' pagesize='16777216' bufsize='20971520' t='1727169684495'/>
+    <debug:work_stop threadid='140003193652928' pos0='1090519040' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1090519040' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1107296256' pagesize='16777216' bufsize='20971520' t='1727169684604'/>
+    <debug:work_stop threadid='140003204138688' pos0='1107296256' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1107296256' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1124073472' pagesize='16777216' bufsize='20971520' t='1727169684698'/>
+    <debug:work_stop threadid='140003172681408' pos0='1124073472' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1124073472' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1140850688' pagesize='16777216' bufsize='20971520' t='1727169684824'/>
+    <debug:work_stop threadid='140003204138688' pos0='1140850688' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1140850688' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1157627904' pagesize='16777216' bufsize='20971520' t='1727169684955'/>
+    <debug:work_stop threadid='140003193652928' pos0='1157627904' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1157627904' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1174405120' pagesize='16777216' bufsize='20971520' t='1727169685078'/>
+    <debug:work_stop threadid='140003172681408' pos0='1174405120' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1174405120' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1191182336' pagesize='16777216' bufsize='20971520' t='1727169685205'/>
+    <debug:work_stop threadid='140003204138688' pos0='1191182336' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1191182336' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1207959552' pagesize='16777216' bufsize='20971520' t='1727169685309'/>
+    <debug:work_stop threadid='140003193652928' pos0='1207959552' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1207959552' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1224736768' pagesize='16777216' bufsize='20971520' t='1727169685410'/>
+    <debug:work_stop threadid='140003172681408' pos0='1224736768' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1224736768' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1241513984' pagesize='16777216' bufsize='20971520' t='1727169685501'/>
+    <debug:work_stop threadid='140003204138688' pos0='1241513984' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1241513984' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1258291200' pagesize='16777216' bufsize='20971520' t='1727169685644'/>
+    <debug:work_stop threadid='140003193652928' pos0='1258291200' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1258291200' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1275068416' pagesize='16777216' bufsize='20971520' t='1727169685744'/>
+    <debug:work_stop threadid='140003172681408' pos0='1275068416' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1275068416' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1291845632' pagesize='16777216' bufsize='20971520' t='1727169685854'/>
+    <debug:work_stop threadid='140003204138688' pos0='1291845632' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1291845632' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1308622848' pagesize='16777216' bufsize='20971520' t='1727169685986'/>
+    <debug:work_stop threadid='140003193652928' pos0='1308622848' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1308622848' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1325400064' pagesize='16777216' bufsize='20971520' t='1727169686095'/>
+    <debug:work_stop threadid='140003172681408' pos0='1325400064' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1325400064' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1342177280' pagesize='16777216' bufsize='20971520' t='1727169686201'/>
+    <debug:work_stop threadid='140003183167168' pos0='0' rc='1'/>
+    <debug:work_stop threadid='140003172681408' pos0='1342177280' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1342177280' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1358954496' pagesize='16777216' bufsize='20971520' t='1727169686294'/>
+    <debug:work_stop threadid='140003193652928' pos0='1358954496' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1358954496' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1375731712' pagesize='16777216' bufsize='20971520' t='1727169686383'/>
+    <debug:work_stop threadid='140003172681408' pos0='1375731712' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1375731712' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1392508928' pagesize='16777216' bufsize='20971520' t='1727169686479'/>
+    <debug:work_stop threadid='140003193652928' pos0='1392508928' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1392508928' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1409286144' pagesize='16777216' bufsize='20971520' t='1727169686576'/>
+    <debug:work_stop threadid='140003204138688' pos0='1409286144' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1409286144' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1426063360' pagesize='16777216' bufsize='20971520' t='1727169686668'/>
+    <debug:work_stop threadid='140003193652928' pos0='1426063360' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1426063360' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1442840576' pagesize='16777216' bufsize='20971520' t='1727169686761'/>
+    <debug:work_stop threadid='140003204138688' pos0='1442840576' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1442840576' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1459617792' pagesize='16777216' bufsize='20971520' t='1727169686867'/>
+    <debug:work_stop threadid='140003193652928' pos0='1459617792' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1459617792' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1476395008' pagesize='16777216' bufsize='20971520' t='1727169686959'/>
+    <debug:work_stop threadid='140003172681408' pos0='1476395008' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1476395008' rc='2'/>
+    <debug:work_start threadid='140003193652928' pos0='1493172224' pagesize='16777216' bufsize='20971520' t='1727169687109'/>
+    <debug:work_stop threadid='140003193652928' pos0='1493172224' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1493172224' rc='1'/>
+    <debug:work_start threadid='140003172681408' pos0='1509949440' pagesize='16777216' bufsize='20971520' t='1727169687218'/>
+    <debug:work_stop threadid='140003172681408' pos0='1509949440' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1509949440' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1526726656' pagesize='16777216' bufsize='20971520' t='1727169687349'/>
+    <debug:work_stop threadid='140003193652928' pos0='1526726656' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1526726656' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1543503872' pagesize='16777216' bufsize='20971520' t='1727169687451'/>
+    <debug:work_stop threadid='140003204138688' pos0='1543503872' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1543503872' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1560281088' pagesize='16777216' bufsize='20971520' t='1727169687540'/>
+    <debug:work_stop threadid='140003193652928' pos0='1560281088' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1560281088' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1577058304' pagesize='16777216' bufsize='20971520' t='1727169687674'/>
+    <debug:work_stop threadid='140003204138688' pos0='1577058304' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1577058304' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1593835520' pagesize='16777216' bufsize='20971520' t='1727169687773'/>
+    <debug:work_stop threadid='140003193652928' pos0='1593835520' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1593835520' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1610612736' pagesize='16777216' bufsize='20971520' t='1727169687862'/>
+    <debug:work_stop threadid='140003204138688' pos0='1610612736' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1610612736' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1627389952' pagesize='16777216' bufsize='20971520' t='1727169687957'/>
+    <debug:work_stop threadid='140003193652928' pos0='1627389952' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1627389952' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1644167168' pagesize='16777216' bufsize='20971520' t='1727169688057'/>
+    <debug:work_stop threadid='140003204138688' pos0='1644167168' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1644167168' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1660944384' pagesize='16777216' bufsize='20971520' t='1727169688151'/>
+    <debug:work_stop threadid='140003193652928' pos0='1660944384' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1660944384' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1677721600' pagesize='16777216' bufsize='20971520' t='1727169688246'/>
+    <debug:work_stop threadid='140003204138688' pos0='1677721600' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1677721600' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='1694498816' pagesize='16777216' bufsize='20971520' t='1727169688372'/>
+    <debug:work_stop threadid='140003183167168' pos0='1694498816' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1694498816' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1711276032' pagesize='16777216' bufsize='20971520' t='1727169688488'/>
+    <debug:work_stop threadid='140003204138688' pos0='1711276032' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1711276032' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1728053248' pagesize='16777216' bufsize='20971520' t='1727169688577'/>
+    <debug:work_stop threadid='140003193652928' pos0='1728053248' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1728053248' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1744830464' pagesize='16777216' bufsize='20971520' t='1727169688667'/>
+    <debug:work_stop threadid='140003204138688' pos0='1744830464' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1744830464' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='1761607680' pagesize='16777216' bufsize='20971520' t='1727169688757'/>
+    <debug:work_stop threadid='140003183167168' pos0='1761607680' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1761607680' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1778384896' pagesize='16777216' bufsize='20971520' t='1727169688850'/>
+    <debug:work_stop threadid='140003204138688' pos0='1778384896' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='1778384896' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='1795162112' pagesize='16777216' bufsize='20971520' t='1727169688967'/>
+    <debug:work_stop threadid='140003183167168' pos0='1795162112' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1795162112' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1811939328' pagesize='16777216' bufsize='20971520' t='1727169689084'/>
+    <debug:work_stop threadid='140003204138688' pos0='1811939328' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1811939328' rc='2'/>
+    <debug:work_start threadid='140003183167168' pos0='1828716544' pagesize='16777216' bufsize='20971520' t='1727169689180'/>
+    <debug:work_stop threadid='140003183167168' pos0='1828716544' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1828716544' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1845493760' pagesize='16777216' bufsize='20971520' t='1727169689278'/>
+    <debug:work_stop threadid='140003204138688' pos0='1845493760' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1845493760' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1862270976' pagesize='16777216' bufsize='20971520' t='1727169689399'/>
+    <debug:work_stop threadid='140003193652928' pos0='1862270976' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1862270976' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1879048192' pagesize='16777216' bufsize='20971520' t='1727169689518'/>
+    <debug:work_stop threadid='140003204138688' pos0='1879048192' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1879048192' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1895825408' pagesize='16777216' bufsize='20971520' t='1727169689626'/>
+    <debug:work_stop threadid='140003193652928' pos0='1895825408' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1895825408' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1912602624' pagesize='16777216' bufsize='20971520' t='1727169689717'/>
+    <debug:work_stop threadid='140003204138688' pos0='1912602624' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1912602624' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='1929379840' pagesize='16777216' bufsize='20971520' t='1727169689809'/>
+    <debug:work_stop threadid='140003183167168' pos0='1929379840' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1929379840' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1946157056' pagesize='16777216' bufsize='20971520' t='1727169689922'/>
+    <debug:work_stop threadid='140003204138688' pos0='1946157056' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1946157056' rc='1'/>
+    <debug:work_start threadid='140003193652928' pos0='1962934272' pagesize='16777216' bufsize='20971520' t='1727169690027'/>
+    <debug:work_stop threadid='140003193652928' pos0='1962934272' rc='2'/>
+    <debug:work_stop threadid='140003193652928' pos0='1962934272' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='1979711488' pagesize='16777216' bufsize='20971520' t='1727169690133'/>
+    <debug:work_stop threadid='140003204138688' pos0='1979711488' rc='2'/>
+    <debug:work_stop threadid='140003172681408' pos0='1979711488' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='1996488704' pagesize='16777216' bufsize='20971520' t='1727169690249'/>
+    <debug:work_stop threadid='140003183167168' pos0='1996488704' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='1996488704' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='2013265920' pagesize='16777216' bufsize='20971520' t='1727169690341'/>
+    <debug:work_stop threadid='140003204138688' pos0='2013265920' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='2013265920' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='2030043136' pagesize='16777216' bufsize='20971520' t='1727169690432'/>
+    <debug:work_stop threadid='140003183167168' pos0='2030043136' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='2030043136' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='2046820352' pagesize='16777216' bufsize='20971520' t='1727169690526'/>
+    <debug:work_stop threadid='140003204138688' pos0='2046820352' rc='2'/>
+    <debug:work_stop threadid='140003204138688' pos0='2046820352' rc='1'/>
+    <debug:work_start threadid='140003183167168' pos0='2063597568' pagesize='16777216' bufsize='20971520' t='1727169690649'/>
+    <debug:work_stop threadid='140003183167168' pos0='2063597568' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='2063597568' rc='1'/>
+    <debug:work_start threadid='140003204138688' pos0='2080374784' pagesize='16777216' bufsize='16777216' t='1727169690732'/>
+    <debug:work_stop threadid='140003204138688' pos0='2080374784' rc='2'/>
+    <debug:work_stop threadid='140003183167168' pos0='2080374784' rc='1'/>
+  </runtime>
+  <source>
+    <image_filename>terry-work-usb-2009-12-11.E01</image_filename>
+    <image_size>2097152000</image_size>
+    <hashdigest type='SHA1'>5ac072fe65d67a9cc03e8003bdd4d60945680dec</hashdigest>
+  </source>
+  <timestamp name='phase1 end' delta='16.284485' total='16.296534'/>
+  <timestamp name='phase2 start' delta='0.953226' total='17.249761'/>
+  <timestamp name='phase2 end' delta='0.201351' total='17.451116'/>
+  <report>
+    <total_bytes>2097152000</total_bytes>
+    <elapsed_seconds>17.451120</elapsed_seconds>
+    <max_depth_seen>0</max_depth_seen>
+    <dup_bytes_encountered>2474639360</dup_bytes_encountered>
+    <sbufs_created>99256</sbufs_created>
+    <sbufs_unaccounted>0</sbufs_unaccounted>
+    <producer_timer_ns>1213632391</producer_timer_ns>
+    <consumer_wait_ns>2012634008</consumer_wait_ns>
+    <consumer_wait_ns_per_worker>0</consumer_wait_ns_per_worker>
+    <scanner_stats>
+      <scanner><name>email</name><seconds>17.267928</seconds><calls>5</calls></scanner>
+    </scanner_stats>
+    <feature_files>
+      <feature_file><name>alerts</name><count>0</count></feature_file>
+      <feature_file><name>domain</name><count>99148</count></feature_file>
+      <feature_file><name>email</name><count>3</count></feature_file>
+      <feature_file><name>ether</name><count>0</count></feature_file>
+      <feature_file><name>rfc822</name><count>0</count></feature_file>
+      <feature_file><name>url</name><count>99128</count></feature_file>
+    </feature_files>
+  </report>
+  <rusage>
+    <utime>38.681810</utime>
+    <stime>1.530323</stime>
+    <maxrss>124584</maxrss>
+    <minflt>10019</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>58072</oublock>
+    <clocktime>17.451353</clocktime>
+  </rusage>
+</dfxml>

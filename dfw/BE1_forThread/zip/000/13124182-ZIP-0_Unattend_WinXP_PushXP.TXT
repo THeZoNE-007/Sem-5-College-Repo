@@ -1,0 +1,165 @@
+
+Windows* XP Push Install Instructions
+=======================================
+
+Contents:
+I.	Introduction
+II.   	Setting up an install directory on the file server
+III.  	Deployment Methods
+IV.     Microsoft documentation for unattended installations of Windows
+        XP.
+
+I. Introduction
+
+	A "Push", or unattended installation of Windows XP provides a
+    means for network adminstrators to easily install Windows XP on
+    similarly equipped systems.  The network administrator can create a
+    bootable diskette that will automatically log into a central server
+    and install the operating system from an image of the Windows XP
+    installation directory stored on that server.
+    This document provides instructions for a basic unattended installation
+    of Windows XP that includes the installation of drivers for the
+    Intel(R) PRO/1000 Family of network adapters.  
+
+    The elements necessary for the Windows XP unattend installation are:
+
+    -  A Windows XP Server with a shared image of the Windows XP Installation
+       CD.
+
+    -  An unattended installation configuration file that provides Windows
+       XP setup with information it needs to complete the installation.
+       The name of this file is UNATTEND.TXT
+
+    -  A DOS boot diskette that contains Microsoft Network Client software
+       for connecting to the Windows XP server and AutoExec commands
+       to automatically start the Windows XP installation.
+
+
+
+
+
+II. Setting up an Install Directory on the File Server
+	
+    The server must be setup with a distribution folder that holds the required 
+    Windows XP files and which clients can reach when connecting via TCP/IP or
+    IPX.
+    For illustration purposes, the examples in this readme use the network share 
+    D:\PUSHXP.  To create this share, create a directory on the server, 
+    (EX: D:\PUSHXP).  
+	Next, use the "My Computer" applet in Windows XP to locate the D:\PUSHXP 
+    folder. Right-click on the folder and select "Sharing".  Select "Share 
+    this folder", Give it a share name (EX: PUSHXP).  This share name will be 
+    used to connect to this directory from the remote target systems.  By 
+    default, the permissions for this share will be for "Everyone" to have 
+    "Full Control".   Adjust permissions as necessary and click OK.  
+
+    To prepare the distribution folder:
+
+       	1. Copy the entire contents of the Windows XP CD to D:\PUSHXP.
+	       Use Windows Explorer or XCOPY in order to maintain the same 
+           directory structure as on the CD.  When the copy is complete, the
+           Windows XP installation files should be in the D:\PUSHXP
+           directory and the I386 and other installation directories 
+           should be subdirectories of the D:\PUSHXP directory.
+ 	
+        2. Copy Unattend.txt from the Intel media (found in the same directory
+           as these instructions) into the shared directory D:\PUSHXP\I386. 
+
+        3. Edit the Unattend.txt file with Notepad or another text-editor
+           to include your customizations.  At a minimum you should change
+           the items in the [UserData] section of the file.
+
+        4. Create the driver install directory structure and copy the driver 
+           files to it.
+
+           Make folders beneath the new PUSHXP\I386 as follows:
+
+             \$OEM$\$$\Help
+             \$OEM$\$$\System32
+             \$OEM$\$1\Drivers\Net\E1000
+		
+           Copy the driver files from the Drivers disk CD to the 
+           $OEM$\$1\Drivers\Net\E1000 directory.  Use XCOPY /S or Windows 
+           Explorer to maintain the directory structure.  When finished the 
+           $OEM$\$1\Drivers\Net\E1000 directory should contain the NET8254x.INF
+           file, the E1000NT5.SYS driver file and other files necessary for 
+           installing the driver.
+
+
+
+III. Deployment Methods
+	
+    1. Make sure that you have a copy of a network bootable MS-DOS floppy that 
+       will connect to the Z:\PUSHXP directory and use it to boot the 
+       destination system (the one you want to push install to) and connect 
+       to this shared network directory.
+
+    2. Run the command: (assumes prompt at \\Server\PUSHXP\i386):  
+         winnt /u:Z:\I386\unattend.txt /s:Z:\I386 /t:c     
+              (where Z: equals mapped drive)
+
+    Important Note:
+        In the above procedure, setup runs the installation in unattended 
+        mode and also detects the plug and play network adapters.  All driver 
+        files are copied from the shared directory to the target system 
+        directories and installation of the OS and Network Adapters continues 
+        without user intervention.
+
+
+IV.  Microsoft documentation for unattended installations of Windows
+     XP.
+
+     For a complete description of the parameters supported in Unattend.txt
+     see the DEPLOY.CHM document in the DEPLOY.CAB cabinet file on the 
+     Windows XP CD.  To obtain the document, use Internet Explorer 5.0 or
+     greater to open DEPLOY.CAB in the \SUPPORT\TOOLS directory on the CD.
+
+     Other documents and utilities in the DEPLOY.CAB file provide details
+     and tools for setting up a variety of unattended installation methods.
+
+
+
+
+
+
+[Unattended]
+    UnattendMode=FullUnattended
+    OemSkipEula=Yes
+    OemPreinstall=Yes
+    OemPnPDriversPath=\drivers\net\E1000
+    TargetPath= *
+    DriverSigningPolicy=Ignore
+    Filesystem=LeaveAlone
+    OverwriteOemFilesOnUpgrade=No
+
+;  This switch prevents the user setup dialog from running when XP
+;  starts for the first time.
+    UnattendSwitch=Yes
+
+[GuiUnattended]
+    AdminPassword=*
+    AutoLogon=Yes
+    AutoLogonCount=1
+    OEMSkipRegional=1
+    TimeZone=4
+    OemSkipWelcome=1
+
+[UserData]
+    FullName=Name
+    OrgName=Organization
+    ComputerName=Computer1
+;  PRODUCT ID is required for most installations.
+    ProductID="xxxxx-xxxxx-xxxxx-xxxxx-xxxxx"
+
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+;  *Use the following for a domain installation
+;    JoinDomain=MYDOMAIN
+;    CreateComputerAccountInDomain=Yes
+;    DomainAdmin=Installer
+;    DomainAdminPassword=install
+
+[Networking]
+    InstallDefaultComponents=Yes
+

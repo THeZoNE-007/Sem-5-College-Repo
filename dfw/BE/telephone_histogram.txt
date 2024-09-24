@@ -1,0 +1,8 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 2.1.1
+# Feature-Recorder: telephone
+# Filename: terry-work-usb-2009-12-11.E01
+# Histogram-File-Version: 1.1
+n=6	1771881984
+n=1	1181501746
+n=1	6003707924

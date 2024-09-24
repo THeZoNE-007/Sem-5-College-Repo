@@ -1,0 +1,33 @@
+:Base prosetp.HLP
+:Title Intel(R) PROSet II Help
+1 Overview
+2 Navigate PROSet II=GENERAL_PAGE
+2 Adapter Specifications=Adapter_Specifications
+2 View adapter and driver information
+3 General information=General_Information
+3 Adapter details=Adapter_Details
+3 Driver details=Driver_Information
+1 Configure the adapter
+2 Set speed and duplex=Set_Speed_and_Duplex
+2 Configure power usage=Configure_Power_Management
+2 Configure advanced features=Configure_Advanced_Features
+2 Enable IPSec=Enable_IPSec
+2 Save configuration to a file=SAVERESTORE
+2 Remove an adapter=Remove_an_Adapter_Instance
+1 Perform diagnostics
+2 Overview=Diagnostics_An_Overview
+2 Diagnostic tests=Diagnostics
+2 Cable test=Testing_the_Cable
+2 Sender Responder test=Sender_Responder_Test
+2 Setting up the diagnostic log=Diagnostic_Log
+2 Network Connectivity Test=Network_Connectivity_Test
+1 Use Intel(R) add-on tools
+2 Boot Agent
+3 Boot Agent=Boot_Agent
+2 Intel(R) Priority Packet
+3 Overview=priority_packet_overview
+3 Traffic filters=Traffic_Filter
+1 Troubleshooting
+2 Troubleshooting tab=Troubleshooting
+2 Restore adapter configuration=RESTORECONFIG
+2 Get support=Support
