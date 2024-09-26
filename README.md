@@ -1,2 +1,1 @@
-# DFW
-All codes of DFW class here
+# Sem 5 College Lab Repo
