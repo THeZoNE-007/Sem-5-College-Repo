@@ -1,0 +1,99 @@
+
+Scalpel version 1.60 audit file
+Started at Thu Sep 26 17:59:21 2024
+Command line:
+scalpel -v oneGB.dd -o extract5_verbose_nc_flag -n -c scalpel.conf 
+
+Output directory: /home/kali/Desktop/GitHub/Sem-5-College-Repo/dfw/26thSept/extract5_verbose_nc_flag
+Configuration file: scalpel.conf
+
+Opening target "/home/kali/Desktop/GitHub/Sem-5-College-Repo/dfw/26thSept/oneGB.dd"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000070      4744775		NO          5200917		oneGB.dd
+00000069      4454347		NO          5069762		oneGB.dd
+00000068      4403050		NO          5121059		oneGB.dd
+00000067      4352575		NO          5171534		oneGB.dd
+00000066      4192775		NO          5175510		oneGB.dd
+00000065      1993073		NO          5092557		oneGB.dd
+00000064      1953941		NO          5131689		oneGB.dd
+00000063      1667692		NO          5175873		oneGB.dd
+00000062      1623595		NO          5219970		oneGB.dd
+00000061      1609154		NO          5234411		oneGB.dd
+00000060      1591118		NO          5131460		oneGB.dd
+00000059      1571216		NO          5151362		oneGB.dd
+00000058      1550470		NO          5172108		oneGB.dd
+00000057      1444545		NO          5228335		oneGB.dd
+00000056      1413714		NO          5053009		oneGB.dd
+00000055      1396004		NO          5070719		oneGB.dd
+00000054      1385362		NO          5081361		oneGB.dd
+00000053      1376327		NO          5090396		oneGB.dd
+00000052      1363102		NO          5103621		oneGB.dd
+00000051      1350607		NO          5116116		oneGB.dd
+00000050      1339843		NO          5126880		oneGB.dd
+00000049      1329523		NO          5137200		oneGB.dd
+00000048      1317686		NO          5149037		oneGB.dd
+00000047      1302347		NO          5164376		oneGB.dd
+00000046      1288738		NO          5177985		oneGB.dd
+00000045      1275046		NO          5191677		oneGB.dd
+00000044      1266445		NO          5200278		oneGB.dd
+00000043      1256219		NO          5210504		oneGB.dd
+00000042      1240065		NO          5226658		oneGB.dd
+00000041      1223689		NO          5102609		oneGB.dd
+00000040      1210533		NO          5115765		oneGB.dd
+00000039      1199722		NO          5126576		oneGB.dd
+00000038      1184717		NO          5141581		oneGB.dd
+00000037      1173024		NO          5153274		oneGB.dd
+00000036      1162960		NO          5163338		oneGB.dd
+00000035      1153538		NO          5172760		oneGB.dd
+00000034      1142644		NO          5183654		oneGB.dd
+00000033      1130406		NO          5195892		oneGB.dd
+00000032      1118756		NO          5207542		oneGB.dd
+00000031      1101979		NO          5224319		oneGB.dd
+00000030      1081134		NO          4992520		oneGB.dd
+00000029      1056306		NO          5017348		oneGB.dd
+00000028      1035607		NO          5038047		oneGB.dd
+00000027      1005830		NO          5067824		oneGB.dd
+00000026       981627		NO          5092027		oneGB.dd
+00000025       966544		NO          5107110		oneGB.dd
+00000024       939154		NO          5134500		oneGB.dd
+00000023       915286		NO          5158368		oneGB.dd
+00000022       901068		NO          5172586		oneGB.dd
+00000021       880272		NO          5193382		oneGB.dd
+00000020       792384		NO          5225553		oneGB.dd
+00000019       782549		NO          5235388		oneGB.dd
+00000018       740938		NO          5203662		oneGB.dd
+00000017       713085		NO          5231515		oneGB.dd
+00000016       688009		NO          5181036		oneGB.dd
+00000015       675701		NO          5193344		oneGB.dd
+00000014       658759		NO          5210286		oneGB.dd
+00000013       644284		NO          5224761		oneGB.dd
+00000012       626030		NO          5141621		oneGB.dd
+00000011       599037		NO          5168614		oneGB.dd
+00000010       583380		NO          5184271		oneGB.dd
+00000009       563813		NO          5203838		oneGB.dd
+00000008       545313		NO          5222338		oneGB.dd
+00000007       526666		NO          5240985		oneGB.dd
+00000006       509471		NO          5206569		oneGB.dd
+00000005       494286		NO          5221754		oneGB.dd
+00000004       481134		NO          5234906		oneGB.dd
+00000003       460631		NO          5199300		oneGB.dd
+00000002       436882		NO          5223049		oneGB.dd
+00000001       414668		NO          5016796		oneGB.dd
+00000000       397461		NO          5034003		oneGB.dd
+00000074      7021118		NO          4906598		oneGB.dd
+00000073      5716113		NO          5188645		oneGB.dd
+00000072      5660004		NO          5218287		oneGB.dd
+00000071      5611076		NO          5115343		oneGB.dd
+00000078      8104106		YES        10000000		oneGB.dd
+00000079      8104235		YES        10000000		oneGB.dd
+00000080      8105862		YES        10000000		oneGB.dd
+00000081     15061024		YES        10000000		oneGB.dd
+00000077     15061032		YES        10000000		oneGB.dd
+00000075     38113280		NO           301539		oneGB.dd
+00000082     38112027		YES        10000000		oneGB.dd
+00000076     38101214		YES        10000000		oneGB.dd
+
+
+Completed at Thu Sep 26 17:59:55 2024

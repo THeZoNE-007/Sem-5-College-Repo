@@ -1,0 +1,99 @@
+
+Scalpel version 1.60 audit file
+Started at Thu Sep 26 16:59:54 2024
+Command line:
+scalpel -o ./extracts2_custom_conf oneGB.dd -c scalpel.conf 
+
+Output directory: /home/kali/Desktop/GitHub/Sem-5-College-Repo/dfw/26thSept/extracts2_custom_conf
+Configuration file: scalpel.conf
+
+Opening target "/home/kali/Desktop/GitHub/Sem-5-College-Repo/dfw/26thSept/oneGB.dd"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000070.jpg      4744775		NO          5200917		oneGB.dd
+00000069.jpg      4454347		NO          5069762		oneGB.dd
+00000068.jpg      4403050		NO          5121059		oneGB.dd
+00000067.jpg      4352575		NO          5171534		oneGB.dd
+00000066.jpg      4192775		NO          5175510		oneGB.dd
+00000065.jpg      1993073		NO          5092557		oneGB.dd
+00000064.jpg      1953941		NO          5131689		oneGB.dd
+00000063.jpg      1667692		NO          5175873		oneGB.dd
+00000062.jpg      1623595		NO          5219970		oneGB.dd
+00000061.jpg      1609154		NO          5234411		oneGB.dd
+00000060.jpg      1591118		NO          5131460		oneGB.dd
+00000059.jpg      1571216		NO          5151362		oneGB.dd
+00000058.jpg      1550470		NO          5172108		oneGB.dd
+00000057.jpg      1444545		NO          5228335		oneGB.dd
+00000056.jpg      1413714		NO          5053009		oneGB.dd
+00000055.jpg      1396004		NO          5070719		oneGB.dd
+00000054.jpg      1385362		NO          5081361		oneGB.dd
+00000053.jpg      1376327		NO          5090396		oneGB.dd
+00000052.jpg      1363102		NO          5103621		oneGB.dd
+00000051.jpg      1350607		NO          5116116		oneGB.dd
+00000050.jpg      1339843		NO          5126880		oneGB.dd
+00000049.jpg      1329523		NO          5137200		oneGB.dd
+00000048.jpg      1317686		NO          5149037		oneGB.dd
+00000047.jpg      1302347		NO          5164376		oneGB.dd
+00000046.jpg      1288738		NO          5177985		oneGB.dd
+00000045.jpg      1275046		NO          5191677		oneGB.dd
+00000044.jpg      1266445		NO          5200278		oneGB.dd
+00000043.jpg      1256219		NO          5210504		oneGB.dd
+00000042.jpg      1240065		NO          5226658		oneGB.dd
+00000041.jpg      1223689		NO          5102609		oneGB.dd
+00000040.jpg      1210533		NO          5115765		oneGB.dd
+00000039.jpg      1199722		NO          5126576		oneGB.dd
+00000038.jpg      1184717		NO          5141581		oneGB.dd
+00000037.jpg      1173024		NO          5153274		oneGB.dd
+00000036.jpg      1162960		NO          5163338		oneGB.dd
+00000035.jpg      1153538		NO          5172760		oneGB.dd
+00000034.jpg      1142644		NO          5183654		oneGB.dd
+00000033.jpg      1130406		NO          5195892		oneGB.dd
+00000032.jpg      1118756		NO          5207542		oneGB.dd
+00000031.jpg      1101979		NO          5224319		oneGB.dd
+00000030.jpg      1081134		NO          4992520		oneGB.dd
+00000029.jpg      1056306		NO          5017348		oneGB.dd
+00000028.jpg      1035607		NO          5038047		oneGB.dd
+00000027.jpg      1005830		NO          5067824		oneGB.dd
+00000026.jpg       981627		NO          5092027		oneGB.dd
+00000025.jpg       966544		NO          5107110		oneGB.dd
+00000024.jpg       939154		NO          5134500		oneGB.dd
+00000023.jpg       915286		NO          5158368		oneGB.dd
+00000022.jpg       901068		NO          5172586		oneGB.dd
+00000021.jpg       880272		NO          5193382		oneGB.dd
+00000020.jpg       792384		NO          5225553		oneGB.dd
+00000019.jpg       782549		NO          5235388		oneGB.dd
+00000018.jpg       740938		NO          5203662		oneGB.dd
+00000017.jpg       713085		NO          5231515		oneGB.dd
+00000016.jpg       688009		NO          5181036		oneGB.dd
+00000015.jpg       675701		NO          5193344		oneGB.dd
+00000014.jpg       658759		NO          5210286		oneGB.dd
+00000013.jpg       644284		NO          5224761		oneGB.dd
+00000012.jpg       626030		NO          5141621		oneGB.dd
+00000011.jpg       599037		NO          5168614		oneGB.dd
+00000010.jpg       583380		NO          5184271		oneGB.dd
+00000009.jpg       563813		NO          5203838		oneGB.dd
+00000008.jpg       545313		NO          5222338		oneGB.dd
+00000007.jpg       526666		NO          5240985		oneGB.dd
+00000006.jpg       509471		NO          5206569		oneGB.dd
+00000005.jpg       494286		NO          5221754		oneGB.dd
+00000004.jpg       481134		NO          5234906		oneGB.dd
+00000003.jpg       460631		NO          5199300		oneGB.dd
+00000002.jpg       436882		NO          5223049		oneGB.dd
+00000001.jpg       414668		NO          5016796		oneGB.dd
+00000000.jpg       397461		NO          5034003		oneGB.dd
+00000074.jpg      7021118		NO          4906598		oneGB.dd
+00000073.jpg      5716113		NO          5188645		oneGB.dd
+00000072.jpg      5660004		NO          5218287		oneGB.dd
+00000071.jpg      5611076		NO          5115343		oneGB.dd
+00000078.mov      8104106		YES        10000000		oneGB.dd
+00000079.mov      8104235		YES        10000000		oneGB.dd
+00000080.mov      8105862		YES        10000000		oneGB.dd
+00000081.mov     15061024		YES        10000000		oneGB.dd
+00000077.mov     15061032		YES        10000000		oneGB.dd
+00000075.jpg     38113280		NO           301539		oneGB.dd
+00000082.mov     38112027		YES        10000000		oneGB.dd
+00000076.mov     38101214		YES        10000000		oneGB.dd
+
+
+Completed at Thu Sep 26 17:00:27 2024
