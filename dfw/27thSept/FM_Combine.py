@@ -3,20 +3,15 @@ import os
 import subprocess
 
 def Foremost():
-	res = subprocess.run(["sudo","foremost","-i",f"{ip}","-o",f"{op}","-c",f"{conf}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	res = subprocess.run(["sudo","foremost","-i",f"{sys.argv[2]}","-o",f"{sys.argv[3]}","-c",f"{sys.argv[4]}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def MagicRescue():
-	res = subprocess.run(["sudo","magicrescue","-r",f"{recipe}","-d",f"{ip}",f"{op}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	res = subprocess.run(["sudo","magicrescue","-r",f"{sys.argv[2]}","-d",f"{sys.argv[3]}",f"{sys.argv[4]}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-tool = sys.argv[1]
-recipe = sys.argv[2]
-ip = sys.argv[3]
-op = sys.argv[4]
-conf = sys.argv[5]
 
-if tool == "foremost":
+if sys.argv[1] == "foremost":
 	Foremost()
-elif tool == "scalpel":
+elif sys.argv[1] == "magicrescue":
 	MagicRescue()
 else:
 	print("Enter valid tool name - either foremost or magicrescue")
