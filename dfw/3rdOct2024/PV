@@ -1,0 +1,48 @@
+Volatility 3 Framework 2.10.0
+
+Offset(Virtual)	Name	PID	pslist	psscan	thrdscan	csrss	Exit Time
+
+0x816da980	userinit.exe	1884	False	False	True	False	2011-10-10 17:06:32+00:00
+0x815c4da0	wscntfy.exe	1920	True	False	True	True	
+0x813bcda0	explorer.exe	1956	True	False	True	True	
+0x81754990	VMwareService.e	1444	True	False	True	True	
+0x15aeda0	svchost.exe	1148	False	True	False	False	
+0x15bcda0	explorer.exe	1956	False	True	False	False	
+0x17c4da0	wscntfy.exe	1920	False	True	False	False	
+0x18c6da0	svchost.exe	964	False	True	False	False	
+0x18da020	services.exe	676	False	True	False	False	
+0x1954990	VMwareService.e	1444	False	True	False	False	
+0x81945020	smss.exe	536	True	False	True	False	
+0x816c6020	csrss.exe	608	True	False	True	False	
+0x816da020	services.exe	676	True	False	True	True	
+0x813a9020	winlogon.exe	632	True	False	True	True	
+0x813c4020	lsass.exe	688	True	False	True	True	
+0x816c6da0	svchost.exe	964	True	False	True	True	
+0x813aeda0	svchost.exe	1148	True	False	True	True	
+0x8136c5a0	alg.exe	1616	True	False	True	True	
+0x81772ca8	vmacthlp.exe	832	True	False	True	True	
+0x815daca8	svchost.exe	1020	True	False	True	True	
+0x15a9020	winlogon.exe	632	False	True	False	False	
+0x15c4020	lsass.exe	688	False	True	False	False	
+0x17daca8	svchost.exe	1020	False	True	False	False	
+0x1972ca8	vmacthlp.exe	832	False	True	False	False	
+0x819cc830	System	4	True	False	True	False	
+0x817a34b0	cmd.exe	544	True	False	True	True	
+0x19a34b0	cmd.exe	544	False	True	False	False	
+0x1bcc830	System	4	False	True	False	False	
+0x1b45020	smss.exe	536	False	True	False	False	
+0x18c6020	csrss.exe	608	False	True	False	False	
+0x81787020	sc.exe	580	False	False	True	False	2011-10-10 17:06:47+00:00
+0x156c5a0	alg.exe	1616	False	True	False	False	
+0x8167e9d0	svchost.exe	848	True	False	True	True	
+0x816d63d0	VMwareTray.exe	184	True	False	True	True	
+0x187e9d0	svchost.exe	848	False	True	False	False	
+0x18d63d0	VMwareTray.exe	184	False	True	False	False	
+0x817937e0	spoolsv.exe	1260	True	False	True	True	
+0x815e7be0	wuauclt.exe	400	True	False	True	True	
+0x17e7be0	wuauclt.exe	400	False	True	False	False	
+0x19937e0	spoolsv.exe	1260	False	True	False	False	
+0x817757f0	svchost.exe	916	True	False	True	True	
+0x19757f0	svchost.exe	916	False	True	False	False	
+0x8180b478	VMwareUser.exe	192	True	False	True	True	
+0x1a0b478	VMwareUser.exe	192	False	True	False	False	

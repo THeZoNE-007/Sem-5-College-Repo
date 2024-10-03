@@ -1,0 +1,26 @@
+Volatility 3 Framework 2.10.0
+
+PID	PPID	ImageFileName	Offset(V)	Threads	Handles	SessionId	Wow64	CreateTime	ExitTime	File output
+
+4	0	System	0x819cc830	55	162	N/A	False	N/A	N/A	Disabled
+536	4	smss.exe	0x81945020	3	21	N/A	False	2011-10-10 17:03:56.000000 UTC	N/A	Disabled
+608	536	csrss.exe	0x816c6020	11	355	0	False	2011-10-10 17:03:58.000000 UTC	N/A	Disabled
+632	536	winlogon.exe	0x813a9020	24	533	0	False	2011-10-10 17:03:58.000000 UTC	N/A	Disabled
+676	632	services.exe	0x816da020	16	261	0	False	2011-10-10 17:03:58.000000 UTC	N/A	Disabled
+688	632	lsass.exe	0x813c4020	23	336	0	False	2011-10-10 17:03:58.000000 UTC	N/A	Disabled
+832	676	vmacthlp.exe	0x81772ca8	1	24	0	False	2011-10-10 17:03:59.000000 UTC	N/A	Disabled
+848	676	svchost.exe	0x8167e9d0	20	194	0	False	2011-10-10 17:03:59.000000 UTC	N/A	Disabled
+916	676	svchost.exe	0x817757f0	9	217	0	False	2011-10-10 17:03:59.000000 UTC	N/A	Disabled
+964	676	svchost.exe	0x816c6da0	63	1058	0	False	2011-10-10 17:03:59.000000 UTC	N/A	Disabled
+1020	676	svchost.exe	0x815daca8	5	58	0	False	2011-10-10 17:03:59.000000 UTC	N/A	Disabled
+1148	676	svchost.exe	0x813aeda0	12	187	0	False	2011-10-10 17:04:00.000000 UTC	N/A	Disabled
+1260	676	spoolsv.exe	0x817937e0	13	140	0	False	2011-10-10 17:04:00.000000 UTC	N/A	Disabled
+1444	676	VMwareService.e	0x81754990	3	145	0	False	2011-10-10 17:04:00.000000 UTC	N/A	Disabled
+1616	676	alg.exe	0x8136c5a0	7	99	0	False	2011-10-10 17:04:01.000000 UTC	N/A	Disabled
+1920	964	wscntfy.exe	0x815c4da0	1	27	0	False	2011-10-10 17:04:39.000000 UTC	N/A	Disabled
+1956	1884	explorer.exe	0x813bcda0	18	322	0	False	2011-10-10 17:04:39.000000 UTC	N/A	Disabled
+184	1956	VMwareTray.exe	0x816d63d0	1	28	0	False	2011-10-10 17:04:41.000000 UTC	N/A	Disabled
+192	1956	VMwareUser.exe	0x8180b478	6	83	0	False	2011-10-10 17:04:41.000000 UTC	N/A	Disabled
+228	1956	reader_sl.exe	0x818233c8	2	26	0	False	2011-10-10 17:04:41.000000 UTC	N/A	Disabled
+400	964	wuauclt.exe	0x815e7be0	8	173	0	False	2011-10-10 17:04:46.000000 UTC	N/A	Disabled
+544	1956	cmd.exe	0x817a34b0	1	30	0	False	2011-10-10 17:06:42.000000 UTC	N/A	Disabled
