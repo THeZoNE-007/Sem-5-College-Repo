@@ -3,20 +3,14 @@ import os
 import subprocess
 
 def Foremost():
-	res = subprocess.run(["sudo","foremost","-i",f"{ip}","-o",f"{op}","-c",f"{conf}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
+	res = subprocess.run(["sudo","foremost","-i",f"{sys.argv[2]}","-o",f"{sys.argv[3]}","-c",f"{sys.argv[4]}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def Scalpel():
-	res = subprocess.run(["sudo","scalpel","-i",f"{ip}","-o",f"{op}","-c",f"{conf}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	res = subprocess.run(["sudo","scalpel","-i",f"{sys.argv[2]}","-o",f"{sys.argv[3]}","-c",f"{sys.argv[4]}"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-tool = sys.argv[1]
-ip = sys.argv[2]
-op = sys.argv[3]
-conf = sys.argv[4]
-
-if tool == "foremost":
+if sys.argv[1] == "foremost":
 	Foremost()
-elif tool == "scalpel":
+elif sys.argv[1] == "scalpel":
 	Scalpel()
 else:
-	print("Enter valid tool name - either foremost or scaple")
+	print("Enter valid tool name - either foremost or scalpel")
