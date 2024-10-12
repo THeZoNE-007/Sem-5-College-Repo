@@ -8,10 +8,11 @@ fileName=[]
 
 for file in file_names:
     if os.path.isfile(os.path.join(sys.argv[1],file)):
-        
         fileName.append(file)
-    else:
-    	print("File not present in the provided directory")
+
+if not fileName:
+    print("The provided directory is empty or contains no files.")
+    sys.exit()
 
 def createDD():
     for i in range(0,len(fileName)):
