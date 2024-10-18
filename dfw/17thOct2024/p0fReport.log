@@ -1,0 +1,39 @@
+[2024/10/17 17:33:22] mod=syn|cli=192.168.159.128/41178|srv=34.36.165.17/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:22] mod=mtu|cli=192.168.159.128/41178|srv=34.36.165.17/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:22] mod=syn+ack|cli=192.168.159.128/41178|srv=34.36.165.17/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:22] mod=mtu|cli=192.168.159.128/41178|srv=34.36.165.17/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn|cli=192.168.159.128/51730|srv=185.27.134.60/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51730|srv=185.27.134.60/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn|cli=192.168.159.128/51736|srv=185.27.134.60/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51736|srv=185.27.134.60/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn|cli=192.168.159.128/51750|srv=185.27.134.60/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51750|srv=185.27.134.60/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn+ack|cli=192.168.159.128/51730|srv=185.27.134.60/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51730|srv=185.27.134.60/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn+ack|cli=192.168.159.128/51750|srv=185.27.134.60/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51750|srv=185.27.134.60/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:24] mod=syn+ack|cli=192.168.159.128/51736|srv=185.27.134.60/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:24] mod=mtu|cli=192.168.159.128/51736|srv=185.27.134.60/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:26] mod=syn|cli=192.168.159.128/37054|srv=142.250.193.72/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:26] mod=host change|cli=192.168.159.128/37054|srv=142.250.193.72/443|subj=cli|reason=tstamp port|raw_hits=0,1,1,1
+[2024/10/17 17:33:26] mod=mtu|cli=192.168.159.128/37054|srv=142.250.193.72/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:26] mod=syn|cli=192.168.159.128/51422|srv=104.17.24.14/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:26] mod=mtu|cli=192.168.159.128/51422|srv=104.17.24.14/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:26] mod=syn+ack|cli=192.168.159.128/51422|srv=104.17.24.14/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:26] mod=mtu|cli=192.168.159.128/51422|srv=104.17.24.14/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:26] mod=syn+ack|cli=192.168.159.128/37054|srv=142.250.193.72/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:26] mod=mtu|cli=192.168.159.128/37054|srv=142.250.193.72/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn|cli=192.168.159.128/33002|srv=216.239.38.181/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:27] mod=host change|cli=192.168.159.128/33002|srv=216.239.38.181/443|subj=cli|reason=tstamp port|raw_hits=0,2,2,2
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/33002|srv=216.239.38.181/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn|cli=192.168.159.128/36246|srv=142.250.206.131/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/36246|srv=142.250.206.131/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn+ack|cli=192.168.159.128/33002|srv=216.239.38.181/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/33002|srv=216.239.38.181/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn+ack|cli=192.168.159.128/36246|srv=142.250.206.131/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/36246|srv=142.250.206.131/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn|cli=192.168.159.128/33566|srv=172.217.194.155/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/17 17:33:27] mod=host change|cli=192.168.159.128/33566|srv=172.217.194.155/443|subj=cli|reason=tstamp port|raw_hits=0,3,3,3
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/33566|srv=172.217.194.155/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/17 17:33:27] mod=syn+ack|cli=192.168.159.128/33566|srv=172.217.194.155/443|subj=srv|os=???|dist=0|params=none|raw_sig=4:128+0:0:1460:mss*44,0:mss::0
+[2024/10/17 17:33:27] mod=mtu|cli=192.168.159.128/33566|srv=172.217.194.155/443|subj=srv|link=Ethernet or modem|raw_mtu=1500
