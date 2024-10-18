@@ -1,0 +1,173 @@
+[2024/10/18 11:30:37] mod=syn|cli=172.17.167.87/39260|srv=216.239.34.157/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:30:37] mod=mtu|cli=172.17.167.87/39260|srv=216.239.34.157/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:30:37] mod=syn+ack|cli=172.17.167.87/39260|srv=216.239.34.157/443|subj=srv|os=???|dist=6|params=none|raw_sig=4:249+6:0:1412:65535,8:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:30:37] mod=mtu|cli=172.17.167.87/39260|srv=216.239.34.157/443|subj=srv|link=DSL|raw_mtu=1452
+[2024/10/18 11:30:37] mod=uptime|cli=172.17.167.87/39260|srv=216.239.34.157/443|subj=cli|uptime=41 days 10 hrs 25 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2024/10/18 11:30:38] mod=syn|cli=172.17.167.87/39264|srv=216.239.34.157/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:30:38] mod=mtu|cli=172.17.167.87/39264|srv=216.239.34.157/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:30:38] mod=uptime|cli=172.17.167.87/39264|srv=216.239.34.157/443|subj=cli|uptime=41 days 10 hrs 25 min (modulo 49 days)|raw_freq=1000.65 Hz
+[2024/10/18 11:30:38] mod=syn+ack|cli=172.17.167.87/39264|srv=216.239.34.157/443|subj=srv|os=???|dist=6|params=tos:0x20|raw_sig=4:249+6:0:1412:65535,8:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:30:38] mod=mtu|cli=172.17.167.87/39264|srv=216.239.34.157/443|subj=srv|link=DSL|raw_mtu=1452
+[2024/10/18 11:37:35] mod=syn|cli=172.17.166.226/56836|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:35] mod=mtu|cli=172.17.166.226/56836|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:36] mod=syn|cli=172.17.33.211/65372|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:36] mod=mtu|cli=172.17.33.211/65372|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:37] mod=syn|cli=172.17.167.54/51657|srv=172.17.164.121/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:37] mod=mtu|cli=172.17.167.54/51657|srv=172.17.164.121/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:41] mod=syn|cli=172.17.161.29/57216|srv=172.17.166.30/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:41] mod=mtu|cli=172.17.161.29/57216|srv=172.17.166.30/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:48] mod=syn|cli=172.17.130.88/50360|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:48] mod=mtu|cli=172.17.130.88/50360|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:54] mod=syn|cli=172.17.167.87/46500|srv=162.125.81.13/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:37:54] mod=mtu|cli=172.17.167.87/46500|srv=162.125.81.13/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:54] mod=syn+ack|cli=172.17.167.87/46500|srv=162.125.81.13/443|subj=srv|os=???|dist=9|params=none|raw_sig=4:55+9:0:1440:65535,9:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:37:54] mod=mtu|cli=172.17.167.87/46500|srv=162.125.81.13/443|subj=srv|link=IPIP or SIT|raw_mtu=1480
+[2024/10/18 11:37:54] mod=uptime|cli=172.17.167.87/46500|srv=162.125.81.13/443|subj=cli|uptime=14 days 8 hrs 2 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2024/10/18 11:37:55] mod=syn|cli=172.17.161.187/54236|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:55] mod=mtu|cli=172.17.161.187/54236|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:37:55] mod=syn|cli=172.17.35.173/65225|srv=172.17.164.153/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:37:55] mod=mtu|cli=172.17.35.173/65225|srv=172.17.164.153/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:04] mod=syn|cli=172.17.162.41/50849|srv=172.17.167.126/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:04] mod=mtu|cli=172.17.162.41/50849|srv=172.17.167.126/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:27] mod=syn|cli=172.17.165.28/51259|srv=172.17.162.103/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:27] mod=mtu|cli=172.17.165.28/51259|srv=172.17.162.103/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:33] mod=syn|cli=172.17.161.187/54247|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:33] mod=mtu|cli=172.17.161.187/54247|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:37] mod=syn|cli=172.17.162.35/51401|srv=172.17.167.80/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:37] mod=mtu|cli=172.17.162.35/51401|srv=172.17.167.80/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:39] mod=syn|cli=172.17.167.32/50266|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:39] mod=mtu|cli=172.17.167.32/50266|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:40] mod=syn|cli=172.17.166.253/52773|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:40] mod=mtu|cli=172.17.166.253/52773|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:54] mod=syn|cli=172.17.165.206/63877|srv=172.17.162.103/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:54] mod=mtu|cli=172.17.165.206/63877|srv=172.17.162.103/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:38:58] mod=syn|cli=172.17.161.59/61015|srv=172.17.161.227/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:38:58] mod=mtu|cli=172.17.161.59/61015|srv=172.17.161.227/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:10] mod=syn|cli=172.17.34.16/58967|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:10] mod=mtu|cli=172.17.34.16/58967|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:11] mod=syn|cli=172.17.165.222/51470|srv=172.17.161.227/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:11] mod=mtu|cli=172.17.165.222/51470|srv=172.17.161.227/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:12] mod=syn|cli=172.17.36.227/58624|srv=172.17.161.168/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:12] mod=mtu|cli=172.17.36.227/58624|srv=172.17.161.168/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:15] mod=syn|cli=172.17.130.242/55247|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:15] mod=mtu|cli=172.17.130.242/55247|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:26] mod=syn|cli=172.17.32.174/49563|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:26] mod=mtu|cli=172.17.32.174/49563|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:28] mod=syn|cli=172.17.152.134/58069|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:28] mod=mtu|cli=172.17.152.134/58069|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:36] mod=syn|cli=172.17.131.13/59498|srv=172.17.161.168/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:36] mod=mtu|cli=172.17.131.13/59498|srv=172.17.161.168/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:40] mod=syn|cli=172.17.165.210/54805|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:40] mod=mtu|cli=172.17.165.210/54805|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:48] mod=syn|cli=172.17.163.1/51445|srv=172.17.165.26/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:48] mod=mtu|cli=172.17.163.1/51445|srv=172.17.165.26/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:50] mod=syn|cli=172.17.167.28/52083|srv=172.17.165.26/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:50] mod=mtu|cli=172.17.167.28/52083|srv=172.17.165.26/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:54] mod=syn|cli=172.17.163.93/58580|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:54] mod=mtu|cli=172.17.163.93/58580|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:55] mod=syn|cli=172.17.58.87/52199|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:55] mod=mtu|cli=172.17.58.87/52199|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:39:58] mod=syn|cli=172.17.68.3/53503|srv=172.17.161.168/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:39:58] mod=mtu|cli=172.17.68.3/53503|srv=172.17.161.168/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:40:03] mod=syn|cli=172.17.38.8/54458|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:40:03] mod=mtu|cli=172.17.38.8/54458|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:40:08] mod=syn|cli=172.17.161.48/50798|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:40:08] mod=mtu|cli=172.17.161.48/50798|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:40:13] mod=syn|cli=172.17.161.79/57125|srv=172.17.162.103/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:40:13] mod=mtu|cli=172.17.161.79/57125|srv=172.17.162.103/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:40:29] mod=syn|cli=172.17.130.88/50387|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:40:29] mod=mtu|cli=172.17.130.88/50387|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:40:38] mod=syn|cli=172.17.34.234/57548|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:40:38] mod=mtu|cli=172.17.34.234/57548|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:03] mod=syn|cli=172.17.136.125/56664|srv=172.17.164.153/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:03] mod=mtu|cli=172.17.136.125/56664|srv=172.17.164.153/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:19] mod=syn|cli=172.17.167.32/50274|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:19] mod=mtu|cli=172.17.167.32/50274|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:20] mod=syn|cli=172.17.163.131/56650|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:20] mod=mtu|cli=172.17.163.131/56650|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:21] mod=syn|cli=172.17.162.54/59001|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:21] mod=mtu|cli=172.17.162.54/59001|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:28] mod=syn|cli=172.17.165.43/49728|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:28] mod=mtu|cli=172.17.165.43/49728|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:30] mod=syn|cli=172.17.165.245/50929|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:30] mod=mtu|cli=172.17.165.245/50929|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:37] mod=syn|cli=172.17.166.35/54674|srv=172.17.163.139/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:37] mod=mtu|cli=172.17.166.35/54674|srv=172.17.163.139/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:44] mod=syn|cli=172.17.167.87/52076|srv=4.4.2.2/53|subj=cli|os=???|dist=0|params=none|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws,?34,nop,nop:df,id+:0
+[2024/10/18 11:41:44] mod=host change|cli=172.17.167.87/52076|srv=4.4.2.2/53|subj=cli|reason=sig_diff x_known tstamp|raw_hits=1,1,1,1
+[2024/10/18 11:41:44] mod=mtu|cli=172.17.167.87/52076|srv=4.4.2.2/53|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:46] mod=syn|cli=172.17.36.188/57771|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:46] mod=mtu|cli=172.17.36.188/57771|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:48] mod=syn|cli=172.17.162.234/52046|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:48] mod=mtu|cli=172.17.162.234/52046|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:49] mod=syn|cli=172.17.161.48/50914|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:49] mod=mtu|cli=172.17.161.48/50914|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:52] mod=syn|cli=172.17.161.79/57150|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:52] mod=mtu|cli=172.17.161.79/57150|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:54] mod=syn|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:41:54] mod=host change|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=cli|reason=sig_diff x_known tstamp|raw_hits=2,2,2,2
+[2024/10/18 11:41:54] mod=mtu|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:54] mod=syn|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:41:54] mod=host change|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=cli|reason=tstamp port|raw_hits=2,3,3,3
+[2024/10/18 11:41:54] mod=mtu|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:54] mod=syn+ack|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=srv|os=???|dist=9|params=none|raw_sig=4:55+9:0:1440:65535,9:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:41:54] mod=mtu|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=srv|link=IPIP or SIT|raw_mtu=1480
+[2024/10/18 11:41:54] mod=uptime|cli=172.17.167.87/39998|srv=162.125.81.13/443|subj=cli|uptime=14 days 8 hrs 6 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2024/10/18 11:41:54] mod=syn+ack|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=srv|os=???|dist=11|params=none|raw_sig=4:53+11:0:1460:mss*45,7:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:41:54] mod=mtu|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=srv|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:54] mod=http request|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=cli|app=???|lang=none|params=anonymous|raw_sig=1:Host,Accept=[*/*],Connection=[close]:User-Agent,Accept-Encoding,Accept-Language,Accept-Charset,Keep-Alive:
+[2024/10/18 11:41:54] mod=syn|cli=172.17.161.187/54302|srv=172.17.166.26/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:41:54] mod=mtu|cli=172.17.161.187/54302|srv=172.17.166.26/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:54] mod=uptime|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=srv|uptime=12 days 5 hrs 30 min (modulo 49 days)|raw_freq=1000.00 Hz
+[2024/10/18 11:41:54] mod=http response|cli=172.17.167.87/53124|srv=185.125.190.98/80|subj=srv|app=???|lang=none|params=anonymous|raw_sig=1:server=[nginx/1.18.0 (Ubuntu)],date=[Fri, 18 Oct 2024 06:11:54 GMT],x-cache-status=[from content-cache/2],x-networkmanager-status=[online],connection=[close]:Content-Type,Connection,Keep-Alive,Accept-Ranges,Date:
+[2024/10/18 11:41:56] mod=syn|cli=172.17.167.87/52878|srv=162.125.81.17/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:41:56] mod=mtu|cli=172.17.167.87/52878|srv=162.125.81.17/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:41:56] mod=syn+ack|cli=172.17.167.87/52878|srv=162.125.81.17/443|subj=srv|os=???|dist=10|params=none|raw_sig=4:54+10:0:1440:65535,9:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:41:56] mod=mtu|cli=172.17.167.87/52878|srv=162.125.81.17/443|subj=srv|link=IPIP or SIT|raw_mtu=1480
+[2024/10/18 11:41:56] mod=uptime|cli=172.17.167.87/52878|srv=162.125.81.17/443|subj=cli|uptime=28 days 14 hrs 20 min (modulo 49 days)|raw_freq=1014.08 Hz
+[2024/10/18 11:42:11] mod=syn|cli=172.17.162.96/56186|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:11] mod=mtu|cli=172.17.162.96/56186|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:14] mod=syn|cli=172.17.165.29/55596|srv=172.17.162.103/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:14] mod=mtu|cli=172.17.165.29/55596|srv=172.17.162.103/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:19] mod=syn|cli=172.17.167.87/56302|srv=142.250.193.234/443|subj=cli|os=Linux 2.2.x-3.x|dist=0|params=generic|raw_sig=4:64+0:0:1460:mss*44,7:mss,sok,ts,nop,ws:df,id+:0
+[2024/10/18 11:42:19] mod=mtu|cli=172.17.167.87/56302|srv=142.250.193.234/443|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:19] mod=syn+ack|cli=172.17.167.87/56302|srv=142.250.193.234/443|subj=srv|os=???|dist=6|params=tos:0x20|raw_sig=4:122+6:0:1412:65535,8:mss,sok,ts,nop,ws:df:0
+[2024/10/18 11:42:19] mod=mtu|cli=172.17.167.87/56302|srv=142.250.193.234/443|subj=srv|link=DSL|raw_mtu=1452
+[2024/10/18 11:42:19] mod=uptime|cli=172.17.167.87/56302|srv=142.250.193.234/443|subj=cli|uptime=30 days 12 hrs 52 min (modulo 49 days)|raw_freq=1026.32 Hz
+[2024/10/18 11:42:19] mod=syn|cli=172.17.167.54/51723|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:19] mod=mtu|cli=172.17.167.54/51723|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:24] mod=syn|cli=172.17.167.136/56588|srv=172.17.162.167/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:24] mod=mtu|cli=172.17.167.136/56588|srv=172.17.162.167/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:32] mod=syn|cli=172.17.166.189/53939|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:32] mod=mtu|cli=172.17.166.189/53939|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:35] mod=syn|cli=172.17.161.187/54327|srv=172.17.165.26/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:35] mod=mtu|cli=172.17.161.187/54327|srv=172.17.165.26/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:41] mod=syn|cli=172.17.163.1/51458|srv=172.17.164.121/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:41] mod=mtu|cli=172.17.163.1/51458|srv=172.17.164.121/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:50] mod=syn|cli=172.17.33.133/4652|srv=172.17.161.168/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic fuzzy|raw_sig=4:63+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:50] mod=mtu|cli=172.17.33.133/4652|srv=172.17.161.168/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:51] mod=syn|cli=172.17.165.58/50743|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:51] mod=mtu|cli=172.17.165.58/50743|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:59] mod=syn|cli=172.17.167.10/60014|srv=172.17.165.97/445|subj=cli|os=Windows 7 or 8|dist=0|params=none|raw_sig=4:128+0:0:1460:8192,2:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:59] mod=mtu|cli=172.17.167.10/60014|srv=172.17.165.97/445|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:42:59] mod=syn|cli=172.17.167.10/60015|srv=172.17.165.98/445|subj=cli|os=Windows 7 or 8|dist=0|params=none|raw_sig=4:128+0:0:1460:8192,2:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:42:59] mod=mtu|cli=172.17.167.10/60015|srv=172.17.165.98/445|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:00] mod=syn|cli=172.17.167.10/60164|srv=172.17.165.101/445|subj=cli|os=Windows 7 or 8|dist=0|params=none|raw_sig=4:128+0:0:1460:8192,2:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:00] mod=mtu|cli=172.17.167.10/60164|srv=172.17.165.101/445|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:01] mod=syn|cli=172.17.165.177/50928|srv=172.17.166.30/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:01] mod=mtu|cli=172.17.165.177/50928|srv=172.17.166.30/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:03] mod=syn|cli=172.17.162.75/54481|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:03] mod=mtu|cli=172.17.162.75/54481|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:03] mod=syn|cli=172.17.166.35/54696|srv=172.17.167.110/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:03] mod=mtu|cli=172.17.166.35/54696|srv=172.17.167.110/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:10] mod=syn|cli=172.17.130.88/50414|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:10] mod=mtu|cli=172.17.130.88/50414|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:11] mod=syn|cli=172.17.34.16/59062|srv=172.17.167.205/7680|subj=cli|os=Windows NT kernel|dist=1|params=generic|raw_sig=4:127+1:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:11] mod=mtu|cli=172.17.34.16/59062|srv=172.17.167.205/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:13] mod=syn|cli=172.17.167.29/53242|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:13] mod=mtu|cli=172.17.167.29/53242|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:13] mod=syn|cli=172.17.161.178/50414|srv=172.17.164.251/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:13] mod=mtu|cli=172.17.161.178/50414|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+[2024/10/18 11:43:15] mod=syn|cli=172.17.164.221/51869|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
+[2024/10/18 11:43:15] mod=mtu|cli=172.17.164.221/51869|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
+
