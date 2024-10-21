@@ -170,4 +170,3 @@
 [2024/10/18 11:43:13] mod=mtu|cli=172.17.161.178/50414|srv=172.17.164.251/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
 [2024/10/18 11:43:15] mod=syn|cli=172.17.164.221/51869|srv=172.17.162.105/7680|subj=cli|os=Windows NT kernel|dist=0|params=generic|raw_sig=4:128+0:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+:0
 [2024/10/18 11:43:15] mod=mtu|cli=172.17.164.221/51869|srv=172.17.162.105/7680|subj=cli|link=Ethernet or modem|raw_mtu=1500
-
