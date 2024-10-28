@@ -1,0 +1,102 @@
+int main()
+{
+int arr[] = {9,19,29,39,49};
+int *p;
+p=&arr[0];
+++p;
+++*p;
+--p;
+--*p;
+printf("%d%d%d%d%d",arr[0],arr[1],arr[2],arr[3],arr[4]);
+return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio>
+void abc (int x)
+{
+++x;
+printf("%d",x);
+}
+int main()
+{
+int arr[5]={1,3,5,7,9};
+int i;
+printf("\n Data in abc");
+for (i=0;i<5;i++)
+printf("%d",arr[i]);
+return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio>
+void abc (int *x) {
+int a;
+a="x;
+*x=a*a;
+printf("%d",#x);
+}
+int main() {
+int arr[5]={1,3,5,7,9};
+int i;
+printf("\n Data in abc");
+for(i=0;i<5;i++)
+abc(&arr[i]);
+printf("\n Data in main");
+for (i=0;i<5;i++)
+printf("%d",arr[i]);
+return 0;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Write a program using function swapElements that swaps first two elements of an array by accepting their addresses as arguments
+
+arg[10[ = {1,2,3,4,5,6,7,8,9,10}
+arg[10[ = {2,1,3,4,5,6,7,8,9,10}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Write a program that finds the maximum value in an array.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Counting Prime Numbers in an Array and Print the total count of prime numbers in the main function.
+int arr[10] = (4,5,8,9,10,31,13,19,25,37)
+output: 5
+Write a function countOccurrences (int arr[], int size, int element) that counts how many times a given element appears in the array.
+int arr[10]= {2,4,5,6,7,2,7,9,5,2)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Write a function that replacing Negative Elements with Zero in an array.
+
+int arr[10]= {3,-8,5,-14,-23,-34,56,76,-89,100}
+
+output: [3,0,5,0,0,0,56,76,0,100]
+
+Replacenegative(&arr, size);
+void Replacenegetive (int *a, int size) {
+
+
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Write a function doubleoddElements that doubles the value of an element if it is odd in an array.
+
+int arr[5]={3,6,7,9,10)
+
+output: [9,6,49,81,10]
+
+In the main function, loop through an array and pass each element's address to doubleoddElements, modifying only the odd elements. Print the modified array after the operation.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: Update Array Elements with Multiplication Factor. Write a function multiplyByFactor(int *element, int factor) that multiplies the value at the given address by a specified factor. In the main function, use this function to multiply each element in an array by a factor provided by the user, and then print the updated array.
+
+
+
+
