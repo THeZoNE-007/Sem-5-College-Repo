@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Display login name of the user
+echo "Login Name: $(whoami)"
+
+# Display name of the Unix system
+echo "Unix System: $(uname -s)"
+
+# Display type of the shell
+echo "Shell Type: $SHELL"
+
+# Display path of current working directory
+echo "Current Working Directory: $(pwd)"
+
+# List files in current working directory
+echo "Files in Current Directory:"
+ls
+

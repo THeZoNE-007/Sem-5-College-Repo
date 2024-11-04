@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "Enter a five-digit number: " number
+sum=0
+
+while [ $number -gt 0 ]; do
+    sum=$((sum + number % 10))
+    number=$((number / 10))
+done
+
+echo "Sum of digits: $sum"
+

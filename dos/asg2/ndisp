@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Check if three arguments are provided
+if [ $# -ne 3 ]; then
+    echo "Usage: $0 n m filename"
+    exit 1
+fi
+
+# Assign arguments to variables
+n=$1
+m=$2
+filename=$3
+
+# Check if the file exists
+if [ ! -f "$filename" ]; then
+    echo "File '$filename' does not exist."
+    exit 1
+fi
+
+# Display the first n lines of the file
+echo "First $n lines of $filename:"
+head -n "$n" "$filename"
+
+# Display the last m lines of the file
+echo "Last $m lines of $filename:"
+tail -n "$m" "$filename"
+

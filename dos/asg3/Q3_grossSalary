@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Enter Ramesh's basic salary: " basic_salary
+dearness_allowance=$(echo "$basic_salary * 0.4" | bc)
+house_rent_allowance=$(echo "$basic_salary * 0.2" | bc)
+gross_salary=$(echo "$basic_salary + $dearness_allowance + $house_rent_allowance" | bc)
+echo "Gross Salary: $gross_salary"
+

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if a filename is provided
+if [ $# -eq 0 ]; then
+    echo "Please provide a filename."
+    exit 1
+fi
+
+# Get the filename from the argument
+filename=$1
+
+# Get counts
+line_count=$(wc -l < "$filename")
+word_count=$(wc -w < "$filename")
+char_count=$(wc -c < "$filename")
+
+# Print the result in the specified format
+echo "$filename $line_count $word_count $char_count"
+

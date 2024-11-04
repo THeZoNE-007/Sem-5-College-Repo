@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Display the current date in the specified format
+echo "Date : $(date +"%A, %B %d, %Y")"
+
+# Display the calendar for March 2022
+echo "Calendar :"
+cal -1
+

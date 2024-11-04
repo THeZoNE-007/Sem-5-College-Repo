@@ -1,0 +1,11 @@
+#!/bin/bash
+smallest=$1
+
+for num in "$@"; do
+    if [ "$num" -lt "$smallest" ]; then
+        smallest=$num
+    fi
+done
+
+echo "Smallest number is: $smallest"
+

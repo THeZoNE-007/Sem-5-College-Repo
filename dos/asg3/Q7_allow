@@ -1,0 +1,10 @@
+#!/bin/bash
+read -p "Enter internal mark: " mark
+read -p "Enter attendance percentage: " percentage
+
+if [ "$mark" -ge 20 ] && [ "$(echo "$percentage >= 75" | bc)" -eq 1 ]; then
+    echo "Allowed for Semester"
+else
+    echo "Not allowed"
+fi
+

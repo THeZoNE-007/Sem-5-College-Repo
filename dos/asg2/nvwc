@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Set the filename
+filename="dtcal"
+
+# Get line count, word count, and character count
+line_count=$(wc -l < "$filename")
+word_count=$(wc -w < "$filename")
+char_count=$(wc -c < "$filename")
+
+# Print the results
+echo "Filename: $filename"
+echo "Line count: $line_count "
+echo "Word count: $word_count"
+echo "Char count: $char_count"
+

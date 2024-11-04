@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p "Enter a day (e.g., Monday): " day
+
+case "$day" in 
+    Monday) echo "Class Time: 10 AM, Room A101";; 
+    Tuesday) echo "Class Time: 11 AM, Room B202";; 
+    Wednesday) echo "No class";; 
+    Thursday) echo "Class Time: 12 PM, Room C303";; 
+    Friday) echo "No class";; 
+    Saturday|Sunday) echo "Holiday";; 
+esac 
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p "Enter cost price: " cost_price
+read -p "Enter selling price: " selling_price
+
+if (( $(echo "$selling_price > $cost_price" | bc -l) )); then
+    profit=$(echo "$selling_price - $cost_price" | bc)
+    echo "Profit: $profit"
+else
+    loss=$(echo "$cost_price - $selling_price" | bc)
+    echo "Loss: $loss"
+fi
+
