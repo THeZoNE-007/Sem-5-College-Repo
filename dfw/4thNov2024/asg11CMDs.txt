@@ -1,0 +1,8 @@
+windows.info.Info
+windows.pslist.PsList
+windows.pstree.PsTree
+windows.psscan.PsScan
+windows.cmdline
+windows.envars
+windows.getsids
+windows.privileges
