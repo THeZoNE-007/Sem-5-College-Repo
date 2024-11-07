@@ -1,0 +1,8 @@
+Thu Nov  7 12:20:11 2024: Host host1 added to case 02_jo_fav
+Thu Nov  7 12:20:12 2024: Host host1 opened by Ashutosh
+Thu Nov  7 12:21:09 2024: Sym Linking image /home/c204-002/.ashu_34/jo-favorites-usb-2009-12-11.E01 into 02_jo_fav:host1
+Thu Nov  7 12:21:09 2024: Image added: image img1 ewf  images/jo-favorites-usb-2009-12-11.E01
+Thu Nov  7 12:21:09 2024: Volume added: disk  vol1 img1    dos
+Thu Nov  7 12:21:09 2024: Volume added: part  vol2 img1	63  2047940    fat32  C:
+Thu Nov  7 12:21:16 2024: Image vol2 opened by Ashutosh
+Thu Nov  7 12:21:54 2024: Image vol2 opened by Ashutosh

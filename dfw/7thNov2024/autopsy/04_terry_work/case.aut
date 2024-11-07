@@ -1,0 +1,9 @@
+# Autopsy case config file
+# Case: 04_terry_work
+
+created Thu Nov  7 12:28:09 2024
+desc Asg13
+images	images
+data		output
+log		logs
+reports	reports

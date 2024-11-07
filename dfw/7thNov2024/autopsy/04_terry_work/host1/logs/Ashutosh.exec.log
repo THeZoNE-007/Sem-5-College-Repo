@@ -1,0 +1,10 @@
+Thu Nov  7 12:28:43 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:28:44 2024: '/usr/bin/mmstat' -i ewf "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:28:44 2024: '/usr/bin/mmls' -a -i ewf -aM -t dos -r "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:28:44 2024: '/usr/bin/fsstat' -o 63 -i ewf -t "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:29:10 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:29:10 2024: '/usr/bin/fsstat' -o 63 -i ewf -f fat32 "/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01"
+Thu Nov  7 12:29:10 2024: /bin/ln -s '/home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01' '/var/lib/autopsy/04_terry_work/host1/images/terry-work-usb-2009-12-11.E01'
+Thu Nov  7 12:29:17 2024: '/usr/bin/fls' -f fat32 -la  -s '0' -o 63 -i ewf '/var/lib/autopsy/04_terry_work/host1/images/terry-work-usb-2009-12-11.E01' 2
+Thu Nov  7 12:29:30 2024: '/usr/bin/fls' -f fat32 -ldr  -s '0'  -o 63 -i ewf '/var/lib/autopsy/04_terry_work/host1/images/terry-work-usb-2009-12-11.E01' 2
+Thu Nov  7 12:29:50 2024: '/usr/bin/fls' -f fat32 -lpr  -s '0' -o 63 -i ewf '/var/lib/autopsy/04_terry_work/host1/images/terry-work-usb-2009-12-11.E01' 2

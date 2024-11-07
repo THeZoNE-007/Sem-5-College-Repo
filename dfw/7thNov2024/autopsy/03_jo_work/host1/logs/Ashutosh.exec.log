@@ -1,0 +1,11 @@
+Thu Nov  7 12:26:04 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:04 2024: '/usr/bin/mmstat' -i ewf "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:04 2024: '/usr/bin/mmls' -a -i ewf -aM -t dos -r "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:04 2024: '/usr/bin/fsstat' -o 63 -i ewf -t "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:06 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:06 2024: '/usr/bin/fsstat' -o 63 -i ewf -f fat16 "/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01"
+Thu Nov  7 12:26:06 2024: /bin/ln -s '/home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01' '/var/lib/autopsy/03_jo_work/host1/images/jo-work-usb-2009-12-11.E01'
+Thu Nov  7 12:26:10 2024: '/usr/bin/blkcat' -f fat16 -s -o 63 -i ewf '/var/lib/autopsy/03_jo_work/host1/images/jo-work-usb-2009-12-11.E01'
+Thu Nov  7 12:26:31 2024: '/usr/bin/fls' -f fat16 -la  -s '0' -o 63 -i ewf '/var/lib/autopsy/03_jo_work/host1/images/jo-work-usb-2009-12-11.E01' 2
+Thu Nov  7 12:26:36 2024: '/usr/bin/fls' -f fat16 -ldr  -s '0'  -o 63 -i ewf '/var/lib/autopsy/03_jo_work/host1/images/jo-work-usb-2009-12-11.E01' 2
+Thu Nov  7 12:26:52 2024: '/usr/bin/fls' -f fat16 -lpr  -s '0' -o 63 -i ewf '/var/lib/autopsy/03_jo_work/host1/images/jo-work-usb-2009-12-11.E01' 2

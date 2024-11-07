@@ -1,0 +1,8 @@
+# Autopsy host config file
+# Case: 04_terry_work		Host: host1
+# Created: Thu Nov  7 12:28:13 2024
+
+timeskew  0
+image  img1  ewf  images/terry-work-usb-2009-12-11.E01
+disk  vol1  img1    dos
+part  vol2  img1	63  4095944    fat32  C:

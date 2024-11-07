@@ -1,0 +1,9 @@
+# Autopsy case config file
+# Case: 02_jo_fav
+
+created Thu Nov  7 12:20:07 2024
+desc Asg13
+images	images
+data		output
+log		logs
+reports	reports

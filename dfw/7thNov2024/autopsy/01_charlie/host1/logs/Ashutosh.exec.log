@@ -1,0 +1,30 @@
+Thu Nov  7 11:55:18 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:18 2024: '/usr/bin/mmstat' -i ewf "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:18 2024: '/usr/bin/mmls' -a -i ewf -aM -t dos -r "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:18 2024: '/usr/bin/fsstat' -o 1 -i ewf -t "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:28 2024: '/usr/bin/img_stat' -t "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:28 2024: '/usr/bin/fsstat' -o 1 -i ewf -f ntfs "/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01"
+Thu Nov  7 11:55:28 2024: /bin/ln -s '/home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01' '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 11:56:06 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 11:56:16 2024: '/usr/bin/blkcat' -f ntfs -s -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 11:56:19 2024: '/usr/bin/fsstat' -f ntfs -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 11:56:25 2024: '/usr/bin/blkcat' -f ntfs -s -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 12:10:17 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:10:37 2024: '/usr/bin/fls' -f ntfs -ldr  -s '0'  -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:11:18 2024: '/usr/bin/ifind' -f ntfs -n ''  -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 12:11:18 2024: '/usr/bin/istat' -f ntfs  -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:11:18 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:11:23 2024: '/usr/bin/fls' -f ntfs -ldr  -s '0'  -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:12:47 2024: '/usr/bin/fls' -f ntfs -ruD -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 12:12:47 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:12:58 2024: '/usr/bin/blkcat' -f ntfs -s -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 12:12:58 2024: '/usr/bin/blkls' -e -f ntfs -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' | '/usr/bin/srch_strings' -a -t d | '/bin/grep'  'timestamps'
+Thu Nov  7 12:13:07 2024: '/usr/bin/blkls' -e -f ntfs -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' | '/usr/bin/srch_strings' -a -t d -e l | '/bin/grep'  'timestamps'
+Thu Nov  7 12:13:28 2024: '/usr/bin/fsstat' -f ntfs -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01'
+Thu Nov  7 12:15:18 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:15:31 2024: '/usr/bin/fls' -f ntfs -ldr  -s '0'  -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:17:21 2024: '/usr/bin/fls' -f ntfs -lpr  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:17:24 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:17:35 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:17:36 2024: '/usr/bin/fls' -f ntfs -la  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5
+Thu Nov  7 12:17:39 2024: '/usr/bin/fls' -f ntfs -lpr  -s '0' -o 1 -i ewf '/var/lib/autopsy/01_charlie/host1/images/charlie-work-usb-2009-12-11.E01' 5

@@ -1,0 +1,7 @@
+Thu Nov  7 12:28:13 2024: Host host1 added to case 04_terry_work
+Thu Nov  7 12:28:14 2024: Host host1 opened by Ashutosh
+Thu Nov  7 12:29:10 2024: Sym Linking image /home/c204-002/.ashu_34/terry-work-usb-2009-12-11.E01 into 04_terry_work:host1
+Thu Nov  7 12:29:10 2024: Image added: image img1 ewf  images/terry-work-usb-2009-12-11.E01
+Thu Nov  7 12:29:10 2024: Volume added: disk  vol1 img1    dos
+Thu Nov  7 12:29:10 2024: Volume added: part  vol2 img1	63  4095944    fat32  C:
+Thu Nov  7 12:29:14 2024: Image vol2 opened by Ashutosh

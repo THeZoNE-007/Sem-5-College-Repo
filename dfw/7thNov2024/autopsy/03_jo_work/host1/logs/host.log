@@ -1,0 +1,7 @@
+Thu Nov  7 12:25:50 2024: Host host1 added to case 03_jo_work
+Thu Nov  7 12:25:51 2024: Host host1 opened by Ashutosh
+Thu Nov  7 12:26:06 2024: Sym Linking image /home/c204-002/.ashu_34/jo-work-usb-2009-12-11.E01 into 03_jo_work:host1
+Thu Nov  7 12:26:06 2024: Image added: image img1 ewf  images/jo-work-usb-2009-12-11.E01
+Thu Nov  7 12:26:06 2024: Volume added: disk  vol1 img1    dos
+Thu Nov  7 12:26:06 2024: Volume added: part  vol2 img1	63  255968    fat16  C:
+Thu Nov  7 12:26:28 2024: Image vol2 opened by Ashutosh

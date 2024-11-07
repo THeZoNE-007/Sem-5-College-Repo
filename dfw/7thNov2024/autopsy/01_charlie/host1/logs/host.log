@@ -1,0 +1,8 @@
+Thu Nov  7 11:54:25 2024: Host host1 added to case 01_charlie
+Thu Nov  7 11:54:26 2024: Host host1 opened by Ashutosh
+Thu Nov  7 11:55:28 2024: Sym Linking image /home/c204-002/.ashu_34/charlie-work-usb-2009-12-11.E01 into 01_charlie:host1
+Thu Nov  7 11:55:28 2024: Image added: image img1 ewf  images/charlie-work-usb-2009-12-11.E01
+Thu Nov  7 11:55:28 2024: Volume added: disk  vol1 img1    dos
+Thu Nov  7 11:55:28 2024: Volume added: part  vol2 img1	1  2068479    ntfs  C:
+Thu Nov  7 11:55:43 2024: Image vol2 opened by Ashutosh
+Thu Nov  7 12:10:09 2024: Image vol2 opened by Ashutosh
