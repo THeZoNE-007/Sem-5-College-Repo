@@ -1,6 +1,8 @@
 Today, we performed volatility3 on WannaCry virus raw file !!
 Simply we ran volatility3 plugins as listed in Asg10 in Terminal !!
 
+The outputs from the Terminal are listed below :-
+
 ┌──(ashutosh㉿kali)-[~/Desktop/GitHub/volatility3]
 └─$ python3 vol.py -f wcry.raw windows.psxview | grep 740
                                                                                                       

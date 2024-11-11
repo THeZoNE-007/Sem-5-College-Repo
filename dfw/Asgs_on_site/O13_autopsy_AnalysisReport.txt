@@ -1,0 +1,245 @@
+Case 1 : charlie-work-usb-2009-12-11.E01
+
+Mount point : C:/
+File system type : ntfs
+List of exe :-
+
+
+Deleted Files	  	  Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Change Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+ 	  	r / r	  	C:/invsecr2.exe	  	2009-11-20 00:12:25 (IST)	  	2009-11-25 03:39:36 (IST)	  	2009-12-11 03:57:41 (IST)	  	2009-11-20 23:13:04 (IST)	  	1291720	  	0	  	0	  	35-128-3
+ 	  	r / r	  	C:/invsecr2.exe:Zone.Identifier	  	2009-11-20 00:12:25 (IST)	  	2009-11-25 03:39:36 (IST)	  	2009-12-11 03:57:41 (IST)	  	2009-11-20 23:13:04 (IST)	  	46	  	0	  	0	  	35-128-4
+
+deleted files :-
+
+Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Change Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+r / -	  	C:/Email/Charlie_2009-11-20_1303_Sent.txt	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0	  	0	  	0	  	0
+r / -	  	C:/Email/Charlie_2009-12-02_1305_Received_Part 1.2	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0000-00-00 00:00:00 (UTC)	  	0	  	0	  	0	  	0
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 2 : jo-favorites-usb-2009-12-11.E01
+
+Mount point : C:/
+File system type : fat32
+List of exe :-
+
+Deleted Files	  	  Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+
+deleted files :-
+
+Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+d / d	  	C:/.Trashes/_02	  	2009-11-20 09:25:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:27 (IST)	  	4096	  	0	  	0	  	133
+r / r	  	C:/.Trashes/._502	  	2009-11-20 09:25:28 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:28 (IST)	  	4096	  	0	  	0	  	135
+r / r	  	C:/.Trashes/_502~1	  	2009-11-17 16:45:28 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 16:45:28 (IST)	  	4096	  	0	  	0	  	136
+r / r	  	C:/.Trashes/._501	  	2009-11-17 16:45:28 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 16:45:28 (IST)	  	4096	  	0	  	0	  	138
+d / d	  	C:/.fseventsd	  	2009-11-17 16:45:26 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 16:45:26 (IST)	  	0	  	0	  	0	  	10
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_~1.SHA	  	2009-11-20 09:25:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:54 (IST)	  	4096	  	0	  	0	  	1695
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_~1.IND	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	1713
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexPostings	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	1716
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/remapping0	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:38 (IST)	  	148	  	0	  	0	  	1718
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexPositions	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	1721
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexCompactDirectory	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:25 (IST)	  	0	  	0	  	0	  	1724
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexArrays	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	1726
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.shadowIndexHead	  	2009-11-20 09:29:22 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:23 (IST)	  	4096	  	0	  	0	  	1729
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexHead	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:30 (IST)	  	0	  	0	  	0	  	1731
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexIds	  	2009-11-20 09:26:00 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-17 16:45:31 (IST)	  	32768	  	0	  	0	  	1733
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexCompactDirectory	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	1736
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_IVE0~11.IND	  	2009-11-20 09:25:40 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 16:45:31 (IST)	  	11	  	0	  	0	  	1737
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/0.indexHead	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:54 (IST)	  	0	  	0	  	0	  	1742
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexIds	  	2009-11-20 09:29:14 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:30 (IST)	  	32768	  	0	  	0	  	1754
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/1.indexHead	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:23 (IST)	  	0	  	0	  	0	  	1765
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.shadowIndexHead	  	2009-11-20 09:29:30 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:30 (IST)	  	4096	  	0	  	0	  	1768
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/0.shadowIndexGroups	  	2009-11-17 16:45:34 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 16:45:35 (IST)	  	1	  	0	  	0	  	1771
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexHead	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	16	  	0	  	0	  	1774
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexArrays	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:25 (IST)	  	0	  	0	  	0	  	1794
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_~2.IND	  	2009-11-20 09:29:14 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:30 (IST)	  	8	  	0	  	0	  	19971
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexIds	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	80	  	0	  	0	  	19978
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.shadowIndex	  	2009-11-20 09:29:14 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:33 (IST)	  	4096	  	0	  	0	  	19980
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexGroups	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:30 (IST)	  	0	  	0	  	0	  	19982
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.shadowIndexGroups	  	2009-11-20 09:29:14 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:35 (IST)	  	14	  	0	  	0	  	19985
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexDirectory	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:25 (IST)	  	0	  	0	  	0	  	19988
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexPostings	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:25 (IST)	  	0	  	0	  	0	  	19991
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexGroups	  	2009-11-20 09:29:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	7	  	0	  	0	  	19994
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_~10.IND	  	2009-11-20 09:29:30 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:30 (IST)	  	0	  	0	  	0	  	19995
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexPostings	  	2009-11-20 09:29:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	1720	  	0	  	0	  	20006
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/2.indexPostin	  	2009-11-20 09:29:10 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:30 (IST)	  	8192	  	0	  	0	  	20008
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexTermIds	  	2009-11-20 09:29:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	0	  	0	  	0	  	20025
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexPositions	  	2009-11-20 09:29:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	8	  	0	  	0	  	20028
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.shadowIndexHead	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:37 (IST)	  	4096	  	0	  	0	  	20032
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexDirectory	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	2056	  	0	  	0	  	20035
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexCompactDirectory	  	2009-11-20 09:29:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	8	  	0	  	0	  	20039
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexArrays	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	70612	  	0	  	0	  	20042
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.indexUpdates	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:32 (IST)	  	10	  	0	  	0	  	20045
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.merge.0.shadowIndexGroups	  	2009-11-20 09:29:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:37 (IST)	  	7	  	0	  	0	  	20049
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_MP2CM~2.IDX	  	2009-11-20 09:29:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:26 (IST)	  	0	  	0	  	0	  	20050
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/_MP1CM~1.NEW	  	2009-11-20 09:29:20 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	328	  	0	  	0	  	20051
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.1.cmpt..mds.33.compactPayloads1.idx	  	2009-11-20 09:29:20 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	20055
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/BC650BA8-C5B5-4A64-8BDB-18A9533BF1D7/tmp.1.cmpt..mds.33.compactPayloads2.idx	  	2009-11-20 09:29:20 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:21 (IST)	  	0	  	0	  	0	  	20059
+r / r	  	C:/Cat.m4v	  	2009-11-20 09:12:04 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:12:05 (IST)	  	1077729	  	0	  	0	  	59
+d / d	  	C:/_NTITL~1	  	2009-11-20 09:25:58 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:59 (IST)	  	0	  	0	  	0	  	60
+r / r	  	C:/._Cat.m4v	  	2009-11-20 09:26:50 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:26:50 (IST)	  	4096	  	0	  	0	  	64
+r / r	  	C:/Cat.mov	  	2009-11-20 09:25:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:27 (IST)	  	5712046	  	0	  	0	  	66
+r / r	  	C:/._Cat.mov	  	2009-11-20 09:26:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:26:54 (IST)	  	4096	  	0	  	0	  	68
+r / r	  	C:/KittyMontage.mov	  	2009-11-20 09:18:56 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:18:55 (IST)	  	112719059	  	0	  	0	  	71
+r / r	  	C:/._KittyMontage.mov	  	2009-11-20 09:28:12 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:28:13 (IST)	  	4096	  	0	  	0	  	74
+r / r	  	C:/MontereyKitty.m4v	  	2009-11-20 08:57:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 08:57:26 (IST)	  	10491444	  	0	  	0	  	77
+r / r	  	C:/._MontereyKitty.m4v	  	2009-11-20 09:28:24 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:28:23 (IST)	  	4096	  	0	  	0	  	80
+r / r	  	C:/MontereyKittyHQ.m4v	  	2009-11-20 09:00:00 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:00:00 (IST)	  	25123154	  	0	  	0	  	83
+r / r	  	C:/._MontereyKittyHQ.m4v	  	2009-11-20 09:28:50 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:28:49 (IST)	  	4096	  	0	  	0	  	86
+r / r	  	C:/TiggerTheCat.m4v	  	2009-11-18 16:50:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-18 16:50:55 (IST)	  	12536015	  	0	  	0	  	89
+r / r	  	C:/._TiggerTheCat.m4v	  	2009-11-20 09:29:04 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:29:03 (IST)	  	4096	  	0	  	0	  	92
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 3 : jo-work-usb-2009-12-11.E01
+
+Mount point : C:/
+File system type : fat16
+List of exe :-
+
+Deleted Files	  	  Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+
+deleted files :-
+
+Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+r / r	  	C:/_SC00009.JPG	  	2009-11-11 09:16:56 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	334501	  	0	  	0	  	6
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/_IVE2~2.IND	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	8	  	0	  	0	  	1317
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/_IVE3~10.IND	  	2009-11-23 09:58:30 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:31 (IST)	  	8192	  	0	  	0	  	8316
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.0.indexP	  	2009-11-20 16:41:50 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-20 16:41:49 (IST)	  	8	  	0	  	0	  	18998
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.3.indexPositionTable	  	2009-11-23 09:58:30 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:31 (IST)	  	8192	  	0	  	0	  	19001
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.3.shadowIndexTermIds	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:32 (IST)	  	0	  	0	  	0	  	19004
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.3.shadowIndexPositionTable	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:32 (IST)	  	0	  	0	  	0	  	19008
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexArrays	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3331
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexHead	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3334
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexIds	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3337
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexGroups	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3340
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.shadowIndexGroups	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	2	  	0	  	0	  	3343
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexUpdates	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	10	  	0	  	0	  	3346
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexPostings	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3349
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.1.indexPositions	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	0	  	0	  	0	  	3352
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexHead	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	16	  	0	  	0	  	3355
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexIds	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	24	  	0	  	0	  	3358
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexGroups	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	2	  	0	  	0	  	3361
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexPostings	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	195	  	0	  	0	  	3364
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexTermIds	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	0	  	0	  	0	  	3367
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexPositions	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	8	  	0	  	0	  	3370
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.shadowIndexHead	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:35 (IST)	  	4096	  	0	  	0	  	3374
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexDirectory	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	2056	  	0	  	0	  	3377
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexCompactDirectory	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	8	  	0	  	0	  	3381
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexArrays	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	66852	  	0	  	0	  	3384
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.indexUpdates	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	10	  	0	  	0	  	3387
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.1.shadowIndexGroups	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:35 (IST)	  	2	  	0	  	0	  	3391
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.2.indexHead	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:31 (IST)	  	0	  	0	  	0	  	3394
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.indexPositions	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	8	  	0	  	0	  	5829
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.shadowIndexHead	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	4096	  	0	  	0	  	5833
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.indexDirectory	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	2056	  	0	  	0	  	5836
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.live.3.cm	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	4	  	0	  	0	  	5838
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/live.3.indexHead	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	4096	  	0	  	0	  	5841
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.indexCompactDirectory	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	8	  	0	  	0	  	5845
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.indexArrays	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	66768	  	0	  	0	  	5848
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.indexUpdates	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	10	  	0	  	0	  	5851
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.merge.0.shadowIndexGroups	  	2009-11-23 09:58:34 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:34 (IST)	  	2	  	0	  	0	  	5855
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/053D5771-7035-4B3E-8B0D-169AB767AB6D/tmp.live.3.cmpt.newTermIDM	  	2009-11-23 09:58:32 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 09:58:33 (IST)	  	4	  	0	  	0	  	5858
+r / r	  	C:/_SC00010.JPG	  	2009-11-11 09:17:18 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	336095	  	0	  	0	  	12
+r / r	  	C:/_SC00011.JPG	  	2009-11-11 09:17:28 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	342041	  	0	  	0	  	13
+r / r	  	C:/Cat.mov	  	2009-11-20 09:25:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:25:27 (IST)	  	5712046	  	0	  	0	  	15
+r / r	  	C:/._Cat.mov	  	2009-11-20 13:31:48 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:31:48 (IST)	  	4096	  	0	  	0	  	17
+r / r	  	C:/MontereyKittyHQ.m4v	  	2009-11-20 09:00:00 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:00:01 (IST)	  	25123154	  	0	  	0	  	20
+r / r	  	C:/._MontereyKittyHQ.m4v	  	2009-11-20 13:32:02 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:32:02 (IST)	  	4096	  	0	  	0	  	23
+r / r	  	C:/.fseventsd/00000000000227b0	  	2009-11-23 10:01:10 (IST)	  	2009-11-23 00:00:00 (IST)	  	2009-11-23 10:01:11 (IST)	  	243	  	0	  	0	  	1930
+r / r	  	C:/_IGGER~1.M4V	  	2009-11-18 16:50:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-18 16:50:54 (IST)	  	12536015	  	0	  	0	  	26
+r / r	  	C:/._TiggerTheCat.m4v	  	2009-11-20 13:35:28 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:35:29 (IST)	  	4096	  	0	  	0	  	29
+r / r	  	C:/Cat.m4v	  	2009-11-20 09:12:04 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 09:12:05 (IST)	  	1077729	  	0	  	0	  	31
+r / r	  	C:/._Cat.m4v	  	2009-11-20 13:35:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:35:34 (IST)	  	4096	  	0	  	0	  	33
+r / r	  	C:/TiggerTheCat copy.m4v	  	2009-11-18 16:50:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-18 16:50:55 (IST)	  	12536015	  	0	  	0	  	36
+r / r	  	C:/._TiggerTheCat copy.m4v	  	2009-11-20 13:36:26 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:36:27 (IST)	  	4096	  	0	  	0	  	39
+r / r	  	C:/_SC00012.JPG	  	2009-11-11 09:18:02 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61574	  	0	  	0	  	40
+r / r	  	C:/_SC00013.JPG	  	2009-11-11 09:18:10 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	60285	  	0	  	0	  	41
+r / r	  	C:/_SC00014.JPG	  	2009-11-11 09:18:16 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61955	  	0	  	0	  	42
+r / r	  	C:/_SC00015.JPG	  	2009-11-11 21:55:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62774	  	0	  	0	  	43
+r / r	  	C:/_SC00016.JPG	  	2009-11-11 21:55:40 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63465	  	0	  	0	  	44
+r / r	  	C:/_SC00017.JPG	  	2009-11-11 21:55:48 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62479	  	0	  	0	  	45
+r / r	  	C:/_SC00018.JPG	  	2009-11-11 21:55:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	60511	  	0	  	0	  	46
+r / r	  	C:/_SC00019.JPG	  	2009-11-11 21:56:02 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61667	  	0	  	0	  	47
+r / r	  	C:/_SC00020.JPG	  	2009-11-11 21:56:10 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63057	  	0	  	0	  	48
+r / r	  	C:/_SC00021.JPG	  	2009-11-11 21:56:16 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62017	  	0	  	0	  	49
+r / r	  	C:/_SC00022.JPG	  	2009-11-11 21:56:24 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61265	  	0	  	0	  	50
+r / r	  	C:/_SC00023.JPG	  	2009-11-11 21:56:34 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63566	  	0	  	0	  	51
+r / r	  	C:/_SC00024.JPG	  	2009-11-12 09:05:08 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62085	  	0	  	0	  	52
+r / r	  	C:/_SC00025.JPG	  	2009-11-12 09:05:14 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63874	  	0	  	0	  	53
+r / r	  	C:/_SC00026.JPG	  	2009-11-12 09:05:22 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	64322	  	0	  	0	  	54
+r / r	  	C:/_SC00027.JPG	  	2009-11-12 09:05:30 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	65340	  	0	  	0	  	55
+r / r	  	C:/_SC00028.JPG	  	2009-11-12 09:05:40 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63954	  	0	  	0	  	56
+r / r	  	C:/_SC00029.JPG	  	2009-11-12 09:05:46 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63542	  	0	  	0	  	57
+r / r	  	C:/_SC00030.JPG	  	2009-11-12 09:05:52 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63641	  	0	  	0	  	58
+r / r	  	C:/_SC00031.JPG	  	2009-11-12 09:06:10 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63241	  	0	  	0	  	59
+r / r	  	C:/_SC00032.JPG	  	2009-11-12 09:08:10 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62697	  	0	  	0	  	60
+r / r	  	C:/_SC00033.JPG	  	2009-11-12 09:08:20 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63331	  	0	  	0	  	61
+r / r	  	C:/_SC00034.JPG	  	2009-11-12 09:08:44 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61437	  	0	  	0	  	62
+r / r	  	C:/_SC00035.JPG	  	2009-11-12 09:08:52 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61715	  	0	  	0	  	63
+r / r	  	C:/_SC00036.JPG	  	2009-11-12 09:09:00 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63866	  	0	  	0	  	64
+r / r	  	C:/_SC00037.JPG	  	2009-11-12 09:09:08 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63290	  	0	  	0	  	65
+r / r	  	C:/_SC00038.JPG	  	2009-11-12 09:09:22 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	63420	  	0	  	0	  	66
+r / r	  	C:/_SC00039.JPG	  	2009-11-12 09:09:30 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61871	  	0	  	0	  	67
+r / r	  	C:/_SC00040.JPG	  	2009-11-12 09:09:38 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61673	  	0	  	0	  	68
+r / r	  	C:/_SC00041.JPG	  	2009-11-12 09:09:50 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62872	  	0	  	0	  	69
+r / r	  	C:/_SC00042.JPG	  	2009-11-12 09:10:02 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62524	  	0	  	0	  	70
+r / r	  	C:/_SC00043.JPG	  	2009-11-12 09:10:16 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62361	  	0	  	0	  	71
+r / r	  	C:/_SC00044.JPG	  	2009-11-12 09:10:24 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62491	  	0	  	0	  	72
+r / r	  	C:/_SC00045.JPG	  	2009-11-12 09:10:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61562	  	0	  	0	  	73
+r / r	  	C:/_SC00046.JPG	  	2009-11-12 09:10:48 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	62335	  	0	  	0	  	74
+r / r	  	C:/_SC00047.JPG	  	2009-11-12 09:11:12 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:24 (IST)	  	61124	  	0	  	0	  	75
+r / r	  	C:/_SC00048.JPG	  	2009-11-12 09:11:18 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:25 (IST)	  	62043	  	0	  	0	  	76
+r / r	  	C:/_SC00049.JPG	  	2009-11-12 09:11:22 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:25 (IST)	  	59246	  	0	  	0	  	77
+r / r	  	C:/_SC00050.JPG	  	2009-11-12 09:11:28 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:25 (IST)	  	63921	  	0	  	0	  	78
+r / r	  	C:/_SC00051.JPG	  	2009-11-12 09:11:32 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:25 (IST)	  	63105	  	0	  	0	  	79
+d / d	  	C:/HighQuality	  	2009-11-17 11:41:40 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 21:36:54 (IST)	  	0	  	0	  	0	  	81
+d / d	  	C:/.fseventsd	  	2009-11-20 13:43:40 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 13:43:40 (IST)	  	0	  	0	  	0	  	83
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Case 4 : terry-work-usb-2009-12-11.E01
+
+Mount point : C:/
+File system type : fat32
+List of exe :-
+
+Deleted Files	  	  Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+	  	r / r	  	C:/_54402.EXE	  	2009-11-20 10:31:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 10:31:34 (IST)	  	0	  	0	  	0	  	61
+ 	  	r / r	  	C:/R54402.EXE	  	2009-11-20 10:31:44 (IST)	  	2009-12-07 00:00:00 (IST)	  	2009-11-20 10:31:34 (IST)	  	4123504	  	0	  	0	  	62
+	  	r / r	  	C:/xpadvancedkeylogger.exe	  	2009-12-03 09:40:44 (IST)	  	2009-12-07 00:00:00 (IST)	  	2009-12-03 09:41:16 (IST)	  	1580660	  	0	  	0	  	70
+ 	  	r / r	  	C:/vnc-4_1_3-x86_win32.exe	  	2008-10-15 17:14:08 (IST)	  	2009-12-07 00:00:00 (IST)	  	2008-10-15 17:14:08 (IST)	  	741744	  	0	  	0	  	75
+
+deleted files :-
+
+Type  
+dir / in	  	File Name	  	Written Time	  	Access Time	  	Create Time	  	Size	  	UID	  	GID	  	Meta	  
+d / d	  	C:/.Trashes/_01	  	2009-11-17 13:34:58 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:34:58 (IST)	  	0	  	0	  	0	  	133
+r / r	  	C:/.Trashes/._501	  	2009-11-17 13:34:58 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:34:58 (IST)	  	4096	  	0	  	0	  	135
+d / d	  	C:/.fseventsd	  	2009-11-17 10:48:38 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 10:48:38 (IST)	  	0	  	0	  	0	  	10
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/_~7.IND	  	2009-11-17 13:34:58 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:34:58 (IST)	  	4096	  	0	  	0	  	1433
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/journalAttr.1	  	2009-11-17 13:34:58 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:34:59 (IST)	  	0	  	0	  	0	  	1483
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/0.shadowIndexHead	  	2009-11-17 13:35:12 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:13 (IST)	  	4096	  	0	  	0	  	1493
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexPostings	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	182	  	0	  	0	  	1525
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexHead	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	4096	  	0	  	0	  	1528
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexPositions	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	4	  	0	  	0	  	1531
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.shadowIndexHead	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	4096	  	0	  	0	  	1534
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/_MP0CM~4.IND	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	0	  	0	  	0	  	1535
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexDirectory	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	2056	  	0	  	0	  	1538
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexCompactDirectory	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	8	  	0	  	0	  	13958
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.indexArrays	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	66800	  	0	  	0	  	13961
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.newTermIDMap	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	360	  	0	  	0	  	13964
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.compactPayloads1.idx	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	0	  	0	  	0	  	13968
+r / r	  	C:/.Spotlight-V100/Store-V1/Stores/7680DE76-88D9-43B3-AC7E-3B02E7F38194/tmp.0.cmpt.compactPayloads2.idx	  	2009-11-17 13:35:14 (IST)	  	2009-11-17 00:00:00 (IST)	  	2009-11-17 13:35:14 (IST)	  	0	  	0	  	0	  	13972
+r / r	  	C:/_54402.EXE	  	2009-11-20 10:31:36 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 10:31:34 (IST)	  	0	  	0	  	0	  	61
+d / d	  	C:/_461531_	  	2009-11-20 10:49:32 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 10:49:30 (IST)	  	0	  	0	  	0	  	63
+d / d	  	C:/_604468_	  	2009-11-20 10:51:54 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 10:51:53 (IST)	  	0	  	0	  	0	  	64
+d / d	  	C:/_078421_	  	2009-11-20 10:59:48 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 10:59:47 (IST)	  	0	  	0	  	0	  	65
+d / d	  	C:/_452781_	  	2009-11-20 11:06:04 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 11:06:02 (IST)	  	0	  	0	  	0	  	66
+d / d	  	C:/_189812_	  	2009-11-20 11:33:04 (IST)	  	2009-11-20 00:00:00 (IST)	  	2009-11-20 11:33:03 (IST)	  	0	  	0	  	0	  	67
+r / r	  	C:/xpadvancedkeylogger.exe	  	2009-12-03 09:40:44 (IST)	  	2009-12-07 00:00:00 (IST)	  	2009-12-03 09:41:16 (IST)	  	1580660	  	0	  	0	  	70
