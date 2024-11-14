@@ -1,0 +1,200 @@
+
+Windows* NT 4.0 Push Install Instructions
+========================================
+
+Contents:
+I.      Introduction
+II.   	Setting up an install directory on the file server
+III.    Performing the unattended installation
+IV.     Sample Unattend.txt file
+V.      REFERENCES
+
+
+I. Introduction
+
+	A "Push", or unattended installation of Windows NT 4.0 provides a
+    means for network adminstrators to easily install Windows NT 4.0 on
+    similarly equipped systems.  The network administrator can create a
+    bootable diskette that will automatically log into a central server
+    and install the operating system from an image of the Windows NT 4.0
+    installation directory stored on that server.
+    This document provides instructions for a basic unattended installation
+    of Windows NT 4.0 that includes the installation of drivers for the
+    Intel(R) PRO/1000 adapter.  
+
+    The elements necessary for the Windows NT 4.0 unattend installation are:
+
+    -  A Windows NT 4.0 Server with a shared image of the \I386 directory
+       from the Windows NT 4.0 installation CD.
+
+    -  An unattended installation configuration file that provides Windows NT
+       4.0 setup with information it needs to complete the installation.
+       The name of this file is UNATTEND.TXT
+
+    -  A DOS boot diskette that contains Microsoft Network Client software
+       for connecting to the Windows NT 4.0 server and AutoExec commands
+       to automatically start the Windows NT 4.0 installation. 
+
+
+    This document will provide instructions for setting up the shared
+    installation directory on the Windows NT 4.0 Server andd making changes 
+    to the UNATTEND.TXT file.
+
+
+
+II. Setting up an install directory on the file server
+
+    1. Create a folder on the server's hard disk for the
+       installation files (EX: "NT40.INS").  Make this folder
+       shared (e.g., with shared name "NT40.INS").
+
+    2. Create a user (EX: "USERID" with a password "password")
+       and grant read and view rights for the NT40.INS folder.
+
+    3. Use a CD-ROM drive at the Windows NT server and xcopy the i386
+       folder with Windows NT 4.0 installation files to the shared
+       folder NT40.INS on this server.  Use Windows NT Explorer or
+       XCOPY /s to preserve the directory structure of the installation
+       files.  When the copy is complete, the installation files should
+       reside in the NT40.INS\I386 folder.
+
+    4. Copy the sample UNATTEND.TXT file from the Drivers CD to the 
+       NT40.INS\I386 folder.  
+       Modify the installation answer file UNATTEND.TXT as
+       required by your specific system and desired Windows NT
+       configurations. Note that UNATTEND.TXT may be read-only and
+       may need to be made write-able before editing (EX:
+       attrib -r unattend.txt). A sample UNATTEND.TXT file with
+       comments is included with this document.  The text of that file
+       can also be in section IV of this document.  At a minimum
+       you should update the items in the [UserData] section.
+
+
+    5. Create the \E1000 folder in the installation share.  The full
+       folder name is NT40.INS\i386\$OEM$\Net\E1000.
+
+    6. Copy driver installation files:
+       Copy the Driver installation files from the installation
+       media to the to the proper place under Adapter Device Driver folder
+       (NT40.INS\i386\$OEM$\Net\E1000 folder on the Windows NT
+       server).  This enables the installation program to find
+       the drivers during unattended installation.
+
+       When complete the following files should be in the
+       NT40.INS\i386\$OEM$\Net\E1000 directory.
+
+           NMSAPI.DLL
+           NMSCFG.SYS
+           NMSDD.SYS
+           NMSMsg.DLL
+           NMSSvc.Exe
+           NMSSvcPS.DLL
+           REGSVR32.EXE
+           INETWH32.DLL
+           E1000NT4.SYS
+           OEMSETUP.INF
+           PROMON.EXE
+           PROSETP.CPL
+           PROSETP.CNT
+           PROSETP.HLP
+           PROSETP.REG
+           ROBOEX32.DLL
+
+
+
+III.  Performing the Unattended Installation
+
+    2. Boot up your DOS network client diskette.
+
+       After connecting to the network:
+
+        a)  Input "USERID" as a User name when prompted.
+
+        b)  Input "password" as a password when prompted.
+
+                OR
+
+        c)  Modify the NET START line in the AUTOEXEC.BAT to
+            NET LOGON USERID PASSWORD /YES
+
+       After the Windows NT 4.0 installation begins, Wait until the
+       copy operation labelled "Setup is copying files..." in the
+       line-draw characters box appears, then remove the diskette
+       from the drive.  This will allow the unattended installation 
+       to continue after the setup program reboots the system.
+
+
+IV. Sample Unattend.txt file 
+
+
+UNATTEND.TXT
+
+;  Windows NT 4.0 Unattended Installation sample
+
+[Unattended]
+OemPreinstall = yes
+NoWaitAfterTextMode = 1
+NoWaitAfterGUIMode = 1
+FileSystem = LeaveAlone
+ExtendOEMPartition = 0
+ConfirmHardware = no
+NtUpgrade = no
+Win31Upgrade = no
+TargetPath = winnt
+OverwriteOemFilesOnUpgrade = no
+OemSkipEULA = yes
+
+[GuiUnattended]
+OemSkipWelcome = 1
+OEMBlankAdminPassword = 1
+TimeZone = "(GMT-08:00) Pacific Time (US & Canada)"
+
+[UserData]
+FullName = "Userid"
+OrgName = "Organization"
+ComputerName = COMPUTER
+ProductId = "xxx-xxxxxxx"
+;or Product key if you are using OEM versions
+
+[Display]
+ConfigureAtLogon = 0
+BitsPerPel = 8
+XResolution = 640
+YResolution = 480
+VRefresh = 60
+AutoConfirm = 1
+
+[Network]
+InstallAdapters = SelectedAdaptersSection
+InstallProtocols = ProtocolsSection
+InstallServices = ServicesSection
+JoinWorkgroup = workgroup
+
+[SelectedAdaptersSection]
+E1000 = E1000Parameters, ..\$OEM$\Net\E1000\
+
+[E1000Parameters]
+
+
+[ProtocolsSection]
+TC = TCParamSection
+
+[TCParamSection]
+DHCP = yes
+
+[ServicesSection]
+
+;  - End of unattend.txt sample
+
+
+
+V.  REFERENCES:
+
+1. Microsoft Windows NT Resource Kit - Microsoft Press 19NT
+2. Microsoft TechNet CD-ROM, April 1997
+3. Microsoft support web page at http://support.microsoft.com/support
+   Article ID : Q155197, Q156795
+
+*  Windows NT 4.0 is a trademark of Microsoft Corporation
+
+
