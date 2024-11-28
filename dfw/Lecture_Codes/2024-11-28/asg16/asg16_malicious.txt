@@ -1,0 +1,3 @@
+c8:4d:44:00:4a:b3 -> Shenzhen
+e4:a8:df:9b:81:4e -> COMPAL
+00:e0:4c:0b:3e:aa -> REALTEK

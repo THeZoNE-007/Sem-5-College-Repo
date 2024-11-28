@@ -1,0 +1,88 @@
+[H[2J[3J Currently scanning: Starting.   |   Screen View: Unique Hosts                 
+                                                                               
+ 0 Captured ARP Req/Rep packets, from 0 hosts.   Total size: 0                 
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ Currently scanning: Starting.   |   Screen View: Unique Hosts                 
+                                                                               
+ 920 Captured ARP Req/Rep packets, from 7 hosts.   Total size: 55200           
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.16.62.67    8c:ec:4b:cb:a3:4e      7     420  Dell Inc.                   
+ 172.22.166.67   8c:ec:4b:cd:61:16     30    1800  Dell Inc.                   
+ 172.16.63.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.167.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.156.98   00:e0:4c:0b:3e:aa      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.64.67    8c:ec:4b:cb:a3:4e    202   12120  Dell Inc.                   
+ 172.22.168.67   8c:ec:4b:cd:61:16    172   10320  Dell Inc.                   
+ Currently scanning: 192.168.0.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 2923 Captured ARP Req/Rep packets, from 17 hosts.   Total size: 175380        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.16.62.67    8c:ec:4b:cb:a3:4e      7     420  Dell Inc.                   
+ 172.22.166.67   8c:ec:4b:cd:61:16     30    1800  Dell Inc.                   
+ 172.16.63.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.167.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.156.98   00:e0:4c:0b:3e:aa      2     120  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.64.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.168.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.65.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.169.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.236  ce:53:79:9e:00:36      2     120  Unknown vendor              
+ 172.16.66.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.170.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.67.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.171.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.100  00:e0:4c:0c:1c:77      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.68.67    8c:ec:4b:cb:a3:4e    184   11040  Dell Inc.                   
+ 172.22.172.67   8c:ec:4b:cd:61:16    157    9420  Dell Inc.                   
+ Currently scanning: 192.168.3.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 4920 Captured ARP Req/Rep packets, from 28 hosts.   Total size: 295200        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.16.62.67    8c:ec:4b:cb:a3:4e      7     420  Dell Inc.                   
+ 172.22.166.67   8c:ec:4b:cd:61:16     30    1800  Dell Inc.                   
+ 172.16.63.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.167.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.156.98   00:e0:4c:0b:3e:aa      2     120  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.64.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.168.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.65.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.169.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.236  ce:53:79:9e:00:36      3     180  Unknown vendor              
+ 172.16.66.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.170.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.67.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.171.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.100  00:e0:4c:0c:1c:77      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.68.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.172.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ Currently scanning: 192.168.7.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 6919 Captured ARP Req/Rep packets, from 38 hosts.   Total size: 415140        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.16.62.67    8c:ec:4b:cb:a3:4e      7     420  Dell Inc.                   
+ 172.22.166.67   8c:ec:4b:cd:61:16     30    1800  Dell Inc.                   
+ 172.16.63.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.167.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.156.98   00:e0:4c:0b:3e:aa      2     120  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.64.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.168.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.65.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.169.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.236  ce:53:79:9e:00:36      5     300  Unknown vendor              
+ 172.16.66.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.170.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.16.67.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.171.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.158.100  00:e0:4c:0c:1c:77      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.16.68.67    8c:ec:4b:cb:a3:4e    254   15240  Dell Inc.                   
+ 172.22.172.67   8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   

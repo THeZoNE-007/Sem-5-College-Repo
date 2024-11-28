@@ -1,0 +1,210 @@
+[H[2J[3J Currently scanning: Starting.   |   Screen View: Unique Hosts                 
+                                                                               
+ 0 Captured ARP Req/Rep packets, from 0 hosts.   Total size: 0                 
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ Currently scanning: Starting.   |   Screen View: Unique Hosts                 
+                                                                               
+ 1390 Captured ARP Req/Rep packets, from 14 hosts.   Total size: 83400         
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      1      60  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    216   12960  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    126    7560  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16      8     480  Dell Inc.                   
+ Currently scanning: 192.168.0.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 4382 Captured ARP Req/Rep packets, from 31 hosts.   Total size: 262920        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      2     120  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      1      60  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.3.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 7241 Captured ARP Req/Rep packets, from 50 hosts.   Total size: 434460        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      3     180  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      2     120  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.7.0/16   |   Screen View: Unique Hosts            
+                                                                               
+ 9824 Captured ARP Req/Rep packets, from 60 hosts.   Total size: 589440        
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      3     180  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      3     180  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.10.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 11836 Captured ARP Req/Rep packets, from 69 hosts.   Total size: 710160       
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      4     240  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      4     240  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.14.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 13612 Captured ARP Req/Rep packets, from 77 hosts.   Total size: 816720       
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      5     300  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      4     240  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.17.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 15248 Captured ARP Req/Rep packets, from 84 hosts.   Total size: 914880       
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      6     360  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      4     240  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.21.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 16822 Captured ARP Req/Rep packets, from 92 hosts.   Total size: 1009320      
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      6     360  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      4     240  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
+ Currently scanning: 192.168.24.0/16   |   Screen View: Unique Hosts           
+                                                                               
+ 18825 Captured ARP Req/Rep packets, from 101 hosts.   Total size: 1129500     
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 172.19.23.67    8c:ec:4b:cd:55:99     86    5160  Dell Inc.                   
+ 192.168.16.67   8c:ec:4b:cd:55:36    236   14160  Dell Inc.                   
+ 172.21.34.67    8c:ec:4b:cd:61:16    204   12240  Dell Inc.                   
+ 172.17.152.177  8c:ec:4b:4a:14:c2      1      60  Dell Inc.                   
+ 172.17.157.82   c0:25:a5:93:13:ff      1      60  Dell Inc.                   
+ 172.17.156.161  e4:a8:df:9b:96:3c      6     360  COMPAL INFORMATION (KUNSHAN)
+ 172.19.24.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.21.35.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 172.17.157.63   a4:bb:6d:8a:09:df      1      60  Dell Inc.                   
+ 192.168.17.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.17.155.242  d4:3d:7e:48:64:28      1      60  Micro-Star Int'l Co, Ltd    
+ 172.19.25.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.156.251  00:e0:4c:0b:40:35      4     240  REALTEK SEMICONDUCTOR CORP. 
+ 172.21.36.67    8c:ec:4b:cd:61:16    254   15240  Dell Inc.                   
+ 192.168.18.67   8c:ec:4b:cd:55:36    254   15240  Dell Inc.                   
+ 172.19.26.67    8c:ec:4b:cd:55:99    254   15240  Dell Inc.                   
+ 172.17.155.85   8c:ec:4b:55:db:a8      1      60  Dell Inc.                   
