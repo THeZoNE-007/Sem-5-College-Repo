@@ -1,0 +1,8 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-02 09:40 IST
+Nmap scan report for 172.17.156.63
+Host is up (0.00013s latency).
+All 1000 scanned ports on 172.17.156.63 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8C:EC:4B:CB:A2:DF (Dell)
+
+Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds

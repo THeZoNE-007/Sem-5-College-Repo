@@ -1,0 +1,146 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-02 10:18 IST
+Nmap scan report for 172.17.156.14
+Host is up (0.00055s latency).
+Not shown: 976 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+21/tcp    open  ftp                Microsoft ftpd
+| ftp-syst: 
+|_  SYST: Windows_NT
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 05-17-22  12:17PM       <DIR>          10000
+| 05-17-22  12:17PM       <DIR>          10001
+| 05-17-22  12:17PM       <DIR>          10002
+| 05-17-22  12:17PM       <DIR>          10003
+| 05-17-22  12:17PM       <DIR>          10005
+| 05-17-22  12:17PM       <DIR>          10113
+| 05-17-22  12:17PM       <DIR>          10830
+| 05-17-22  12:17PM       <DIR>          13837
+| 05-17-22  12:17PM       <DIR>          14066
+| 05-17-22  12:17PM       <DIR>          14068
+| 05-17-22  12:17PM       <DIR>          14069
+| 05-17-22  12:17PM       <DIR>          14070
+| 05-17-22  12:17PM       <DIR>          14071
+| 05-17-22  12:17PM       <DIR>          14072
+| 05-17-22  12:17PM       <DIR>          14073
+| 05-17-22  12:17PM       <DIR>          14074
+| 05-17-22  12:17PM       <DIR>          14075
+| 05-17-22  12:17PM       <DIR>          14076
+| 05-17-22  12:17PM       <DIR>          14077
+| 05-17-22  12:17PM       <DIR>          14078
+|_Only 20 shown. Use --script-args ftp-anon.maxlist=-1 to see all.
+53/tcp    open  domain             Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+80/tcp    open  http               Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+88/tcp    open  kerberos-sec       Microsoft Windows Kerberos (server time: 2024-12-02 04:56:55Z)
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+389/tcp   open  ldap               Microsoft Windows Active Directory LDAP (Domain: ITERDATA.COM, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds       Windows Server 2008 R2 Enterprise 7601 Service Pack 1 microsoft-ds (workgroup: ITERDATA)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http         Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1433/tcp  open  ms-sql-s           Microsoft SQL Server 2012 11.00.2100.00; RTM
+| ms-sql-ntlm-info: 
+|   172.17.156.14\MSSQLSERVER: 
+|     Target_Name: ITERDATA
+|     NetBIOS_Domain_Name: ITERDATA
+|     NetBIOS_Computer_Name: ITERDATABASE
+|     DNS_Domain_Name: ITERDATA.COM
+|     DNS_Computer_Name: iterdatabase.ITERDATA.COM
+|     DNS_Tree_Name: ITERDATA.COM
+|_    Product_Version: 6.1.7601
+| ms-sql-info: 
+|   172.17.156.14\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2012 RTM
+|       number: 11.00.2100.00
+|       Product: Microsoft SQL Server 2012
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|     TCP port: 1433
+|_    Clustered: false
+|_ssl-date: 2024-12-02T04:58:29+00:00; +8m35s from scanner time.
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2024-06-08T02:51:58
+|_Not valid after:  2054-06-08T02:51:58
+1521/tcp  open  oracle-tns         Oracle TNS listener 11.2.0.1.0 (unauthorized)
+2383/tcp  open  ms-olap4?
+3268/tcp  open  ldap               Microsoft Windows Active Directory LDAP (Domain: ITERDATA.COM, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ssl/ms-wbt-server?
+|_ssl-date: 2024-12-02T04:58:29+00:00; +8m35s from scanner time.
+| ssl-cert: Subject: commonName=iterdatabase.ITERDATA.COM
+| Not valid before: 2024-09-12T06:52:52
+|_Not valid after:  2025-03-14T06:52:52
+| rdp-ntlm-info: 
+|   Target_Name: ITERDATA
+|   NetBIOS_Domain_Name: ITERDATA
+|   NetBIOS_Computer_Name: ITERDATABASE
+|   DNS_Domain_Name: ITERDATA.COM
+|   DNS_Computer_Name: iterdatabase.ITERDATA.COM
+|   DNS_Tree_Name: ITERDATA.COM
+|   Product_Version: 6.1.7601
+|_  System_Time: 2024-12-02T04:58:21+00:00
+7070/tcp  open  ssl/realserver?
+| ssl-cert: Subject: commonName=AnyDesk Client
+| Not valid before: 2023-01-07T07:45:16
+|_Not valid after:  2072-12-25T07:45:16
+|_ssl-date: TLS randomness does not represent time
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49158/tcp open  ncacn_http         Microsoft Windows RPC over HTTP 1.0
+MAC Address: 3C:D9:2B:07:0B:04 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/2%OT=21%CT=1%CU=36470%PV=Y%DS=1%DC=D%G=Y%M=3CD92
+OS:B%TM=674D3C73%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=109%TI=I%CI=I%I
+OS:I=I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4N
+OS:W8ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5
+OS:=2000%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%
+OS:T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+OS:T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(
+OS:R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0
+OS:%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: ITERDATABASE; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+Host script results:
+|_clock-skew: mean: -38m33s, deviation: 2h04m43s, median: 8m34s
+| smb2-time: 
+|   date: 2024-12-02T04:58:21
+|_  start_date: 2024-06-08T02:50:29
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2:1:0: 
+|_    Message signing enabled and required
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Enterprise 7601 Service Pack 1 (Windows Server 2008 R2 Enterprise 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: iterdatabase
+|   NetBIOS computer name: ITERDATABASE\x00
+|   Domain name: ITERDATA.COM
+|   Forest name: ITERDATA.COM
+|   FQDN: iterdatabase.ITERDATA.COM
+|_  System time: 2024-12-02T10:28:21+05:30
+|_nbstat: NetBIOS name: ITERDATABASE, NetBIOS user: <unknown>, NetBIOS MAC: 3c:d9:2b:07:0b:04 (Hewlett Packard)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.55 ms 172.17.156.14
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 112.87 seconds

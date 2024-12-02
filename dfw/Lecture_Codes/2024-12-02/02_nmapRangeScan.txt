@@ -1,0 +1,84 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-02 09:45 IST
+Nmap scan report for 172.17.156.63
+Host is up (0.000078s latency).
+All 1000 scanned ports on 172.17.156.63 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8C:EC:4B:CB:A2:DF (Dell)
+
+Nmap scan report for 172.17.156.64
+Host is up (0.00040s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:E0:4C:53:07:DF (Realtek Semiconductor)
+
+Nmap scan report for 172.17.156.78
+Host is up (0.00020s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+7070/tcp open  realserver
+MAC Address: D4:3D:7E:5A:7F:22 (Micro-Star Int'l)
+
+Nmap scan report for 172.17.156.80
+Host is up (0.00024s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+7070/tcp open  realserver
+MAC Address: D4:3D:7E:48:61:C1 (Micro-Star Int'l)
+
+Nmap scan report for 172.17.156.84
+Host is up (0.00020s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+7070/tcp open  realserver
+MAC Address: D4:3D:7E:48:62:3F (Micro-Star Int'l)
+
+Nmap scan report for 172.17.156.86
+Host is up (0.00047s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+5357/tcp open  wsdapi
+MAC Address: 00:E0:4C:0C:1D:70 (Realtek Semiconductor)
+
+Nmap scan report for 172.17.156.87
+Host is up (0.00029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 8C:EC:4B:CE:A4:56 (Dell)
+
+Nmap scan report for 172.17.156.92
+Host is up (0.00018s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+3000/tcp open  ppp
+MAC Address: 48:4D:7E:FA:B1:2D (Dell)
+
+Nmap scan report for 172.17.156.94
+Host is up (0.00020s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 48:4D:7E:E5:B3:3E (Dell)
+
+Nmap scan report for 172.17.156.95
+Host is up (0.00019s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+3000/tcp open  ppp
+MAC Address: 48:4D:7E:E5:A5:26 (Dell)
+
+Nmap scan report for 172.17.156.100
+Host is up (0.00018s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: E4:54:E8:9D:08:9E (Dell)
+
+Nmap done: 38 IP addresses (11 hosts up) scanned in 17.39 seconds
