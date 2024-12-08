@@ -1,5 +1,4 @@
 /*
-
 Write a program n C that takes a list of nouns and generates their plural forms based on the following rules:
 
 i) If a noun ends with y, replace y with ies
@@ -10,7 +9,30 @@ The program shoudl print each noun along with its plural form.
 Test the program with the following nons:
 
 Chai, dairy, Boss, circus, fly, Dog, church, clue, dish
+*/
 
+
+/*
+PROBLEM: Generate plural forms of given nouns based on specific rules.
+
+ANALYSIS: The program will take a list of nouns and apply rules to convert them into their plural forms. It will print each noun along with its plural form.
+
+DATA REQUIREMENTS:
+Problem Inputs:
+char str[]; // Input noun.
+char str2[]; // Output plural form.
+int n; // Length of the input noun.
+
+Problem Outputs:
+Print each noun with its plural form.
+
+DESIGN:
+INITIAL ALGORITHM:
+1. Define a function plural that takes an input noun and generates its plural form based on the rules.
+2. If the noun ends with 'y', replace 'y' with 'ies'.
+3. If the noun ends with 's', 'ch', or 'sh', append 'es'.
+4. For all other cases, append 's'.
+5. In the main function, test the plural function with a predefined list of nouns.
 */
 
 #include <stdio.h>
@@ -50,4 +72,9 @@ int main() {
     return 0;
 }
 
+/*
+OUTPUT:-
 
+Enter a String: fly
+Plural: flies
+*/
