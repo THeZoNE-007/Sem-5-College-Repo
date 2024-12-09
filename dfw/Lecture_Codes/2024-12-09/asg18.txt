@@ -1,0 +1,25 @@
+Q1> Top 5 Open ports: 50100, 80, 443, 161, 22
+
+Q2> Top 5 OS: Windows, Linux, Ubuntu, IOS, Unix
+
+Q3> The number of Hikvision IP cameras in Bhubaneswar : 212
+
+Q4> Top organizations in Bhubaneswar that use 'Hikvision IP cameras': 
+		Reliance Jio Infocomm Limited
+		Broadband Multiplay Project, O/o DGM BB, NOC BSNL Bangalore
+		Wefe Technology Pvt Ltd 
+		RailTel Corporation is an Internet Service Provider
+		Ishan Netsol Pvt Ltd 
+		
+Q5> Number of devices in Bhubaneswar running Apache 2.2.3 : 2
+Most commonly used port by these devices : 80, 443
+
+Q6> Number of 'Fortinet' products in Bhubaneswar: 97 
+
+Q7> Number of devices in Bhubaneswar that use the hostname 'admin': 3
+
+Q8> Number of devices in Bhubaneswar where the SSH port is open: 1121
+
+Q9> Number of devices in Bhubaneswar where both HTTP (port 80) and HTTPS (port 443) ports are open: 6682
+
+Q10> Devices in Bhubaneswar have an expired SSL certificate: 610

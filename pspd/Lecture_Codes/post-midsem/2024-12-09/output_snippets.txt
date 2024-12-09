@@ -1,0 +1,85 @@
+int fun(int n) {
+	if(n==0) return 0;
+ 	else return 2+ fun(n-1);
+}	
+
+int main() {
+	int n=10;
+	printf("%d",n);
+	int b=fun(n)
+	printf("%d",b);
+}
+
+Output:- 20
+
+-------------------------------------------------------------------------------------------------------
+
+int fun(int n) {
+	if(n<=0) return 0;
+ 	else return 3+ fun(n-2);
+}	
+
+int main() {
+	int n=10;
+	printf("%d",n);
+	int b=fun(n)
+	printf("%d",b);
+}
+
+Output:- 18
+
+-------------------------------------------------------------------------------------------------------
+
+int fun(int n) {
+	if(n == 0) return 0;
+ 	else if ( n == 1) return 1;
+ 	else return fun(n-1) + fun(n-2);
+}	
+
+int main() {
+	int n=5;
+	printf("%d",n);
+	int b=fun(n)
+	printf("%d",b);
+}
+
+Output:- 5
+
+-------------------------------------------------------------------------------------------------------
+
+int fun(int a, int b) {
+	if(b == 0) return 1;
+ 	else return a * fun(a, b-1); 	
+}	
+
+int main() {
+	int a=2, b=7;
+	int c=fun(a,b);
+	printf("%d",c);
+}
+
+Output:- 2^7 = 128
+
+-------------------------------------------------------------------------------------------------------
+
+int fun(int n) {
+	printf("%d",n);
+	if(n == 0) return 1;
+ 	else { 
+ 		int d= 4 * fun(n-2);
+ 		printf("%d",n);
+ 		return d;
+ 	} 	
+}	
+
+int main() {
+	int n=10;
+	int c=fun(n);
+	printf("%d" ,c);
+}
+
+Output:- 10 8 6 4 2 0 2 4 6 8 10  1024
+
+-------------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,63 @@
+1) 5 most used ports in Bhubaneswar with geo BMC
+query:- country:"IN" city:"Bhubaneswar" geo:"20.26473881910076, 85.8422230543"
+port no    usage
+-------   ------
+50100      8,341
+80         4,052
+443        2,630
+161        1,724
+22         1,121
+
+
+2) Top 5 os used in bhubaneswar
+query:- country:"IN" city:"Bhubaneswar" 
+OS          usage
+------     ------
+Windows     362
+Linux       133
+Ubuntu      64
+IOS         59
+Unix        37
+
+
+3)Number of Hikvision ip camera's in bhubaneswar: 212
+query:- country:"IN" city:"Bhubaneswar" product:"hikvision"
+
+
+4)Top organizations that use Hikvision ip cameras
+query:- country:"IN" city:"Bhubaneswar" product:"hikvision"
+Organizations                       usage
+-------------                      ------
+Reliance Jio Infocomm Limited       85
+Broadband Multiplay Project         32
+Wefe Technology Pvt Ltd             12
+RailTel Corporation                 11
+Ishan Netsol Pvt Ltd                8
+
+
+5)Number of devices in Bhubaneswar running Apache 2.2.3 : 2 devices
+query:- country:"IN" city:"Bhubaneswar" product:"Apache httpd"
+most commonly used port by this device: 
+port     usage
+----     -----
+80         1
+443        1
+
+6) number of Fortinet products in Bhubaneswar: 97
+query:- country:"IN" city:"Bhubaneswar" product:"Fortinet"
+
+7)number of devices in Bhubaneswar use hostname 'admin': 3
+query:- country:"IN" city:"Bhubaneswar" hostname:"admin"
+
+8)number of devices in Bhubaneswar where ssh port is open: 1121
+query:- country:"IN" city:"Bhubaneswar"
+
+9)number of devices in Bhubaneswar where http and https port is open.
+query:- country:"IN" city:"Bhubaneswar" hostname:"admin"
+port      no of devices
+-----     -------------
+80 http        4052       
+443 https      2630
+
+10)Devices in Bhubaneswar whose ssl certificate is expired: 610
+query:- country:"IN" city:"Bhubaneswar" ssl.cert.expired:"true"

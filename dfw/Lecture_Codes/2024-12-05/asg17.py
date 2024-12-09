@@ -54,14 +54,9 @@ def scan_ip_mac_and_ports_status(network_range, ports=[22, 80, 81, 443]):
                 
                 if port in port_status:  # Only consider specified ports
                     port_status[port] = status
-                    devices.append({
-                    "IP": ip_address,
-                    "MAC": mac_address 
-                    if mac_address else "Unknown",
-                    **port_status
-                    })
-
-
+                    devices.append({"IP": ip_address,"MAC": mac_address
+                    if mac_address else "Unknown", **port_status})
+                
 
         return devices
 
