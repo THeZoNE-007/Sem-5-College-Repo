@@ -1,0 +1,105 @@
+TERMINAL COMMANDS EXECUTED:- (all being done in super user mode):-
+
+
+timeout 100 netdiscover -r 172.17.155.186/16 | tee asg15.log
+## The above command created a .log extension file that stores the output for the netdiscover command that was ran for 100 seconds within an IP range
+
+## Note: We don't need the entire log file for filtering. We just need the last block since using the timeout command, the output was stored each time new packets were scanned that results in repetitions. For this we manually (file open then delete) keep the last block of output and delete the rest !! 
+
+
+awk '{print $1, $2, $3, $4, $5}' asg15.log > filter_asg15_log.csv
+## Using awk command, we filtered out only the necessary data from the log file and stored it in a new file with a .csv extension. 
+
+## This still has some impurities that'll be taken care of using a Python program provided in question. The resulting file is our output !!
+
+
+!! Up until above is the answer to Assignment 15. Just for more context to the question, i am adding the Python Code (already given in question) and the output to it below !!
+
+
+PYTHON CODE:-
+
+import re
+
+# Input and output file paths
+input_file = "filter_asg15_log.csv"
+output_file = "pre_process.csv"
+
+# Regular expression to check if a line starts with a number
+starts_with_number = re.compile(r'^\d')
+
+# Open the input file for reading and the output file for writing
+with open(input_file, "r") as infile, open(output_file, "w") as outfile:
+
+  for line in infile:
+    # Check if the line starts with a number
+    if starts_with_number.match(line):
+      outfile.write(line)
+
+print(f"Filtered content saved to {output_file}")
+
+
+OUTPUT:-
+
+125447 Captured ARP Req/Rep packets,
+
+192.168.20.67 8c:ec:4b:cb:a2:3a 210 12600 Dell
+
+172.16.44.67 8c:ec:4b:cb:a2:3a 283 16980 Dell
+
+192.168.213.67 8c:ec:4b:cb:a2:3a 64 3840 Dell
+
+192.168.232.67 8c:ec:4b:cd:61:16 128 7680 Dell
+
+10.7.68.67 8c:ec:4b:cd:61:16 130 7800 Dell
+
+172.16.45.67 8c:ec:4b:cb:a2:3a 504 30240 Dell
+
+192.168.214.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+192.168.233.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+10.7.69.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+172.17.152.214 a8:b1:3b:7c:62:42 6 360 HP
+
+192.168.21.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+172.16.46.67 8c:ec:4b:cb:a2:3a 312 18720 Dell
+
+192.168.215.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+172.17.158.153 c8:4d:44:00:4a:b3 20 1200 Shenzhen
+
+192.168.234.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+10.7.70.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+172.17.156.22 e4:a8:df:9b:81:4e 16 960 COMPAL
+
+192.168.22.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+172.16.47.67 8c:ec:4b:cb:a2:3a 309 18540 Dell
+
+192.168.216.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+192.168.235.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+10.7.71.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+192.168.23.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+172.16.48.67 8c:ec:4b:cb:a2:3a 491 29460 Dell
+
+192.168.217.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+192.168.236.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+10.7.72.67 8c:ec:4b:cd:61:16 254 15240 Dell
+
+172.17.156.98 00:e0:4c:0b:3e:aa 8 480 REALTEK
+
+192.168.24.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+172.16.49.67 8c:ec:4b:cb:a2:3a 254 15240 Dell
+
+192.168.218.67 8c:ec:4b:cb:a2:3a 452 27120 Dell
