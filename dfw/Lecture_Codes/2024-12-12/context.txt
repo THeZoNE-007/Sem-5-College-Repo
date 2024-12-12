@@ -1,0 +1,11 @@
+Used a server and a client programme
+
+Activated the server programme using the command "./server.out <port no you wanna receive msg from>
+
+If you wanna track the traffic you can now turn on the Wireshark
+
+Activated the client programme using the command "./client.out <target server's IP> <target server's port number>
+
+Note: If you want to send msg to yourself, you can enter the loopback address in target server's IP
+
+Now you are good to go
