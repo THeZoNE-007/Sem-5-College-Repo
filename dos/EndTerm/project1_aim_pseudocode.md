@@ -1,12 +1,12 @@
 -----------------------------------------------------------------------------------------------------------------
-----------------------------------------< \\ DOS END TERM PROJECT #2 // >----------------------------------------
+----------------------------------------< || DOS END TERM PROJECT #1 || >----------------------------------------
 -----------------------------------------------------------------------------------------------------------------
 
 - AIM:
 
 -- The aim of the program is to simulate **First Come First Served (FCFS)** and **Round Robin (RR)** CPU scheduling algorithms, calculate performance metrics like **waiting time**, **turnaround time**, and **response time**, and display results through a **Gantt chart** and detailed process tables for better understanding of process execution.
 
------------------------------------------------< \\ PSEUDOCODE // >----------------------------------------------
+-----------------------------------------------< || PSEUDOCODE || >----------------------------------------------
 
 - Program Purpose:
 
