@@ -1,0 +1,57 @@
+-----------------------------------------------------------------------------------------------------------------
+----------------------------------------< \\ DOS END TERM PROJECT #2 // >----------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
+- AIM:
+
+-- The aim of the program is to simulate **First Come First Served (FCFS)** and **Round Robin (RR)** CPU scheduling algorithms, calculate performance metrics like **waiting time**, **turnaround time**, and **response time**, and display results through a **Gantt chart** and detailed process tables for better understanding of process execution.
+
+-----------------------------------------------< \\ PSEUDOCODE // >----------------------------------------------
+
+- Program Purpose:
+
+-- Simulates First Come First Served (FCFS) and Round Robin (RR) CPU scheduling algorithms.
+-- Calculates important metrics like waiting time, turnaround time, and response time for each process.
+
+- User Input:
+
+-- The user enters the number of processes.
+-- For each process, the user provides:
+---- Process ID: Unique identifier for each process.
+---- Arrival Time: Time when the process arrives in the system.
+---- Burst Time: Time needed by the process to complete its execution.
+
+- Scheduling Algorithms:
+
+-- FCFS (First Come, First Served):
+---- Processes are executed in the order of their arrival time.
+---- The program calculates when each process finishes and computes the metrics based on this sequence.
+
+-- Round Robin:
+---- Each process gets a fixed time quantum (time slice) to execute.
+---- If a process doesn't finish within its time quantum, it’s placed back in the queue to be executed later.
+
+- Metrics Calculated:
+
+-- Turnaround Time (TAT): The total time from process arrival to completion (including waiting).
+-- Waiting Time (WT): The time a process spends waiting in the ready queue before getting executed.
+-- Response Time (RT): The time from process arrival to the first execution.
+
+- Output Display:
+
+-- Gantt Chart: Visually represents the order in which processes are executed.
+-- Detailed Process Table: Shows the PID, arrival time, burst time, completion time, turnaround time, waiting time, and response time for each process.
+-- Average Times: Displays average turnaround time, waiting time, and response time for all processes.
+
+- Menu-driven Interface:
+
+-- The program offers three options to the user:
+---- Option 1: Execute FCFS scheduling.
+---- Option 2: Execute Round Robin scheduling with a user-specified time quantum.
+---- Option 3: Exit the program.
+
+- Exit:
+
+-- The program terminates when the user selects the exit option from the menu.
+
+The program simulates CPU scheduling, helps visualize process execution, and calculates key performance metrics for each algorithm.

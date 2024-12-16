@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------------------------------------------------
+----------------------------------------< \\ DOS END TERM PROJECT #2 // >----------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
+- Aim:
+The program ensures that the system remains in a **safe state** by simulating resource allocation. It calculates if the system can safely allocate resources to processes without causing deadlock by checking if a sequence of process executions is possible.
+
+-----------------------------------------------< \\ PSEUDOCODE // >----------------------------------------------
+
+- Need Matrix Calculation:
+
+-- The program calculates the "need" matrix for each process by subtracting the allocated resources from the maximum resources requested by each process.
+
+- Safety Check:
+
+-- The isSafe function checks if the system is in a safe state
+-- It attempts to find a sequence of processes that can safely be executed with the available resources.
+-- If all processes can be executed without exceeding the available resources, the system is safe.
+-- If no safe sequence is found, the system is not in a safe state.
+
+- Algorithm Flow:
+
+-- The program iterates over processes and checks if their remaining resource needs can be met by the currently available resources (work array).
+-- If a process's needs can be met, it is marked as "finished", and its allocated resources are added to the available resources for further processes.
+
+- Output:
+
+-- The program outputs whether the system is in a safe state or not.
+-- If safe, it prints the **safe sequence** of processes.
+
+- Structure:
+
+-- calculateNeed: Calculates the "need" matrix.
+-- isSafe: Determines if the system is in a safe state and prints the safe sequence if applicable.
+-- main: Initializes the process data and calls the isSafe function to check the system's safety.
+
+- Example:
+The program uses predefined values:
+-- 5 processes and 4 resources.
+-- Maximum demand (max[][]) and allocated resources (allot[][]) are defined for each process.
+-- Available resources (avail[]) are also predefined.
+
+The program runs the Banker's Algorithm and determines if the system is in a safe state based on the provided values.
