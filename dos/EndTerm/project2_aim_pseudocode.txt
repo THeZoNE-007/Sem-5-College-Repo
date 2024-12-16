@@ -3,6 +3,7 @@
 -----------------------------------------------------------------------------------------------------------------
 
 - Aim:
+
 The program ensures that the system remains in a **safe state** by simulating resource allocation. 
 It calculates if the system can safely allocate resources to processes without causing deadlock by checking 
 if a sequence of process executions is possible.
