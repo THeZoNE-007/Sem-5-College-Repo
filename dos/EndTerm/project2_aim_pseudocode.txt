@@ -1,15 +1,18 @@
 -----------------------------------------------------------------------------------------------------------------
-----------------------------------------< \\ DOS END TERM PROJECT #2 // >----------------------------------------
+----------------------------------------< || DOS END TERM PROJECT #2 || >----------------------------------------
 -----------------------------------------------------------------------------------------------------------------
 
 - Aim:
-The program ensures that the system remains in a **safe state** by simulating resource allocation. It calculates if the system can safely allocate resources to processes without causing deadlock by checking if a sequence of process executions is possible.
+The program ensures that the system remains in a **safe state** by simulating resource allocation. 
+It calculates if the system can safely allocate resources to processes without causing deadlock by checking 
+if a sequence of process executions is possible.
 
------------------------------------------------< \\ PSEUDOCODE // >----------------------------------------------
+-----------------------------------------------< || PSEUDOCODE || >----------------------------------------------
 
 - Need Matrix Calculation:
 
--- The program calculates the "need" matrix for each process by subtracting the allocated resources from the maximum resources requested by each process.
+-- The program calculates the "need" matrix for each process by subtracting the allocated resources from the 
+maximum resources requested by each process.
 
 - Safety Check:
 
@@ -20,8 +23,10 @@ The program ensures that the system remains in a **safe state** by simulating re
 
 - Algorithm Flow:
 
--- The program iterates over processes and checks if their remaining resource needs can be met by the currently available resources (work array).
--- If a process's needs can be met, it is marked as "finished", and its allocated resources are added to the available resources for further processes.
+-- The program iterates over processes and checks if their remaining resource needs can be met by the currently 
+available resources (work array).
+-- If a process's needs can be met, it is marked as "finished", and its allocated resources are added to the 
+available resources for further processes.
 
 - Output:
 
