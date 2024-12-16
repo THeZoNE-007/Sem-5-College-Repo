@@ -4,7 +4,9 @@
 
 - AIM:
 
--- The aim of the program is to simulate **First Come First Served (FCFS)** and **Round Robin (RR)** CPU scheduling algorithms, calculate performance metrics like **waiting time**, **turnaround time**, and **response time**, and display results through a **Gantt chart** and detailed process tables for better understanding of process execution.
+-- The aim of the program is to simulate **First Come First Served (FCFS)** and **Round Robin (RR)** CPU scheduling 
+algorithms, calculate performance metrics like **waiting time**, **turnaround time**, and **response time**, and 
+display results through a **Gantt chart** and detailed process tables for better understanding of process execution.
 
 -----------------------------------------------< || PSEUDOCODE || >----------------------------------------------
 
@@ -40,7 +42,8 @@
 - Output Display:
 
 -- Gantt Chart: Visually represents the order in which processes are executed.
--- Detailed Process Table: Shows the PID, arrival time, burst time, completion time, turnaround time, waiting time, and response time for each process.
+-- Detailed Process Table: Shows the PID, arrival time, burst time, completion time, turnaround time, 
+    waiting time, and response time for each process.
 -- Average Times: Displays average turnaround time, waiting time, and response time for all processes.
 
 - Menu-driven Interface:
