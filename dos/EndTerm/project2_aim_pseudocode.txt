@@ -1,49 +1,30 @@
------------------------------------------------------------------------------------------------------------------
-----------------------------------------< || DOS END TERM PROJECT #2 || >----------------------------------------
------------------------------------------------------------------------------------------------------------------
+--------< AIM >--------
 
-- Aim:
+### Program Aim:
+- Simulate resource allocation to keep the system in a **safe state** and prevent deadlock.
 
-The program ensures that the system remains in a **safe state** by simulating resource allocation. 
-It calculates if the system can safely allocate resources to processes without causing deadlock by checking 
-if a sequence of process executions is possible.
+----< PSEUDOCODE >----
 
------------------------------------------------< || PSEUDOCODE || >----------------------------------------------
+### Need Matrix Calculation:
+- Calculate the "need" matrix by subtracting allocated resources from maximum requested resources for each process.
 
-- Need Matrix Calculation:
+### Safety Check:
+- The `isSafe` function checks if the system is safe:
+  - Finds a sequence of processes that can execute with available resources.
+  - If all processes can execute without exceeding resources, the system is safe; otherwise, it is not.
 
--- The program calculates the "need" matrix for each process by subtracting the allocated resources from the 
-maximum resources requested by each process.
+### Algorithm Flow:
+- Check if each process's remaining resource needs can be met by available resources.
+- Mark processes as "finished" and update available resources when their needs are satisfied.
 
-- Safety Check:
+### Output:
+- Indicate if the system is in a safe state.
+- If safe, display the **safe sequence** of processes.
 
--- The isSafe function checks if the system is in a safe state
--- It attempts to find a sequence of processes that can safely be executed with the available resources.
--- If all processes can be executed without exceeding the available resources, the system is safe.
--- If no safe sequence is found, the system is not in a safe state.
+### Structure:
+1. **calculateNeed**: Computes the "need" matrix.
+2. **isSafe**: Checks safety and displays the safe sequence if applicable.
+3. **main**: Initializes process data and calls `isSafe`.
 
-- Algorithm Flow:
-
--- The program iterates over processes and checks if their remaining resource needs can be met by the currently 
-available resources (work array).
--- If a process's needs can be met, it is marked as "finished", and its allocated resources are added to the 
-available resources for further processes.
-
-- Output:
-
--- The program outputs whether the system is in a safe state or not.
--- If safe, it prints the **safe sequence** of processes.
-
-- Structure:
-
--- calculateNeed: Calculates the "need" matrix.
--- isSafe: Determines if the system is in a safe state and prints the safe sequence if applicable.
--- main: Initializes the process data and calls the isSafe function to check the system's safety.
-
-- Example:
-The program uses predefined values:
--- 5 processes and 4 resources.
--- Maximum demand (max[][]) and allocated resources (allot[][]) are defined for each process.
--- Available resources (avail[]) are also predefined.
-
-The program runs the Banker's Algorithm and determines if the system is in a safe state based on the provided values.
+### Example:
+- Uses predefined values for 5 processes and 4 resources, with set maximum demands (`max[][]`), allocated resources (`allot[][]`), and available resources (`avail[]`).
