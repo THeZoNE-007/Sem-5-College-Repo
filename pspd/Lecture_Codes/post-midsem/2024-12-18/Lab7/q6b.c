@@ -34,7 +34,7 @@ void initialise_data(struct element_t *element){
    scanf("%d %s %s %s %f",&element->atn,&element->name,&element->symbol,&element->class,&element->weight);
    
    for(int i=0;i<7;i++){
-      printf("Enter the number of electrons in orbit: %d\n",i);
+      printf("Enter the number of electrons in orbit %d: ",i);
       scanf("%d",&element->ar[i]);
    }
    print_data(element);
