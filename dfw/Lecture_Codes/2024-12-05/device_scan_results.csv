@@ -1,0 +1,4 @@
+{'IP': '192.168.32.110', 'MAC': 'Unknown', '443': 'Not Detected', '80': 'closed (http)'}
+{'IP': '192.168.32.114', 'MAC': 'F2:57:46:BC:B4:D4', '443': 'Not Detected', '80': 'closed (http)'}
+{'IP': '192.168.32.110', 'MAC': 'Unknown', '80': 'closed (http)', '443': 'Not Detected'}
+{'IP': '192.168.32.114', 'MAC': 'F2:57:46:BC:B4:D4', '80': 'closed (http)', '443': 'Not Detected'}
