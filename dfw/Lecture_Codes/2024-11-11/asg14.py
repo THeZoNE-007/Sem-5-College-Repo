@@ -21,7 +21,12 @@ for cmd in command_list:
     run_command(cmd.strip())
 
 # Write results to a log file
-with open("./asg14_output.log", 'w+') as log_file:
+with open("./asg14_output.txt", 'w+') as log_file:
     log_file.writelines(f"{output}\n" for output in output_results)
 
 print("Log file created !!")
+
+# Write results to a csv file
+with open("./asg14_output.csv", 'w+') as csv_file:
+    csv_file.writelines(f"{output}\n" for output in output_results)
+print("CSV file created !!")
