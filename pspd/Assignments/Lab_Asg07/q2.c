@@ -25,40 +25,39 @@ INITIAL ALGORITHM:
 IMPLEMENTATION:
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-struct element_t{
-   int atn;
-   char name[20];
-   char symbol[10];
-   char class[20];
-   float weight;
-   int ar[7];
-  
+struct element_t {
+    int atn;
+    char name[20], symbol[10], class[20];
+    float weight;
+    int ar[7];
 };
-void print_data(struct element_t *element){
-    printf("\n");
-    printf("%d %s %s %s %f ",element->atn,element->name,element->symbol,element->class,element->weight);
-    for(int i=0;i<7;i++){
-      printf("%d ",element->ar[i]);
-      
-   }
 
+void print_data(const struct element_t *element) {
+    printf("\n%d %s %s %s %.2f ", element->atn, element->name, element->symbol, element->class, element->weight);
+    for (int i = 0; i < 7; i++) {
+        printf("%d ", element->ar[i]);
+    }
 }
-void initialise_data(struct element_t *element){
-   printf("Enter the atomic number,name,symbol,classname,weight: ");
-   scanf("%d %s %s %s %f",&element->atn,&element->name,&element->symbol,&element->class,&element->weight);
-   
-   for(int i=0;i<7;i++){
-      printf("Enter the number of electrons in orbit %d: ",i);
-      scanf("%d",&element->ar[i]);
-   }
-   print_data(element);
-   
+
+void initialise_data(struct element_t *element) {
+    printf("Enter atomic number, name, symbol, class, weight: ");
+    scanf("%d %19s %9s %19s %f", &element->atn, element->name, element->symbol, element->class, &element->weight); 
+    //Limit to prevent buffer overflows if the input exceeds the size of the destination array 
+    
+    for (int i = 0; i < 7; i++) {
+        printf("Enter number of electrons in orbit %d: ", i);
+        scanf("%d", &element->ar[i]);
+    }
+    
+    print_data(element);
 }
-int main(){
-   struct element_t element;
-   initialise_data(&element);
+
+int main() {
+    struct element_t element;
+    initialise_data(&element);
+    return 0;
 }
 
 /*
